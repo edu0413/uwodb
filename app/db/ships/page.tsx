@@ -23,6 +23,7 @@ type Ship = {
   Mast: number;
   "Base Material": string;
   "Cash Ship": string;
+  Steam: string;
 };
 
 // Column labels + tooltips
@@ -48,7 +49,8 @@ const columnLabels: Record<
   Hold: { label: "📦 Hold", tooltip: "Cargo Capacity", align: "right" },
   Mast: { label: "⛵ Masts", align: "center" },
   "Base Material": { label: "⚒️ Panel", tooltip: "Shipbuilding Material", align: "left" },
-  "Cash Ship": { label: "💰", tooltip: "Cash Shop Ship?", align: "center" },
+  "Cash Ship": { label: "💰", tooltip: "UWC Ship?", align: "center" },
+  Steam: { label: "🔥 Steam", tooltip: "Steam-powered?", align: "center" },
 };
 
 export default function ShipsPage() {
