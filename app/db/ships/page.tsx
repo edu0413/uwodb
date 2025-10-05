@@ -1,6 +1,28 @@
 "use client";
 
 import { useEffect, useMemo, useState, Fragment } from "react";
+import type { LucideIcon } from "lucide-react";
+import {
+  Ship as ShipIcon,
+  Ruler,
+  Tag,
+  GraduationCap,
+  Package,
+  Sword,
+  Shield,
+  ArrowUp,
+  ArrowLeftRight,
+  Gauge,
+  RefreshCcw,
+  Waves,
+  Users,
+  Crosshair,
+  Boxes,
+  Flag,
+  Hammer,
+  DollarSign,
+  Flame,
+} from "lucide-react";
 
 // Ship type
 type Ship = {
@@ -35,35 +57,35 @@ type OptionalSkillDetail = {
 };
 type ShipOptionalSkills = {
   "Ship Name": string;
-  "Optional Skills"?: string[]; // sometimes missing
-  "Optional Skill Details"?: OptionalSkillDetail[]; // sometimes missing
+  "Optional Skills"?: string[];
+  "Optional Skill Details"?: OptionalSkillDetail[];
 };
 
-// Column labels + tooltips
-const columnLabels: Record<
-  keyof Ship,
-  { label: string; tooltip?: string; align?: "left" | "center" | "right" }
-> = {
-  "Ship Name": { label: "🚢 Ship", align: "left" },
-  Size: { label: "📏 Size", tooltip: "Ship size (Light/Standard/Heavy)", align: "center" },
-  Type: { label: "⚔️ Role", tooltip: "Adventure / Trade / Battle", align: "center" },
-  "Adv Lvl": { label: "🎓 Adv", tooltip: "Adventure Level Req.", align: "right" },
-  "Trd Lvl": { label: "📦 Mer", tooltip: "Trade Level Req.", align: "right" },
-  "Btl Lvl": { label: "⚔️ Mar", tooltip: "Battle Level Req.", align: "right" },
-  "Base Dura.": { label: "🛡️ Dura", tooltip: "Base Durability", align: "right" },
-  "V. Sail": { label: "⬆️ Vert", tooltip: "Vertical Sail Power", align: "right" },
-  "H. Sail": { label: "↔️ Hort", tooltip: "Horizontal Sail Power", align: "right" },
-  "Row Power": { label: "🚣 Row", tooltip: "Rowing Power", align: "right" },
-  "Turn Speed": { label: "🔄 TS", tooltip: "Turn Speed", align: "right" },
-  WR: { label: "🌊 WR", tooltip: "Wave Resistance", align: "right" },
-  "Arm.": { label: "🛡️ Armor", align: "right" },
-  Cabin: { label: "👥 Crew", tooltip: "Current / Max Crew", align: "center" },
-  "C.C.": { label: "💣 Guns", tooltip: "Cannon Count", align: "right" },
-  Hold: { label: "📦 Hold", tooltip: "Cargo Capacity", align: "right" },
-  Mast: { label: "⛵ Masts", align: "center" },
-  "Base Material": { label: "⚒️ Panel", tooltip: "Shipbuilding Material", align: "left" },
-  "Cash Ship": { label: "💰", tooltip: "UWC Ship?", align: "center" },
-  Steam: { label: "🔥 Steam", tooltip: "Steam-powered?", align: "center" },
+// Column labels + tooltips (icons kept)
+type Align = "left" | "center" | "right";
+type ColumnMeta = { label: string; icon: LucideIcon; tooltip?: string; align?: Align };
+
+const columnLabels: Record<keyof Ship, ColumnMeta> = {
+  "Ship Name": { label: "Ship", icon: ShipIcon, align: "left" },
+  Size: { label: "Type", icon: Ruler, tooltip: "Ship type (Light/Standard/Heavy)", align: "center" },
+  Type: { label: "Role", icon: Tag, tooltip: "Adventure / Trade / Battle", align: "center" },
+  "Adv Lvl": { label: "Adv", icon: GraduationCap, tooltip: "Adventure Level Req.", align: "right" },
+  "Trd Lvl": { label: "Mer", icon: Package, tooltip: "Trade Level Req.", align: "right" },
+  "Btl Lvl": { label: "Mar", icon: Sword, tooltip: "Battle Level Req.", align: "right" },
+  "Base Dura.": { label: "Dura", icon: Shield, tooltip: "Base Durability", align: "right" },
+  "V. Sail": { label: "Vert", icon: ArrowUp, tooltip: "Vertical Sail Power", align: "right" },
+  "H. Sail": { label: "Horz", icon: ArrowLeftRight, tooltip: "Horizontal Sail Power", align: "right" },
+  "Row Power": { label: "Row", icon: Gauge, tooltip: "Rowing Power", align: "right" },
+  "Turn Speed": { label: "TS", icon: RefreshCcw, tooltip: "Turn Speed", align: "right" },
+  WR: { label: "WR", icon: Waves, tooltip: "Wave Resistance", align: "right" },
+  "Arm.": { label: "Armor", icon: Shield, align: "right" },
+  Cabin: { label: "Crew", icon: Users, tooltip: "Current / Max Crew", align: "center" },
+  "C.C.": { label: "Guns", icon: Crosshair, tooltip: "Cannon Count", align: "right" },
+  Hold: { label: "Hold", icon: Boxes, tooltip: "Cargo Capacity", align: "right" },
+  Mast: { label: "Masts", icon: Flag, align: "center" },
+  "Base Material": { label: "Panel", icon: Hammer, tooltip: "Shipbuilding Material", align: "left" },
+  "Cash Ship": { label: "Cash", icon: DollarSign, tooltip: "UWC Ship?", align: "center" },
+  Steam: { label: "Steam", icon: Flame, tooltip: "Steam-powered?", align: "center" },
 };
 
 export default function ShipsPage() {
@@ -138,7 +160,7 @@ export default function ShipsPage() {
     });
   };
 
-  const colOrder = (Object.keys(filtered[0] || {}) as (keyof Ship)[]);
+  const colOrder = Object.keys(filtered[0] || {}) as (keyof Ship)[];
   const colSpanAll = colOrder.length;
 
   // ---- helpers to keep TS happy and the UI robust ----
@@ -172,12 +194,14 @@ export default function ShipsPage() {
   const safeStringArray = (val: unknown): string[] =>
     Array.isArray(val) ? val.map((x) => String(x)) : [];
 
-  // Build local icon path from skill name
-  const skillIconPath = (skillName?: string) => {
+  const skillIconBase = (skillName?: string) => {
     if (!skillName) return "";
-    const file = skillName.toLowerCase().replace(/[^a-z0-9]/g, "") + ".png";
+    const file = skillName.toLowerCase().replace(/[^a-z0-9]/g, "");
     return `/images/ship_skills/${file}`;
   };
+
+  // Force centered text everywhere in the table body/headers.
+  const alignClass = (_align?: Align) => "text-center";
 
   return (
     <main className="min-h-screen bg-[url('/textures/map-parchment.png')] bg-cover bg-fixed p-6">
@@ -239,16 +263,29 @@ export default function ShipsPage() {
           <table className="w-full border-collapse text-sm bg-[#fffdf5] shadow">
             <thead className="bg-[#4b2e19] text-[#d4af37]">
               <tr>
-                {colOrder.map((key) => (
-                  <th
-                    key={key}
-                    onClick={() => handleSort(key)}
-                    title={columnLabels[key].tooltip}
-                    className="px-3 py-2 border border-[#8b7355] text-center cursor-pointer select-none"
-                  >
-                    {columnLabels[key].label} {sortKey === key ? (sortAsc ? "▲" : "▼") : ""}
-                  </th>
-                ))}
+                {colOrder.map((key) => {
+                  const meta = columnLabels[key];
+                  const Icon = meta.icon;
+                  return (
+                    <th
+                      key={key}
+                      onClick={() => handleSort(key)}
+                      title={meta.tooltip}
+                      className={`px-3 py-1.5 border border-[#8b7355] ${alignClass()} cursor-pointer select-none`}
+                    >
+                      {/* Icon on its own line, label on next line (compact) */}
+                      <div className="flex flex-col items-center leading-tight">
+                        <Icon className="w-4 h-4 mb-0.5" aria-hidden />
+                        <div className="inline-flex items-center gap-1">
+                          <span className="text-[11px] font-medium">{meta.label}</span>
+                          {sortKey === key ? (
+                            <span className="text-[10px]">{sortAsc ? "▲" : "▼"}</span>
+                          ) : null}
+                        </div>
+                      </div>
+                    </th>
+                  );
+                })}
               </tr>
             </thead>
             <tbody>
@@ -257,7 +294,6 @@ export default function ShipsPage() {
                 const isOpen = expanded.has(name);
                 const skillRow = skillsByShip.get(name);
 
-                // Normalize to a single, strongly-typed list
                 const details: OptionalSkillDetail[] = normalizeDetails(
                   skillRow?.["Optional Skill Details"]
                 );
@@ -279,13 +315,7 @@ export default function ShipsPage() {
                       {colOrder.map((key) => (
                         <td
                           key={`${name}-${String(key)}`}
-                          className={`px-3 py-2 border border-[#e0c9a6] ${
-                            columnLabels[key].align === "right"
-                              ? "text-right"
-                              : columnLabels[key].align === "left"
-                              ? "text-left"
-                              : "text-center"
-                          }`}
+                          className="px-3 py-2 border border-[#e0c9a6] text-center"
                         >
                           {ship[key] as any}
                         </td>
@@ -316,7 +346,8 @@ export default function ShipsPage() {
                                       ? s.ingredients.join(", ")
                                       : s.recipe;
 
-                                  const iconSrc = skillIconPath(s.name);
+                                  const base = skillIconBase(s.name);
+                                  const firstSrc = base ? `${base}.png` : "";
 
                                   return (
                                     <div
@@ -324,15 +355,27 @@ export default function ShipsPage() {
                                       className="rounded-md border border-[#e0c9a6] bg-[#fffdf5] p-3 shadow-sm"
                                     >
                                       <div className="flex items-start justify-between">
-                                        <h4 className="font-medium text-[#3b2f2f] flex items-center gap-2">
-                                          {iconSrc && (
+                                        <h4
+                                          className="font-medium text-[#3b2f2f] flex items-center gap-2"
+                                          title={s.name || "Skill"}
+                                        >
+                                          {firstSrc && (
                                             <img
-                                              src={iconSrc}
+                                              src={firstSrc}
                                               alt={`${s.name} icon`}
+                                              title={s.name}
                                               className="w-5 h-5 object-contain"
+                                              loading="lazy"
+                                              decoding="async"
                                               onError={(e) => {
-                                                // Hide the img if the file doesn't exist
-                                                (e.currentTarget as HTMLImageElement).style.display = "none";
+                                                const img = e.currentTarget as HTMLImageElement;
+                                                if (img.src.endsWith(".png")) {
+                                                  img.src = firstSrc.replace(".png", ".webp");
+                                                } else if (img.src.endsWith(".webp")) {
+                                                  img.src = firstSrc.replace(".png", ".jpg");
+                                                } else {
+                                                  img.style.display = "none";
+                                                }
                                               }}
                                             />
                                           )}

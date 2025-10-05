@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar"; // ✅ add this line
 
 export const metadata: Metadata = {
   title: "UWO Database - Indies at War",
@@ -17,13 +18,16 @@ export default function RootLayout({
         style={{
           margin: 0,
           fontFamily: "serif",
-          color: "#1a1a1a", // dark text for parchment readability
+          color: "#1a1a1a",
           backgroundImage: "url('/textures/map-parchment.png')",
           backgroundRepeat: "repeat",
           backgroundSize: "cover",
           minHeight: "100vh",
         }}
       >
+        {/* ✅ Navbar now appears on every page */}
+        <Navbar />
+
         {children}
       </body>
     </html>
