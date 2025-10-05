@@ -88,7 +88,16 @@ function usePortPhase(now: Date) {
     secsToFlip = 780 - secInCycle;
   }
 
-  const progress = secInCycle / 900; // 0..1
+  let progress: number;
+  if (isNight) {
+    // Night lasts 5 minutes (300s): covers [780..899] + [0..179]
+    if (secInCycle >= 780) progress = (secInCycle - 780) / 300; // 780→900
+    else progress = (secInCycle + 120) / 300; // 0→179 (wrap)
+  } else {
+    // Day lasts 10 minutes (600s): covers [180..779]
+    progress = (secInCycle - 180) / 600;
+  }
+  progress = Math.max(0, Math.min(1, progress));
 
   return {
     phase: isNight ? "Night" : "Day",
