@@ -1,0 +1,40 @@
+{
+  "updatedAt": "2025-09-24",
+  "nations": [
+    {
+      "name": "Ottoman Empire",
+      "value": 412133,
+      "changePct": 22.2
+    },
+    {
+      "name": "Spain",
+      "value": 390978,
+      "changePct": 22.2
+    },
+    {
+      "name": "France",
+      "value": 230448,
+      "changePct": -13.1
+    },
+    {
+      "name": "Venice",
+      "value": 199353,
+      "changePct": -11.3
+    },
+    {
+      "name": "Portugal",
+      "value": 185986,
+      "changePct": 10.6
+    },
+    {
+      "name": "England",
+      "value": 175424,
+      "changePct": -10.0
+    },
+    {
+      "name": "Netherlands",
+      "value": 163034,
+      "changePct": 9.3
+    }
+  ]
+}

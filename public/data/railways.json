@@ -1,0 +1,559 @@
+{
+  "companies": [
+    {
+      "name": "West Central Railway",
+      "thresholds": [
+        "1m",
+        "75m",
+        "120m",
+        "200m",
+        "300m",
+        "500m",
+        "750m",
+        "1b",
+        "2b",
+        "3b~"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nIncrease Gold Appraisal Value",
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nIncrease Routes Usable",
+          "values": [
+            "X",
+            "Tacoma",
+            null,
+            "Sanfransisco",
+            null,
+            "Boston",
+            null,
+            "NA South East",
+            null,
+            "NA\nEast",
+            null
+          ]
+        },
+        {
+          "description": "Secondary2\nProduction Great Success(NA)",
+          "values": [
+            "X",
+            null,
+            "1%",
+            null,
+            null,
+            "2%",
+            null,
+            null,
+            "3%",
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lakeshore Railway",
+      "thresholds": [
+        "1m",
+        "100m",
+        "300m",
+        "500m",
+        "750m",
+        "1b",
+        "1.5b",
+        "2b",
+        "3b",
+        "5b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nIncrease Tradable Nanban Goods",
+        "values": [
+          "5%",
+          "10%",
+          "15%",
+          "20%",
+          "25%",
+          "30%",
+          "35%",
+          "40%",
+          "45%",
+          "50%"
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nIncrease Gold Appraisal Value",
+          "values": [
+            "X",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "description": "Secondary2\nIncrease EXP and Fame(NA)",
+          "values": [
+            "X",
+            null,
+            "10",
+            null,
+            null,
+            "20",
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Southern Florida Railway",
+      "thresholds": [
+        "1m",
+        "50m",
+        "140m",
+        "300m",
+        "500m",
+        "750m",
+        "1b",
+        "2b",
+        "3b",
+        "4b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nIncrease Transportable Goods",
+        "values": [
+          "10%",
+          "20%",
+          "30%",
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%",
+          "90%",
+          "100%",
+          null
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nRailway Fare Discount",
+          "values": [
+            "X",
+            "5%",
+            null,
+            "10%",
+            null,
+            "15%",
+            null,
+            "20%",
+            null,
+            "25%",
+            null
+          ]
+        },
+        {
+          "description": "Secondary2\nIncrease No. of Tow Permits(NA)",
+          "values": [
+            "X",
+            null,
+            "1 sheet",
+            null,
+            null,
+            "2 sheets",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central River Railway",
+      "thresholds": [
+        "1m",
+        "100m",
+        "200m",
+        "400m",
+        "600m",
+        "800m",
+        "1b",
+        "2b",
+        "3b",
+        "4b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nIncrease Routes usable",
+        "values": [
+          "Tacoma",
+          "Sanfran.",
+          "Boston",
+          "NA\nSouthEast",
+          "NA\nEast",
+          "Colorado\nPlateau",
+          "NA\nWest",
+          null,
+          null,
+          null
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nIncrease Transportable Goods",
+          "values": [
+            "X",
+            "10%",
+            null,
+            "20%",
+            null,
+            "30%",
+            null,
+            "40%",
+            null,
+            "50%"
+          ]
+        },
+        {
+          "description": "Secondary2\nDiscount Shipbuilding Cost (NA)",
+          "values": [
+            "X",
+            null,
+            "3%",
+            null,
+            null,
+            "6%",
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Coast Railway",
+      "thresholds": [
+        "1m",
+        "50m",
+        "100m",
+        "200m",
+        "400m",
+        "700m",
+        "1b",
+        "1.6b",
+        "2.3B",
+        "3b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nFavored Research Report(NA)",
+        "values": [
+          "10%",
+          "20%",
+          "30%",
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%",
+          "90%",
+          "100%"
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nDisount Shipbuilding Cost(NA)",
+          "values": [
+            "X",
+            "3%",
+            null,
+            "6%",
+            null,
+            "9%",
+            null,
+            "12%",
+            null,
+            "15%"
+          ]
+        },
+        {
+          "description": "Secondary2\nIncrease Gold Appraisal Value",
+          "values": [
+            "X",
+            null,
+            "- %",
+            null,
+            null,
+            "- %",
+            null,
+            null,
+            "- %",
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North River Railway",
+      "thresholds": [
+        "1m",
+        "80m",
+        "100m",
+        "160m",
+        "250m",
+        "400m",
+        "600m",
+        "1b",
+        "2b",
+        "3b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nRailway Fare Discount",
+        "values": [
+          "5%",
+          "10%",
+          "15%",
+          "20%",
+          "25%",
+          "30%",
+          "35%",
+          "40%",
+          "45%",
+          "50%",
+          null
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nIncrease Tradable Nanban Goods",
+          "values": [
+            "X",
+            "5%",
+            null,
+            "10%",
+            null,
+            "15%",
+            null,
+            "20%",
+            null,
+            "25%",
+            null
+          ]
+        },
+        {
+          "description": "Secondary2\nIncrease Trade Goods(NA)",
+          "values": [
+            "X",
+            null,
+            "1%",
+            null,
+            null,
+            "2%",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Coast Railway",
+      "thresholds": [
+        "1m",
+        "40m",
+        "90m",
+        "150m",
+        "300m",
+        "900m",
+        "1.8b",
+        "3b",
+        "4b",
+        "5b"
+      ],
+      "main_effect": {
+        "description": "Main Effect\nExt. Tech EXP/Forte Pts.(NA)",
+        "values": [
+          "10%",
+          "20%",
+          "30%",
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%",
+          "90%",
+          "100%"
+        ]
+      },
+      "secondary_effects": [
+        {
+          "description": "Secondary1\nIncrease EXP and Fame(NA)",
+          "values": [
+            "X",
+            "10",
+            null,
+            "20",
+            null,
+            "30",
+            null,
+            "40",
+            null,
+            "50"
+          ]
+        },
+        {
+          "description": "Secondary2\nIncrease Transportable Goods",
+          "values": [
+            "X",
+            null,
+            "10%",
+            null,
+            null,
+            "20%",
+            null,
+            null,
+            "30%",
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "fare_table": [
+    {
+      "discount": "0%",
+      "West Central": "100,000",
+      "Southern Florida": "450,000",
+      "North River": "150,000",
+      "Lakeshore": "250,000",
+      "Central River": "350,000",
+      "West Coast": "120,000",
+      "East Coast": "50,000"
+    },
+    {
+      "discount": "1) 5%",
+      "West Central": "95,000",
+      "Southern Florida": "427,500",
+      "North River": "142,500",
+      "Lakeshore": "237,500",
+      "Central River": "332,500",
+      "West Coast": "114,000",
+      "East Coast": "47,500"
+    },
+    {
+      "discount": "2) 10%",
+      "West Central": "90,000",
+      "Southern Florida": "405,000",
+      "North River": "135,000",
+      "Lakeshore": "225,000",
+      "Central River": "315,000",
+      "West Coast": "108,000",
+      "East Coast": "45,000"
+    },
+    {
+      "discount": "3) 15%",
+      "West Central": "85,000",
+      "Southern Florida": "382,500",
+      "North River": "127,500",
+      "Lakeshore": "212,500",
+      "Central River": "297,500",
+      "West Coast": "102,000",
+      "East Coast": "42,500"
+    },
+    {
+      "discount": "4) 20%",
+      "West Central": "80,000",
+      "Southern Florida": "360,000",
+      "North River": "120,000",
+      "Lakeshore": "200,000",
+      "Central River": "280,000",
+      "West Coast": "96,000",
+      "East Coast": "40,000"
+    },
+    {
+      "discount": "5) 25%",
+      "West Central": "75,000",
+      "Southern Florida": "337,500",
+      "North River": "112,500",
+      "Lakeshore": "187,500",
+      "Central River": "262,500",
+      "West Coast": "90,000",
+      "East Coast": "37,500"
+    },
+    {
+      "discount": "6) 30%",
+      "West Central": "70,000",
+      "Southern Florida": "315,000",
+      "North River": "105,000",
+      "Lakeshore": "175,000",
+      "Central River": "245,000",
+      "West Coast": "84,000",
+      "East Coast": "35,000"
+    },
+    {
+      "discount": "7) 35%",
+      "West Central": "65,000",
+      "Southern Florida": "292,500",
+      "North River": "97,500",
+      "Lakeshore": "162,500",
+      "Central River": "227,500",
+      "West Coast": "78,000",
+      "East Coast": "32,500"
+    },
+    {
+      "discount": "8) 40%",
+      "West Central": "60,000",
+      "Southern Florida": "270,000",
+      "North River": "90,000",
+      "Lakeshore": "150,000",
+      "Central River": "210,000",
+      "West Coast": "72,000",
+      "East Coast": "30,000"
+    },
+    {
+      "discount": "9) 45%",
+      "West Central": "55,000",
+      "Southern Florida": "247,500",
+      "North River": "82,500",
+      "Lakeshore": "137,500",
+      "Central River": "192,500",
+      "West Coast": "66,000",
+      "East Coast": "27,500"
+    },
+    {
+      "discount": "10) 50%",
+      "West Central": "50,000",
+      "Southern Florida": "225,000",
+      "North River": "75,000",
+      "Lakeshore": "125,000",
+      "Central River": "175,000",
+      "West Coast": "60,000",
+      "East Coast": "25,000"
+    }
+  ]
+}

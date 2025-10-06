@@ -39,25 +39,43 @@ const fmtMMSS = (secs: number) => {
   return `${pad2(m)}:${pad2(s)}`;
 };
 
-/** Season: anchor today 02:30 PDT (Summer), toggles every 9h; also return progress [0..1] */
+/** Season: anchor today 02:30 PDT (Summer), then alternate 11h (Summer) / 9h (Winter).
+ *  Returns current season, a PDT next-change label, mm:ss countdown, and progress [0..1].
+ *  If later you confirm Summer is 10h, just set SUMMER_HOURS = 10.
+ */
 function useSeason(now: Date) {
   const p = getPDTParts(now);
-  const anchorMin = 2 * 60 + 30; // 02:30
-  const periodMin = 9 * 60; // 540
+
+  // ---- Config ----
+  const ANCHOR_MIN = 3 * 60 + 30;  // 02:30 (start of Summer)
+  const SUMMER_HOURS = 11;         // <-- set to 10 if needed
+  const WINTER_HOURS = 9;
+
+  const SUMMER_MIN = SUMMER_HOURS * 60;
+  const WINTER_MIN = WINTER_HOURS * 60;
+  const PATTERN_MIN = SUMMER_MIN + WINTER_MIN; // 20h with 11/9
 
   // use seconds for smooth progress
   const nowMinExact = p.hour * 60 + p.minute + p.second / 60;
-  let diffMin = nowMinExact - anchorMin;
+
+  // minutes since today's 02:30 anchor (wrap at 24h)
+  let diffMin = nowMinExact - ANCHOR_MIN;
   if (diffMin < 0) diffMin += 24 * 60;
 
-  const cycles = Math.floor(diffMin / periodMin);
-  const sinceLast = diffMin - cycles * periodMin; // exact minutes since last flip
+  // project onto the repeating [Summer, Winter] pattern
+  const pos = diffMin % PATTERN_MIN;
+
+  // determine current segment
+  const inSummer = pos < SUMMER_MIN;
+  const season = inSummer ? "Summer" : "Winter";
+  const periodMin = inSummer ? SUMMER_MIN : WINTER_MIN;
+  const sinceLast = inSummer ? pos : pos - SUMMER_MIN;
+
   const toNextChangeMin = periodMin - sinceLast;
 
-  const isSummer = cycles % 2 === 0;
-  const season = isSummer ? "Summer" : "Winter";
-
-  const nextChangeTotalMin = (p.hour * 60 + p.minute + Math.ceil(p.second / 60) + toNextChangeMin) % (24 * 60);
+  // next change label in PDT (today's clock, wrapped to 24h)
+  const nextChangeTotalMin =
+    (p.hour * 60 + p.minute + Math.ceil(p.second / 60) + toNextChangeMin) % (24 * 60);
   const nextH = Math.floor(nextChangeTotalMin / 60);
   const nextM = Math.floor(nextChangeTotalMin % 60);
 
@@ -67,7 +85,7 @@ function useSeason(now: Date) {
     season,
     nextChangeLabel: fmtHM(nextH, nextM) + " PDT",
     timeToNextChange: fmtMMSS(Math.max(0, Math.round(toNextChangeMin * 60))),
-    progress, // 0..1 clockwise ring
+    progress, // 0..1 within current season
   };
 }
 
