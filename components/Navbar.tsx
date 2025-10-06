@@ -39,29 +39,28 @@ const fmtMMSS = (secs: number) => {
   return `${pad2(m)}:${pad2(s)}`;
 };
 
-/** Season: anchor at a real PDT date/time, then alternate 11h (Summer) / 9h (Winter).
- *  Update ANCHOR_* if you confirm a different boundary, or SUMMER_HOURS if it's 10h.
+/** Seasons: anchor at a real PDT boundary, then alternate 9h (Winter) / 11h (Summer).
+ *  Anchor chosen from your timeline: Oct 4, 2025 at 18:30 PDT = start of Winter.
+ *  If you later confirm Summer is 10h, just change SUMMER_HOURS to 10.
  */
 function useSeason(now: Date) {
   const p = getPDTParts(now);
 
   // ---- Config ----
-  const SUMMER_HOURS = 11; // set to 10 if you later confirm
   const WINTER_HOURS = 9;
+  const SUMMER_HOURS = 11;
 
-  // Absolute anchor = first confirmed START OF SUMMER in PDT:
-  // Oct 4, 2025 at 03:30 PDT (from your notes)
+  // Absolute anchor (PDT calendar): 2025-10-04 18:30 = Winter start
   const ANCHOR_Y = 2025;
-  const ANCHOR_M = 10; // 1..12
+  const ANCHOR_M = 10; // 1..12 (October)
   const ANCHOR_D = 4;
-  const ANCHOR_MIN_OF_DAY = 3 * 60 + 30; // 03:30 (start of Summer)
+  const ANCHOR_MIN_OF_DAY = 18 * 60 + 30; // 18:30
 
-  const SUMMER_MIN = SUMMER_HOURS * 60;
   const WINTER_MIN = WINTER_HOURS * 60;
-  const PATTERN_MIN = SUMMER_MIN + WINTER_MIN; // 20h with 11/9
+  const SUMMER_MIN = SUMMER_HOURS * 60;
+  const PATTERN_MIN = WINTER_MIN + SUMMER_MIN; // 20h
 
-  // --- Minutes since anchor in PDT calendar space ---
-  // Use UTC midnights to get day delta between PDT calendar dates (no TZ drift because both sides use the same method).
+  // Minutes since anchor in PDT calendar space
   const daysSinceAnchor =
     Math.floor(
       (Date.UTC(p.year, p.month - 1, p.day) - Date.UTC(ANCHOR_Y, ANCHOR_M - 1, ANCHOR_D)
@@ -73,15 +72,15 @@ function useSeason(now: Date) {
   // Normalize into [0, PATTERN_MIN)
   totalMin = ((totalMin % PATTERN_MIN) + PATTERN_MIN) % PATTERN_MIN;
 
-  // Determine where we are within [Summer, Winter]
-  const inSummer = totalMin < SUMMER_MIN;
-  const season = inSummer ? "Summer" : "Winter";
-  const periodMin = inSummer ? SUMMER_MIN : WINTER_MIN;
-  const sinceLast = inSummer ? totalMin : totalMin - SUMMER_MIN;
+  // Order is Winter first, then Summer
+  const inWinter = totalMin < WINTER_MIN;
+  const season = inWinter ? "Winter" : "Summer";
+  const periodMin = inWinter ? WINTER_MIN : SUMMER_MIN;
+  const sinceLast = inWinter ? totalMin : totalMin - WINTER_MIN;
 
   const toNextChangeMin = periodMin - sinceLast;
 
-  // Next-change clock label in PDT
+  // Next-change clock label in PDT (wrap within day)
   const nextTotalMin = (minutesToday + toNextChangeMin) % (24 * 60);
   const nextH = Math.floor(nextTotalMin / 60);
   const nextM = Math.floor(nextTotalMin % 60);
@@ -90,12 +89,11 @@ function useSeason(now: Date) {
 
   return {
     season,
-    nextChangeLabel: fmtHM(nextH, nextM) + " PDT",
+    nextChangeLabel: `${fmtHM(nextH, nextM)} PDT`,
     timeToNextChange: fmtMMSS(Math.max(0, Math.round(toNextChangeMin * 60))),
     progress,
   };
 }
-
 
 /** Port day/night: 15-min cycles (900s). Night = last 2 min [13..14:59] + first 3 min [0..2:59].
  *  Also return progress [0..1] through the 15-min cycle.
