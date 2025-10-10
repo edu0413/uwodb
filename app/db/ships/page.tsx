@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState, Fragment } from "react";
+import React, { useEffect, useMemo, useState, Fragment, useRef } from "react";
+import { motion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
 import {
   Ship as ShipIcon,
@@ -22,13 +23,16 @@ import {
   Hammer,
   DollarSign,
   Flame,
+  ListFilter,
+  ChevronsUpDown,
+  Check,
 } from "lucide-react";
 
-// Ship type
+// ---------- Types ----------
 type Ship = {
   "Ship Name": string;
   Size: string;
-  Type: string | null;
+  Type: string | null; // Adv | Trd | Btl | null
   "Adv Lvl": number;
   "Trd Lvl": number;
   "Btl Lvl": number;
@@ -39,47 +43,47 @@ type Ship = {
   "Turn Speed": number;
   WR: number;
   "Arm.": number;
-  Cabin: string;
+  Cabin: string; // e.g. "30/60"
   "C.C.": number;
   Hold: number;
   Mast: number;
   "Base Material": string;
-  "Cash Ship": string;
-  Steam: string;
+  "Cash Ship": string; // Yes | No | ""
+  Steam: string; // Yes | No | ""
 };
 
-// Optional skill types
 type OptionalSkillDetail = {
   name: string;
   recipe?: string;
   ingredients?: string[];
   starred?: boolean;
 };
+
 type ShipOptionalSkills = {
   "Ship Name": string;
   "Optional Skills"?: string[];
   "Optional Skill Details"?: OptionalSkillDetail[];
 };
 
-// Column labels + tooltips (icons kept)
+// ---------- Column Meta ----------
 type Align = "left" | "center" | "right";
 type ColumnMeta = { label: string; icon: LucideIcon; tooltip?: string; align?: Align };
 
 const columnLabels: Record<keyof Ship, ColumnMeta> = {
   "Ship Name": { label: "Ship", icon: ShipIcon, align: "left" },
-  Size: { label: "Type", icon: Ruler, tooltip: "Ship type (Light/Standard/Heavy)", align: "center" },
-  Type: { label: "Role", icon: Tag, tooltip: "Adventure / Trade / Battle", align: "center" },
-  "Adv Lvl": { label: "Adv", icon: GraduationCap, tooltip: "Adventure Level Req.", align: "right" },
-  "Trd Lvl": { label: "Mer", icon: Package, tooltip: "Trade Level Req.", align: "right" },
-  "Btl Lvl": { label: "Mar", icon: Sword, tooltip: "Battle Level Req.", align: "right" },
+  Size: { label: "Type", icon: Ruler, tooltip: "Ship size (Lgt/Std/Hvy)", align: "center" },
+  Type: { label: "Role", icon: Tag, tooltip: "Adv / Trd / Btl", align: "center" },
+  "Adv Lvl": { label: "Adv", icon: GraduationCap, tooltip: "Adventure Level", align: "right" },
+  "Trd Lvl": { label: "Mer", icon: Package, tooltip: "Trade Level", align: "right" },
+  "Btl Lvl": { label: "Mar", icon: Sword, tooltip: "Battle Level", align: "right" },
   "Base Dura.": { label: "Dura", icon: Shield, tooltip: "Base Durability", align: "right" },
-  "V. Sail": { label: "Vert", icon: ArrowUp, tooltip: "Vertical Sail Power", align: "right" },
-  "H. Sail": { label: "Horz", icon: ArrowLeftRight, tooltip: "Horizontal Sail Power", align: "right" },
+  "V. Sail": { label: "Vert", icon: ArrowUp, tooltip: "Vertical Sail", align: "right" },
+  "H. Sail": { label: "Horz", icon: ArrowLeftRight, tooltip: "Horizontal Sail", align: "right" },
   "Row Power": { label: "Row", icon: Gauge, tooltip: "Rowing Power", align: "right" },
   "Turn Speed": { label: "TS", icon: RefreshCcw, tooltip: "Turn Speed", align: "right" },
   WR: { label: "WR", icon: Waves, tooltip: "Wave Resistance", align: "right" },
   "Arm.": { label: "Armor", icon: Shield, align: "right" },
-  Cabin: { label: "Crew", icon: Users, tooltip: "Current / Max Crew", align: "center" },
+  Cabin: { label: "Crew", icon: Users, tooltip: "Current / Max", align: "center" },
   "C.C.": { label: "Guns", icon: Crosshair, tooltip: "Cannon Count", align: "right" },
   Hold: { label: "Hold", icon: Boxes, tooltip: "Cargo Capacity", align: "right" },
   Mast: { label: "Masts", icon: Flag, align: "center" },
@@ -88,32 +92,72 @@ const columnLabels: Record<keyof Ship, ColumnMeta> = {
   Steam: { label: "Steam", icon: Flame, tooltip: "Steam-powered?", align: "center" },
 };
 
+// Virtual sort key for menu
+type SortKey = keyof Ship | "Total Sails";
+
+// ---------- Helpers ----------
+function cls(...parts: Array<string | false | null | undefined>) {
+  return parts.filter(Boolean).join(" ");
+}
+
+function inRange(val: number | null | undefined, min: number | "", max: number | "") {
+  if (val == null || Number.isNaN(val as any)) return false;
+  if (min !== "" && val < Number(min)) return false;
+  if (max !== "" && val > Number(max)) return false;
+  return true;
+}
+
+function parseCrewRange(s: string | undefined) {
+  if (!s) return { current: null, max: null };
+  const m = s.match(/(\d+)\s*\/\s*(\d+)/);
+  return m ? { current: Number(m[1]), max: Number(m[2]) } : { current: null, max: null };
+}
+
+const DATA_SHIPS = "/data/ships.json";
+const DATA_SKILLS = "/data/ship_optional_skills.json";
+
+const totalSails = (s: Ship) => (s["V. Sail"] || 0) + (s["H. Sail"] || 0);
+
+// ---------- Page ----------
 export default function ShipsPage() {
   const [ships, setShips] = useState<Ship[]>([]);
   const [skills, setSkills] = useState<ShipOptionalSkills[]>([]);
-  const [query, setQuery] = useState("");
-  const [sortKey, setSortKey] = useState<keyof Ship>("Ship Name");
-  const [sortAsc, setSortAsc] = useState(true);
 
-  // Filters
-  const [filterSize, setFilterSize] = useState("");
-  const [filterType, setFilterType] = useState("");
-  const [filterCash, setFilterCash] = useState("");
-  const [filterMaterial, setFilterMaterial] = useState("");
+  // Search & sort
+  const [q, setQ] = useState("");
+  const [sortKey, setSortKey] = useState<SortKey>("Ship Name");
+  const [sortDir, setSortDir] = useState<"asc" | "desc">("asc");
 
-  // Expanded rows (by Ship Name)
+  // Filters (now in a top toolbar)
+  const [sizeFilters, setSizeFilters] = useState<Set<string>>(new Set());
+  const [roleFilters, setRoleFilters] = useState<Set<string>>(new Set());
+  const [cashFilter, setCashFilter] = useState<"any" | "Yes" | "No">("any");
+  const [steamFilter, setSteamFilter] = useState<"any" | "Yes" | "No">("any");
+  const [materialQuery, setMaterialQuery] = useState("");
+  // numeric ranges
+  const [minDura, setMinDura] = useState<number | "">("");
+  const [maxDura, setMaxDura] = useState<number | "">("");
+  const [minVS, setMinVS] = useState<number | "">("");
+  const [maxVS, setMaxVS] = useState<number | "">("");
+  const [minHS, setMinHS] = useState<number | "">("");
+  const [maxHS, setMaxHS] = useState<number | "">("");
+  const [minTS, setMinTS] = useState<number | "">("");
+  const [maxTS, setMaxTS] = useState<number | "">("");
+  const [minWR, setMinWR] = useState<number | "">("");
+  const [maxWR, setMaxWR] = useState<number | "">("");
+  const [minTotal, setMinTotal] = useState<number | "">("");
+  const [maxTotal, setMaxTotal] = useState<number | "">("");
+
+  // Expanded rows
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
   useEffect(() => {
-    fetch("/data/ships.json")
-      .then((res) => res.json())
-      .then((data) => setShips(data));
-    fetch("/data/ship_optional_skills.json")
-      .then((res) => res.json())
-      .then((data) => setSkills(data));
+    let cancelled = false;
+    fetch(DATA_SHIPS).then((r) => r.json()).then((d: Ship[]) => { if (!cancelled) setShips(d); });
+    fetch(DATA_SKILLS).then((r) => r.json()).then((d: ShipOptionalSkills[]) => { if (!cancelled) setSkills(d); });
+    return () => { cancelled = true; };
   }, []);
 
-  // Build a quick lookup for optional skills by ship name
   const skillsByShip = useMemo(() => {
     const map = new Map<string, ShipOptionalSkills>();
     for (const row of skills || []) {
@@ -125,161 +169,200 @@ export default function ShipsPage() {
     return map;
   }, [skills]);
 
-  // Filtering + search
-  const filtered = ships
-    .filter((ship) => ship["Ship Name"].toLowerCase().includes(query.toLowerCase()))
-    .filter((ship) => (filterSize ? ship.Size === filterSize : true))
-    .filter((ship) => (filterType ? ship.Type === filterType : true))
-    .filter((ship) => (filterCash ? ship["Cash Ship"] === filterCash : true))
-    .filter((ship) => (filterMaterial ? ship["Base Material"].includes(filterMaterial) : true))
-    .sort((a, b) => {
-      const aVal = a[sortKey];
-      const bVal = b[sortKey];
-      if (typeof aVal === "number" && typeof bVal === "number") {
-        return sortAsc ? aVal - bVal : bVal - aVal;
-      }
-      return sortAsc
-        ? String(aVal ?? "").localeCompare(String(bVal ?? ""))
-        : String(bVal ?? "").localeCompare(String(aVal ?? ""));
-    });
+  // Unique filter values
+  const uniqueSizes = useMemo(() => Array.from(new Set(ships.map(s => s.Size).filter(Boolean))).sort(), [ships]);
+  const uniqueRoles = useMemo(() => Array.from(new Set(ships.map(s => s.Type || "").filter(Boolean))).sort(), [ships]);
+  const uniqueMaterials = useMemo(() => Array.from(new Set(ships.map(s => s["Base Material"]).filter(Boolean))).sort(), [ships]);
 
-  const handleSort = (key: keyof Ship) => {
-    if (sortKey === key) setSortAsc(!sortAsc);
-    else {
-      setSortKey(key);
-      setSortAsc(true);
-    }
-  };
-
-  const toggleExpanded = (name: string) => {
-    setExpanded((prev) => {
-      const next = new Set(prev);
-      if (next.has(name)) next.delete(name);
-      else next.add(name);
-      return next;
-    });
-  };
-
-  const colOrder = Object.keys(filtered[0] || {}) as (keyof Ship)[];
+  const colOrder = useMemo(() => Object.keys(columnLabels) as (keyof Ship)[], []);
   const colSpanAll = colOrder.length;
 
-  // ---- helpers to keep TS happy and the UI robust ----
-  const normalizeDetails = (arr: unknown): OptionalSkillDetail[] => {
-    if (!Array.isArray(arr)) return [];
-    return arr
-      .map((d): OptionalSkillDetail | null => {
-        const name = typeof (d as any)?.name === "string" ? (d as any).name : "";
-        if (!name) return null;
-        const recipeVal = (d as any)?.recipe;
-        const ingredientsVal = (d as any)?.ingredients;
+  const visible = useMemo(() => {
+    const key = q.trim().toLowerCase();
+    let arr = ships.filter((s) => {
+      // text match across name, material
+      const hay = `${s["Ship Name"]} ${s["Base Material"]} ${s.Type || ""}`.toLowerCase();
+      if (key && !hay.includes(key)) return false;
 
-        const recipe =
-          typeof recipeVal === "string"
-            ? recipeVal
-            : Array.isArray(recipeVal)
-            ? recipeVal.filter((x) => typeof x === "string").join(", ")
-            : undefined;
+      // size chip filters
+      if (sizeFilters.size > 0 && !sizeFilters.has(s.Size)) return false;
 
-        const ingredients = Array.isArray(ingredientsVal)
-          ? ingredientsVal.filter((x) => typeof x === "string")
-          : undefined;
+      // role chip filters
+      const role = s.Type || "";
+      if (roleFilters.size > 0 && !roleFilters.has(role)) return false;
 
-        const starred = Boolean((d as any)?.starred);
+      // cash / steam toggles
+      if (cashFilter !== "any" && s["Cash Ship"] !== cashFilter) return false;
+      if (steamFilter !== "any" && s.Steam !== steamFilter) return false;
 
-        return { name, recipe, ingredients, starred };
-      })
-      .filter((x): x is OptionalSkillDetail => !!x);
+      // material query contains
+      if (materialQuery && !s["Base Material"].toLowerCase().includes(materialQuery.toLowerCase())) return false;
+
+      // numeric ranges
+      if (!inRange(s["Base Dura."], minDura, maxDura)) return false;
+      if (!inRange(s["V. Sail"], minVS, maxVS)) return false;
+      if (!inRange(s["H. Sail"], minHS, maxHS)) return false;
+      if (!inRange(s["Turn Speed"], minTS, maxTS)) return false;
+      if (!inRange(s.WR, minWR, maxWR)) return false;
+
+      const tot = totalSails(s);
+      if (!inRange(tot, minTotal, maxTotal)) return false;
+
+      return true;
+    });
+
+    // sorting
+    const dir = sortDir === "asc" ? 1 : -1;
+    arr.sort((a, b) => {
+      if (sortKey === "Total Sails") {
+        return (totalSails(a) - totalSails(b)) * dir;
+      }
+      const av = a[sortKey] as any;
+      const bv = b[sortKey] as any;
+      if (typeof av === "number" && typeof bv === "number") return (av - bv) * dir;
+      return String(av ?? "").localeCompare(String(bv ?? "")) * dir;
+    });
+
+    return arr;
+  }, [ships, q, sizeFilters, roleFilters, cashFilter, steamFilter, materialQuery, minDura, maxDura, minVS, maxVS, minHS, maxHS, minTS, maxTS, minWR, maxWR, minTotal, maxTotal, sortKey, sortDir]);
+
+  const resetFilters = () => {
+    setQ("");
+    setSizeFilters(new Set());
+    setRoleFilters(new Set());
+    setCashFilter("any");
+    setSteamFilter("any");
+    setMaterialQuery("");
+    setMinDura(""); setMaxDura("");
+    setMinVS(""); setMaxVS("");
+    setMinHS(""); setMaxHS("");
+    setMinTS(""); setMaxTS("");
+    setMinWR(""); setMaxWR("");
+    setMinTotal(""); setMaxTotal("");
+    setSortKey("Ship Name"); setSortDir("asc");
   };
 
-  const safeStringArray = (val: unknown): string[] =>
-    Array.isArray(val) ? val.map((x) => String(x)) : [];
-
-  const skillIconBase = (skillName?: string) => {
-    if (!skillName) return "";
-    const file = skillName.toLowerCase().replace(/[^a-z0-9]/g, "");
-    return `/images/ship_skills/${file}`;
+  const toggleChip = (set: React.Dispatch<React.SetStateAction<Set<string>>>, val: string) => (e: React.MouseEvent) => {
+    e.preventDefault();
+    set(prev => { const next = new Set(prev); next.has(val) ? next.delete(val) : next.add(val); return next; });
   };
 
-  // Force centered text everywhere in the table body/headers.
-  const alignClass = (_align?: Align) => "text-center";
+  const handleHeaderSort = (key: keyof Ship) => {
+    if (sortKey === key) setSortDir(d => d === "asc" ? "desc" : "asc");
+    else { setSortKey(key); setSortDir("asc"); }
+  };
 
+  // ---------- Render ----------
   return (
-    <main className="min-h-screen bg-[url('/textures/map-parchment.png')] bg-cover bg-fixed p-6">
-      <div className="max-w-7xl mx-auto bg-[#fdf6e3]/95 p-6 rounded-lg shadow-lg">
-        {/* Title */}
-        <h1 className="text-center text-3xl font-serif text-[#3b2f2f] drop-shadow-md mb-6">
-          ⚓ Ships Database
-        </h1>
-
-        {/* Search + Filters */}
-        <div className="flex flex-wrap justify-center gap-3 mb-6">
-          <input
-            type="text"
-            placeholder="🔍 Search ships..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            className="px-4 py-2 rounded-full border border-[#8b7355] bg-[#fff8e7] text-[#3b2f2f] focus:outline-none focus:ring-2 focus:ring-[#d4af37]"
-          />
-          <select
-            value={filterSize}
-            onChange={(e) => setFilterSize(e.target.value)}
-            className="px-3 py-2 rounded-md border border-[#8b7355] bg-[#fff8e7] text-[#3b2f2f]"
-          >
-            <option value="">All Sizes</option>
-            <option value="Lgt">Light</option>
-            <option value="Std">Standard</option>
-            <option value="Hvy">Heavy</option>
-          </select>
-          <select
-            value={filterType}
-            onChange={(e) => setFilterType(e.target.value)}
-            className="px-3 py-2 rounded-md border border-[#8b7355] bg-[#fff8e7] text-[#3b2f2f]"
-          >
-            <option value="">All Roles</option>
-            <option value="Adv">Adventure</option>
-            <option value="Trd">Trade</option>
-            <option value="Btl">Battle</option>
-          </select>
-          <select
-            value={filterCash}
-            onChange={(e) => setFilterCash(e.target.value)}
-            className="px-3 py-2 rounded-md border border-[#8b7355] bg-[#fff8e7] text-[#3b2f2f]"
-          >
-            <option value="">All Ships</option>
-            <option value="Yes">Cash Shop Only</option>
-            <option value="No">Normal Only</option>
-          </select>
-          <input
-            type="text"
-            placeholder="⚒️ Filter by Material"
-            value={filterMaterial}
-            onChange={(e) => setFilterMaterial(e.target.value)}
-            className="px-3 py-2 rounded-md border border-[#8b7355] bg-[#fff8e7] text-[#3b2f2f]"
-          />
+    <div className="min-h-screen w-full bg-slate-950 text-slate-100">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+        {/* Header */}
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">Ships Database</h1>
+            <p className="mt-1 text-slate-400">Search, filter by stats (incl. Total Sails), and sort. Click a row to view optional skills.</p>
+          </div>
+          <div className="w-full sm:w-[28rem]">
+            <label htmlFor="search" className="sr-only">Search</label>
+            <input
+              id="search"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Search ships, materials, role…"
+              className="w-full rounded-2xl bg-slate-900/60 px-4 py-3 outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
         </div>
 
-        {/* Table */}
-        <div className="overflow-x-auto">
-          <table className="w-full border-collapse text-sm bg-[#fffdf5] shadow">
-            <thead className="bg-[#4b2e19] text-[#d4af37]">
+        {/* Top Filter Toolbar */}
+        <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/50 p-4">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-flex items-center gap-1 text-xs uppercase tracking-wider text-slate-400"><ListFilter className="h-4 w-4"/> Filters</span>
+            <button onClick={resetFilters} className="ml-auto text-xs text-indigo-400 hover:text-indigo-300">Reset</button>
+          </div>
+
+          <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {/* Size chips */}
+            <div>
+              <div className="text-[11px] text-slate-400">Size</div>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {uniqueSizes.map((s) => (
+                  <button key={s} onClick={toggleChip(setSizeFilters, s)} className={cls(
+                    "px-3 py-1.5 rounded-full text-xs border transition",
+                    sizeFilters.has(s) ? "border-indigo-500 bg-indigo-500/10 text-indigo-300" : "border-slate-700 bg-slate-800/60 hover:bg-slate-800"
+                  )}>{s}</button>
+                ))}
+              </div>
+            </div>
+
+            {/* Role chips */}
+            <div>
+              <div className="text-[11px] text-slate-400">Role</div>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {uniqueRoles.map((r) => (
+                  <button key={r} onClick={toggleChip(setRoleFilters, r)} className={cls(
+                    "px-3 py-1.5 rounded-full text-xs border transition",
+                    roleFilters.has(r) ? "border-indigo-500 bg-indigo-500/10 text-indigo-300" : "border-slate-700 bg-slate-800/60 hover:bg-slate-800"
+                  )}>{r}</button>
+                ))}
+              </div>
+            </div>
+
+            {/* Cash / Steam selects */}
+            <div>
+              <label className="text-[11px] text-slate-400">Cash Shop</label>
+              <select value={cashFilter} onChange={(e) => setCashFilter(e.target.value as any)} className="mt-1 w-full rounded-xl bg-slate-900/60 px-3 py-2 text-sm outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500">
+                <option value="any">Any</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label className="text-[11px] text-slate-400">Steam</label>
+              <select value={steamFilter} onChange={(e) => setSteamFilter(e.target.value as any)} className="mt-1 w-full rounded-xl bg-slate-900/60 px-3 py-2 text-sm outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500">
+                <option value="any">Any</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Stat ranges incl. Total Sails */}
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-2">
+            <RangeInput label="Durability" min={minDura} max={maxDura} setMin={setMinDura} setMax={setMaxDura} />
+            <RangeInput label="V. Sail" min={minVS} max={maxVS} setMin={setMinVS} setMax={setMaxVS} />
+            <RangeInput label="H. Sail" min={minHS} max={maxHS} setMin={setMinHS} setMax={setMaxHS} />
+            <RangeInput label="Total Sails" min={minTotal} max={maxTotal} setMin={setMinTotal} setMax={setMaxTotal} />
+            <RangeInput label="Turn Speed" min={minTS} max={maxTS} setMin={setMinTS} setMax={setMaxTS} />
+            <RangeInput label="Wave Resist" min={minWR} max={maxWR} setMin={setMinWR} setMax={setMaxWR} />
+          </div>
+
+          {/* Sort controls with icon menu */}
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <IconSortSelect sortKey={sortKey} sortDir={sortDir} setSortKey={setSortKey} setSortDir={setSortDir} />
+          </div>
+        </div>
+
+        {/* Results: Table */}
+        <div className="mt-4 text-sm text-slate-400">Showing <span className="text-slate-200 font-medium">{visible.length}</span> of {ships.length} ships</div>
+
+        <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-sm">
+          <table className="w-full border-collapse text-sm">
+            <thead className="bg-slate-900/40">
               <tr>
                 {colOrder.map((key) => {
                   const meta = columnLabels[key];
                   const Icon = meta.icon;
                   return (
-                    <th
-                      key={key}
-                      onClick={() => handleSort(key)}
-                      title={meta.tooltip}
-                      className={`px-3 py-1.5 border border-[#8b7355] ${alignClass()} cursor-pointer select-none`}
+                    <th key={String(key)} onClick={() => handleHeaderSort(key)} title={meta.tooltip}
+                        className={cls("px-3 py-2 border border-slate-800 text-slate-200 cursor-pointer select-none", meta.align === "left" && "text-left", meta.align === "right" && "text-right", (!meta.align || meta.align === "center") && "text-center")}
                     >
-                      {/* Icon on its own line, label on next line (compact) */}
                       <div className="flex flex-col items-center leading-tight">
                         <Icon className="w-4 h-4 mb-0.5" aria-hidden />
                         <div className="inline-flex items-center gap-1">
                           <span className="text-[11px] font-medium">{meta.label}</span>
                           {sortKey === key ? (
-                            <span className="text-[10px]">{sortAsc ? "▲" : "▼"}</span>
+                            <span className="text-[10px]">{sortDir === "asc" ? "▲" : "▼"}</span>
                           ) : null}
                         </div>
                       </div>
@@ -289,34 +372,20 @@ export default function ShipsPage() {
               </tr>
             </thead>
             <tbody>
-              {filtered.map((ship, idx) => {
+              {visible.map((ship, idx) => {
                 const name = ship["Ship Name"];
                 const isOpen = expanded.has(name);
                 const skillRow = skillsByShip.get(name);
 
-                const details: OptionalSkillDetail[] = normalizeDetails(
-                  skillRow?.["Optional Skill Details"]
-                );
+                const details = normalizeDetails(skillRow?.["Optional Skill Details"]);
                 const namesOnly = safeStringArray(skillRow?.["Optional Skills"]);
-
-                const cards: OptionalSkillDetail[] =
-                  details.length > 0
-                    ? details
-                    : namesOnly.map((n): OptionalSkillDetail => ({ name: n }));
+                const cards: OptionalSkillDetail[] = details.length > 0 ? details : namesOnly.map((n) => ({ name: n }));
 
                 return (
                   <Fragment key={name}>
-                    <tr
-                      onClick={() => toggleExpanded(name)}
-                      className={`transition-colors cursor-pointer ${
-                        idx % 2 === 0 ? "bg-[#fff8e7]" : "bg-[#f5e6ca]"
-                      } hover:bg-[#fde68a]/70`}
-                    >
+                    <tr onClick={() => toggleExpanded(expanded, setExpanded, name)} className={cls("transition-colors cursor-pointer", idx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10", "hover:bg-slate-800/60")}> 
                       {colOrder.map((key) => (
-                        <td
-                          key={`${name}-${String(key)}`}
-                          className="px-3 py-2 border border-[#e0c9a6] text-center"
-                        >
+                        <td key={`${name}-${String(key)}`} className={cls("px-3 py-2 border border-slate-800", columnLabels[key].align === "left" && "text-left", columnLabels[key].align === "right" && "text-right", (!columnLabels[key].align || columnLabels[key].align === "center") && "text-center")}>
                           {ship[key] as any}
                         </td>
                       ))}
@@ -325,40 +394,26 @@ export default function ShipsPage() {
                     {isOpen && (
                       <tr>
                         <td colSpan={colSpanAll} className="p-0">
-                          <div className="px-4 py-3 bg-[#fff8e7] border-t border-b border-[#e0c9a6]">
+                          <div className="px-4 py-3 bg-slate-900/40 border-t border-b border-slate-800">
                             <div className="flex items-center gap-2 mb-2">
-                              <span className="text-[#3b2f2f] font-semibold">
-                                🎛️ Optional Skills for <span className="underline">{name}</span>
-                              </span>
-                              <span className="text-xs text-[#3b2f2f]/60">
-                                (click row again to collapse)
-                              </span>
+                              <span className="text-slate-100 font-semibold">Optional Skills for <span className="underline">{name}</span></span>
+                              <span className="text-xs text-slate-400">(click row again to collapse)</span>
                             </div>
 
                             {cards.length === 0 ? (
-                              <p className="text-[#3b2f2f]/80 italic">No optional skills listed.</p>
+                              <p className="text-slate-300/80 italic">No optional skills listed.</p>
                             ) : (
                               <div className="grid md:grid-cols-2 gap-3">
                                 {cards.map((s, i) => {
                                   const cardKey = s.name ? `${name}-skill-${s.name}` : `${name}-skill-${i}`;
-                                  const ingredientsText =
-                                    s.ingredients && s.ingredients.length > 0
-                                      ? s.ingredients.join(", ")
-                                      : s.recipe;
-
+                                  const ingredientsText = s.ingredients && s.ingredients.length > 0 ? s.ingredients.join(", ") : s.recipe;
                                   const base = skillIconBase(s.name);
                                   const firstSrc = base ? `${base}.png` : "";
 
                                   return (
-                                    <div
-                                      key={cardKey}
-                                      className="rounded-md border border-[#e0c9a6] bg-[#fffdf5] p-3 shadow-sm"
-                                    >
+                                    <div key={cardKey} className="rounded-md border border-slate-800 bg-slate-950/60 p-3 shadow-sm">
                                       <div className="flex items-start justify-between">
-                                        <h4
-                                          className="font-medium text-[#3b2f2f] flex items-center gap-2"
-                                          title={s.name || "Skill"}
-                                        >
+                                        <h4 className="font-medium text-slate-100 flex items-center gap-2" title={s.name || "Skill"}>
                                           {firstSrc && (
                                             <img
                                               src={firstSrc}
@@ -369,28 +424,18 @@ export default function ShipsPage() {
                                               decoding="async"
                                               onError={(e) => {
                                                 const img = e.currentTarget as HTMLImageElement;
-                                                if (img.src.endsWith(".png")) {
-                                                  img.src = firstSrc.replace(".png", ".webp");
-                                                } else if (img.src.endsWith(".webp")) {
-                                                  img.src = firstSrc.replace(".png", ".jpg");
-                                                } else {
-                                                  img.style.display = "none";
-                                                }
+                                                if (img.src.endsWith(".png")) img.src = firstSrc.replace(".png", ".webp");
+                                                else if (img.src.endsWith(".webp")) img.src = firstSrc.replace(".webp", ".jpg");
+                                                else img.style.display = "none";
                                               }}
                                             />
                                           )}
                                           {s.name || "Skill"}
                                         </h4>
-                                        {s.starred ? (
-                                          <span title="Starred" className="text-[#d4af37]">★</span>
-                                        ) : null}
+                                        {s.starred ? (<span title="Starred" className="text-amber-300">★</span>) : null}
                                       </div>
-
                                       {ingredientsText ? (
-                                        <p className="mt-1 text-xs text-[#3b2f2f]/80">
-                                          <span className="font-semibold">Ingredients:</span>{" "}
-                                          {ingredientsText}
-                                        </p>
+                                        <p className="mt-1 text-xs text-slate-300/90"><span className="font-semibold">Ingredients:</span> {ingredientsText}</p>
                                       ) : null}
                                     </div>
                                   );
@@ -408,10 +453,117 @@ export default function ShipsPage() {
           </table>
         </div>
 
-        <p className="mt-4 text-center text-sm text-[#3b2f2f]/70">
-          💡 Tip: Use filters above or scroll sideways on mobile to explore ship stats. Click a row to view its optional skills.
-        </p>
+        {visible.length === 0 && (
+          <div className="mt-8 text-center text-slate-400">No ships match your filters.</div>
+        )}
       </div>
-    </main>
+    </div>
+  );
+}
+
+// ---------- Small UI bits ----------
+function RangeInput({ label, min, max, setMin, setMax }: { label: string; min: number | ""; max: number | ""; setMin: (n: number | "") => void; setMax: (n: number | "") => void; }) {
+  return (
+    <div>
+      <label className="text-[11px] text-slate-400">{label}</label>
+      <div className="mt-1 flex gap-2">
+        <input type="number" placeholder="Min" value={min} onChange={(e) => setMin(e.target.value === "" ? "" : Number(e.target.value))}
+               className="w-1/2 rounded-xl bg-slate-900/60 px-2 py-1.5 text-sm outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500" />
+        <input type="number" placeholder="Max" value={max} onChange={(e) => setMax(e.target.value === "" ? "" : Number(e.target.value))}
+               className="w-1/2 rounded-xl bg-slate-900/60 px-2 py-1.5 text-sm outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500" />
+      </div>
+    </div>
+  );
+}
+
+function toggleExpanded(expanded: Set<string>, setExpanded: React.Dispatch<React.SetStateAction<Set<string>>>, name: string) {
+  setExpanded(prev => {
+    const next = new Set(prev);
+    next.has(name) ? next.delete(name) : next.add(name);
+    return next;
+  });
+}
+
+function normalizeDetails(arr: unknown): OptionalSkillDetail[] {
+  if (!Array.isArray(arr)) return [];
+  return arr
+    .map((d): OptionalSkillDetail | null => {
+      const nm = typeof (d as any)?.name === "string" ? (d as any).name : "";
+      if (!nm) return null;
+      const recipeVal = (d as any)?.recipe;
+      const ingredientsVal = (d as any)?.ingredients;
+      const recipe = typeof recipeVal === "string" ? recipeVal : Array.isArray(recipeVal) ? recipeVal.filter((x) => typeof x === "string").join(", ") : undefined;
+      const ingredients = Array.isArray(ingredientsVal) ? ingredientsVal.filter((x) => typeof x === "string") : undefined;
+      const starred = Boolean((d as any)?.starred);
+      return { name: nm, recipe, ingredients, starred };
+    })
+    .filter((x): x is OptionalSkillDetail => !!x);
+}
+
+function safeStringArray(val: unknown): string[] { return Array.isArray(val) ? val.map((x) => String(x)) : []; }
+
+function skillIconBase(skillName?: string) {
+  if (!skillName) return "";
+  const file = skillName.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return `/images/ship_skills/${file}`;
+}
+
+// ---------- Icon sort select (custom dropdown with icons) ----------
+function IconSortSelect({ sortKey, sortDir, setSortKey, setSortDir }: { sortKey: SortKey; sortDir: "asc" | "desc"; setSortKey: (k: SortKey) => void; setSortDir: (d: "asc" | "desc") => void; }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement | null>(null);
+
+  React.useEffect(() => {
+    const onClick = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false); };
+    window.addEventListener("click", onClick);
+    return () => window.removeEventListener("click", onClick);
+  }, []);
+
+  const options: Array<{ key: SortKey; label: string; icon: React.ReactNode; tooltip?: string }> = [
+    ...((Object.keys(columnLabels) as (keyof Ship)[]).map(k => ({
+      key: k as SortKey,
+      label: columnLabels[k].label,
+      icon: React.createElement(columnLabels[k].icon, { className: "h-4 w-4" }),
+      tooltip: columnLabels[k].tooltip,
+    }))),
+    { key: "Total Sails", label: "Total Sails", icon: (<span className="inline-flex items-center gap-0.5"><ArrowUp className="h-4 w-4"/><ArrowLeftRight className="h-4 w-4"/></span>) },
+  ];
+
+  const current = options.find(o => o.key === sortKey) || options[0];
+
+  return (
+    <div className="flex items-center gap-3" ref={ref}>
+      <div className="flex-1">
+        <div className="text-[11px] text-slate-400">Sort by</div>
+        <button onClick={() => setOpen(o => !o)} className="mt-1 w-full rounded-xl bg-slate-900/60 px-3 py-2 text-sm outline-none ring-1 ring-slate-700 hover:ring-slate-600 flex items-center justify-between">
+          <span className="inline-flex items-center gap-2">
+            {current.icon}
+            <span>{current.label}</span>
+          </span>
+          <ChevronsUpDown className="h-4 w-4" />
+        </button>
+        {open && (
+          <div className="z-10 mt-1 max-h-64 overflow-y-auto rounded-xl border border-slate-800 bg-slate-900/90 p-1 shadow-lg absolute">
+            {options.map(o => (
+              <button key={String(o.key)} title={o.tooltip} onClick={() => { setSortKey(o.key); setOpen(false); }}
+                className={cls("w-full text-left px-2 py-1.5 rounded-lg flex items-center gap-2 text-sm hover:bg-slate-800/70", sortKey === o.key && "bg-slate-800/60")}
+              >
+                <span className="w-4 h-4 inline-flex items-center justify-center">{o.icon}</span>
+                <span className="flex-1">{o.label}</span>
+                {sortKey === o.key && <Check className="h-4 w-4" />}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div>
+        <div className="text-[11px] text-slate-400">Direction</div>
+        <select value={sortDir} onChange={(e) => setSortDir(e.target.value as any)} className="mt-1 rounded-xl bg-slate-900/60 px-3 py-2 text-sm outline-none ring-1 ring-slate-700 focus:ring-2 focus:ring-indigo-500">
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+    </div>
   );
 }
