@@ -1,0 +1,1338 @@
+[
+  {
+    "Item Name": "Alexander the Great's Sword",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Ancient Egypt Axe",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Ancient Stone Sword",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase Melee Capabilities [3]"
+  },
+  {
+    "Item Name": "Archaic Dagger",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+2]",
+    "Skill 2": "Archaeology [+1]",
+    "Skill 3": "Search [+1]"
+  },
+  {
+    "Item Name": "Axe Gun",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sniping [+3]",
+    "Effect 1": "Increase land speed [4]"
+  },
+  {
+    "Item Name": "Axe of Honesty",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Accuracy [+3]",
+    "Skill 3": "Detonics [+1]",
+    "Effect 1": "Focus (Loading) [4]"
+  },
+  {
+    "Item Name": "Bat Scythe",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 50,
+    "Disguise": 5,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Swordplay [+3]",
+    "Skill 3": "Assault [+3]",
+    "Effect 1": "Melee Tactics [12]"
+  },
+  {
+    "Item Name": "Bat Spear",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Berserker's Axe",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Brave Warrior's Treasure Sword",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Candy Cane",
+    "Gender": "M / F",
+    "Attack": 2,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Candy Staff",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+1]",
+    "Effect 1": "Increase sailing speed [3]"
+  },
+  {
+    "Item Name": "Cane Gun",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Catacombs' Short Sword",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Celestial Globe Staff",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Accuracy [+3]",
+    "Skill 2": "Penetration [+3]",
+    "Skill 3": "Detonics [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Ceremonial Coronation Sword",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]",
+    "Skill 2": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Chinese Repeating Crossbow",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+1]",
+    "Skill 2": "Bow Attack [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Composite Bow",
+    "Gender": "M / F",
+    "Attack": 55,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]"
+  },
+  {
+    "Item Name": "Cranequin Crossbow",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Bow Attack [+1]"
+  },
+  {
+    "Item Name": "Dagger-axe",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Dervish Axe",
+    "Gender": "M / F",
+    "Attack": 58,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Double-limb Bow",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Bow Attack [+3]",
+    "Skill 2": "Sniping [+3]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Dueler's Sword",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 45,
+    "Disguise": 10,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Tactics [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Duke of Viseu's Treasure Sword",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Leadership [+2]"
+  },
+  {
+    "Item Name": "Elite Cavalry Spear",
+    "Gender": "M / F",
+    "Attack": 65,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Guard [+1]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Executioner's Sword",
+    "Gender": "M / F",
+    "Attack": 95,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+3]",
+    "Skill 2": "Penetration [+3]",
+    "Skill 3": "Detonics [+1]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Fishing Rod",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+4]",
+    "Skill 2": "Collection [+3]",
+    "Skill 3": "Salvage [+3]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Flame Spear",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Gunnery [+2]",
+    "Skill 3": "Assault [+1]",
+    "Effect 1": "Increase plunder rates [5]"
+  },
+  {
+    "Item Name": "Gastraphetes Crossbow",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Bow Attack [+2]",
+    "Skill 2": "Archaeology [+2]"
+  },
+  {
+    "Item Name": "General's Bow",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+3]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Gennadius's Staff",
+    "Gender": "M / F",
+    "Attack": 56,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Theology [+1]"
+  },
+  {
+    "Item Name": "Gold Short Sword",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+1]",
+    "Skill 2": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "Gold-adorned Sword",
+    "Gender": "M / F",
+    "Attack": 65,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Plunder [+2]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Goliath's Sword",
+    "Gender": "M / F",
+    "Attack": 95,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Assault [+1]"
+  },
+  {
+    "Item Name": "Grand Admiral's Pistol",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Sniping [+2]",
+    "Effect 1": "Focus (Loading) [6]"
+  },
+  {
+    "Item Name": "Gravekeeper's Stone Axe",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Great Lighthouse Axe",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Gunfire [+2]",
+    "Skill 3": "Assault [+2]"
+  },
+  {
+    "Item Name": "Great Pyrate Pistol",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Sniping [+3]",
+    "Effect 1": "Increase plunder rates [10]"
+  },
+  {
+    "Item Name": "Grim's Treasured Sword",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Plunder [+2]",
+    "Effect 1": "Melee Tactics [7]"
+  },
+  {
+    "Item Name": "Hayreddin's Cutlass",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Swordplay [+3]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Heroine's Cutlass",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "First Aid [+1]",
+    "Effect 1": "Increase land speed [3]"
+  },
+  {
+    "Item Name": "Horse Rider's Spear",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 10,
+    "Disguise": 5,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Tactics [+3]",
+    "Effect 1": "Increase Melee Capabilities [6]"
+  },
+  {
+    "Item Name": "Hyper Cutter Sword",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Improved General's Bow",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sniping [+1]",
+    "Skill 3": "Surgery [+2]"
+  },
+  {
+    "Item Name": "Improved Jet Black Short Sword",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Throwing [+3]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Evasion [+3]"
+  },
+  {
+    "Item Name": "Improved Knight's Axe",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+2]"
+  },
+  {
+    "Item Name": "Improved Steam-engined Crossbow",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Bow Attack [+2]"
+  },
+  {
+    "Item Name": "Improved Steam-engined Pistol",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Arms [+2]"
+  },
+  {
+    "Item Name": "Instr. Andrea's Staff",
+    "Gender": "M / F",
+    "Attack": 6,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Search [+1]"
+  },
+  {
+    "Item Name": "Instr. Gregory's Staff",
+    "Gender": "M / F",
+    "Attack": 2,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Frugality [+1]"
+  },
+  {
+    "Item Name": "Instr. Matthias' Sword",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Janissary's Gun",
+    "Gender": "M / F",
+    "Attack": 82,
+    "Defense": 4,
+    "Disguise": 10,
+    "Skill 1": "Gunfire [+1]",
+    "Skill 2": "Sniping [+1]"
+  },
+  {
+    "Item Name": "Jedburgh Staff",
+    "Gender": "M / F",
+    "Attack": 72,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Jet Black Short Sword",
+    "Gender": "M / F",
+    "Attack": 38,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Throwing [+2]",
+    "Skill 3": "Evasion [+2]"
+  },
+  {
+    "Item Name": "Jewel Rod",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Art Trading [+2]",
+    "Skill 3": "Handicrafts [+1]"
+  },
+  {
+    "Item Name": "King Anawrahta's Sword",
+    "Gender": "M / F",
+    "Attack": 66,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Koxinga Army Bow",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+2]",
+    "Skill 2": "Reloading [+1]",
+    "Skill 3": "Penetration [+1]"
+  },
+  {
+    "Item Name": "Kupe's Wood Spear",
+    "Gender": "M / F",
+    "Attack": 46,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+1]",
+    "Skill 2": "Assault [+2]"
+  },
+  {
+    "Item Name": "Legendary Key Staff",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Search [+1]",
+    "Skill 2": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Lily of the Valley Staff",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+2]",
+    "Skill 3": "Biology [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Lily Staff",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Arms [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Long Snake Spear",
+    "Gender": "M / F",
+    "Attack": 58,
+    "Defense": 0,
+    "Disguise": 15,
+    "Skill 1": "Wining and Dining [+1]",
+    "Skill 2": "Guard [+2]",
+    "Skill 3": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Long Snake Spear",
+    "Gender": "M / F",
+    "Attack": 58,
+    "Defense": 0,
+    "Disguise": 15,
+    "Skill 1": "Wining and Dining [+1]",
+    "Skill 2": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Lord Mace",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+2]",
+    "Skill 3": "Art [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Love God's Staff",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Handicrafts [+2]",
+    "Skill 3": "Shipbuilding [+1]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Magic Staff",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+1]",
+    "Skill 2": "Procurement [+1]"
+  },
+  {
+    "Item Name": "Maiden Knight's Treasure Sword",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Mamluk Bow",
+    "Gender": "M / F",
+    "Attack": 73,
+    "Defense": 0,
+    "Disguise": 7,
+    "Skill 1": "Sniping [+1]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Midnight Sword",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Weapons Trading [+2]",
+    "Skill 2": "Metal Trading [+2]",
+    "Skill 3": "Casting [+1]"
+  },
+  {
+    "Item Name": "Minotaur's Axe",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+1]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Moon Staff",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+3]",
+    "Skill 2": "Astronomy [+3]",
+    "Skill 3": "Recognition [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Narathihapate's Sword",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Nokogiri Sword",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Ballistics [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Oar Sword",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Rowing [+3]",
+    "Skill 3": "Guard [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Pepperbox Pistol",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Gunnery [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Pharaoh's Staff",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+1]",
+    "Skill 2": "Alchemy [+1]",
+    "Skill 3": "Sewing [+1]",
+    "Effect 1": "Reduce Vigour consumption [4]"
+  },
+  {
+    "Item Name": "Philosopher's Sacred Sword",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+1]",
+    "Skill 2": "Jewellry Trading [+1]",
+    "Skill 3": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Pioneer's Hunting Rifle",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+2]",
+    "Skill 2": "Mineral Trading [+2]",
+    "Skill 3": "Livestock Trading [+1]"
+  },
+  {
+    "Item Name": "Pirate Spear",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Pirate's Sword",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 5,
+    "Skill 1": "Tactics [+2]",
+    "Skill 2": "Shipbuilding [+1]"
+  },
+  {
+    "Item Name": "Pistol",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Prester John's Sword",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Frugality [+1]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Art [+1]"
+  },
+  {
+    "Item Name": "Rose Staff",
+    "Gender": "M / F",
+    "Attack": 3,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Perfume Trading [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Samurai Lord's Spear",
+    "Gender": "M / F",
+    "Attack": 110,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Assault [+3]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Sea Dragon's Demon Sword",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Mine Laying [+1]",
+    "Skill 2": "Ballistics [+3]",
+    "Skill 3": "Accuracy [+2]",
+    "Effect 1": "Increase Mine Damage [10]"
+  },
+  {
+    "Item Name": "Sea Monster's Evil Spear",
+    "Gender": "M / F",
+    "Attack": 75,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Mine Laying [+2]",
+    "Skill 2": "Ballistics [+2]",
+    "Skill 3": "Accuracy [+2]",
+    "Effect 1": "Increase Mine Damage [5]"
+  },
+  {
+    "Item Name": "Seven-Branched Sword",
+    "Gender": "M / F",
+    "Attack": 65,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+3]",
+    "Skill 3": "Astronomy [+2]",
+    "Effect 1": "Increase Relic Clue acquisition [11]"
+  },
+  {
+    "Item Name": "Shaman's Ceremonial Sword",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+2]",
+    "Skill 2": "Accuracy [+2]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Small Sword Breaker",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Sorcerer's Staff",
+    "Gender": "M / F",
+    "Attack": 42,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Procurement [+1]"
+  },
+  {
+    "Item Name": "Spear Umbrella",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 15,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Guard [+2]",
+    "Effect 1": "Increase Melee Capabilities [6]"
+  },
+  {
+    "Item Name": "Spirit Bow",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 30,
+    "Skill 1": "Sniping [+3]",
+    "Skill 2": "Bow Attack [+3]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Staff of Light",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Trap [+2]",
+    "Skill 3": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Staff of the Dead",
+    "Gender": "M / F",
+    "Attack": 16,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Effect 1": "Sorcery [3]"
+  },
+  {
+    "Item Name": "Steam-engined Crossbow",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Sniping [+1]",
+    "Skill 2": "Bow Attack [+2]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Steam-engined Pistol",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Stone Axe",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Repair [+1]"
+  },
+  {
+    "Item Name": "Sultan's Guard's Spear",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 12,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Sultan's Guard's Sword",
+    "Gender": "M / F",
+    "Attack": 72,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Sun Axe",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Leadership [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Sun Staff",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Art [+3]",
+    "Skill 2": "Theology [+2]",
+    "Skill 3": "Biology [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Sunflower Staff",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Wares Trading [+2]",
+    "Skill 3": "Crafts Trading [+1]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Superior Golden Halberd",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Crafts Trading [+4]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Sociability [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Superior Hyper Cutter Sword",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 45,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Rowing [+3]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "Superior Jewel Rod",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Weapons Trading [+3]",
+    "Skill 2": "Cooking [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Superior Rose Staff",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Medicine Trading [+3]",
+    "Skill 2": "Casting [+3]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Superior Sword of the Lioness of Brittany",
+    "Gender": "M / F",
+    "Attack": 120,
+    "Defense": 40,
+    "Disguise": 30,
+    "Skill 1": "Penetration [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Sword of Courage",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 45,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "Sword of Inheritance",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Surgery [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Sword Pistol",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Gunfire [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Territory Leader's Ceremonial Staff",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Frugality [+2]",
+    "Skill 2": "Storage [+1]",
+    "Skill 3": "Sociability [+1]"
+  },
+  {
+    "Item Name": "The Emperor's Sword",
+    "Gender": "M / F",
+    "Attack": 110,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Arms [+3]",
+    "Skill 3": "Guard [+3]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "The King Sword of Light",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "The Nomad's Bow",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Collection [+1]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "The Superior King Sword of Light",
+    "Gender": "M / F",
+    "Attack": 120,
+    "Defense": 40,
+    "Disguise": 15,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Reduce incidence of attacks [8]"
+  },
+  {
+    "Item Name": "The Sword of Gajah Mada",
+    "Gender": "M / F",
+    "Attack": 62,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sociability [+2]"
+  },
+  {
+    "Item Name": "The Sword of the God of the East Wind",
+    "Gender": "M / F",
+    "Attack": 27,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "The Sword of the God of the North Wind",
+    "Gender": "M / F",
+    "Attack": 27,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "The Sword of the God of the South Wind",
+    "Gender": "M / F",
+    "Attack": 27,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "The Sword of the God of the West Wind",
+    "Gender": "M / F",
+    "Attack": 27,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Thunder Spear",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accuracy [+3]",
+    "Skill 2": "Reloading [+2]",
+    "Skill 3": "Mine Laying [+1]",
+    "Effect 1": "Increase Mine Damage [5]"
+  },
+  {
+    "Item Name": "Tianzhu Treasure Sword",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fabric Trading [+3]",
+    "Skill 2": "Sundries Trading [+3]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase trade goods purchase [8]"
+  },
+  {
+    "Item Name": "Trident",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Tactics [+3]",
+    "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Triple-barrel Pistol",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Sniping [+3]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Ultimate Paekche King's Sword",
+    "Gender": "M / F",
+    "Attack": 95,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Rowing [+2]"
+  },
+  {
+    "Item Name": "Ultimate Rose Staff",
+    "Gender": "M / F",
+    "Attack": 110,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Luxuries Trading [+4]",
+    "Skill 2": "Fabric Trading [+4]",
+    "Skill 3": "Sociability [+2]",
+    "Effect 1": "Lower the risk of disasters [11]"
+  },
+  {
+    "Item Name": "Valkyrie Sword",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Detonics [+1]",
+    "Skill 2": "Accuracy [+3]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Volcanic Pistol",
+    "Gender": "M / F",
+    "Attack": 65,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Wing Bow",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Bow Attack [+3]",
+    "Skill 2": "Sniping [+3]",
+    "Effect 1": "Enhance Aides' growth [7]"
+  },
+  {
+    "Item Name": "Winter Staff",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Spice Trading [+3]",
+    "Skill 2": "Metal Trading [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Wise Ruler's Treasure Sword",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Sociability [+3]",
+    "Skill 3": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Zhuge Liang Crossbow",
+    "Gender": "M / F",
+    "Attack": 55,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Weapons Trading [+2]"
+  },
+  {
+    "Item Name": "Count Egmont's Command Staff",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Provisions [+2]",
+    "Skill 3": "Caution [+1]"
+  },
+  {
+    "Item Name": "Three Kingdoms Bow Military Art Book",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Bow Attack [+2]",
+    "Skill 3": "Tactics [+1]"
+  }
+]

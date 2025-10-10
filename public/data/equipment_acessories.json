@@ -1,0 +1,1380 @@
+[
+  {
+    "Item Name": "Bliaud & Leather Belt",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Art [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Bliaud & Leather Belt",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Archaeology [+1]",
+    "Skill 3": "Theology [+1]",
+    "Effect 1": "Lower the risk of disasters [4]"
+  },
+  {
+    "Item Name": "Bliaud & Leather Belt",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Archaeology [+2]",
+    "Skill 3": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Nefertari's Broach",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Art [+1]",
+    "Skill 3": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Sash Tunic",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Sash Tunic",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Collection [+1]"
+  },
+  {
+    "Item Name": "Ultimate Abelam Tribe Brooch",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 120,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Gunfire [+3]",
+    "Effect 1": "Increase skill effect duration [9]"
+  },
+  {
+    "Item Name": "Brilliant Feather",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+2]"
+  },
+  {
+    "Item Name": "Cute Ribbon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Caution [+2]"
+  },
+  {
+    "Item Name": "Cute Ribbon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Storage [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Great Lighthouse Earrings",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Ecological Research [+2]",
+    "Skill 2": "Archaeology [+2]",
+    "Skill 3": "Search [+3]"
+  },
+  {
+    "Item Name": "Helios' Earrings",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Firearms Trading [+1]",
+    "Effect 1": "Increase Relic Clue acquisition [12]"
+  },
+  {
+    "Item Name": "Improved Lace Ribbon",
+    "Gender": "F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Sniping [+2]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Intersecting Hairpin",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+2]",
+    "Skill 2": "Wares Trading [+2]",
+    "Skill 3": "Metal Trading [+1]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Intersecting Hairpin",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Assault [+2]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase Melee Capabilities [6]"
+  },
+  {
+    "Item Name": "Karna's Earrings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+3]",
+    "Skill 2": "First Aid [+2]",
+    "Skill 3": "Surgery [+2]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Karna's Earrings",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Shipbuilding [+2]",
+    "Skill 2": "Handicrafts [+3]",
+    "Skill 3": "Accounts [+2]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Kimono Hair Ribbon",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Arms [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Kimono Hair Ribbon",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+3]",
+    "Skill 2": "Arms [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Lace Ribbon",
+    "Gender": "F",
+    "Attack": 20,
+    "Defense": 40,
+    "Disguise": 25,
+    "Skill 1": "Arms [+3]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Steering [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Peruke & Ribbon",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Ribbon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Ribbon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "First Aid [+2]"
+  },
+  {
+    "Item Name": "Shining Earrings",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Ecological Research [+2]",
+    "Skill 2": "Archaeology [+2]",
+    "Skill 3": "Search [+3]"
+  },
+  {
+    "Item Name": "Superior Karna's Earrings",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Casting [+3]",
+    "Skill 2": "Wares Trading [+4]",
+    "Skill 3": "Accounts [+2]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Taiwanese Hairpin",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Taiwanese Hairpin - Special",
+    "Gender": "F",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Mine Laying [+1]",
+    "Skill 2": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Ultimate Kimono Hair Ribbon",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Repair [+3]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Adventurerous Nobel's Loupe",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Geography [+2]",
+    "Skill 2": "Recognition [+1]"
+  },
+  {
+    "Item Name": "Forbidden Alchemy Book",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+1]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Love Flute",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+2]",
+    "Skill 2": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Paper Fan",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Zhuge Liang's Feather Fan",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Tactics [+1]",
+    "Skill 2": "Trap [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Zhuge Liang's Feather Fan",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Tactics [+1]",
+    "Skill 2": "Arms [+1]"
+  },
+  {
+    "Item Name": "Adventure Amulet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Search [+2]",
+    "Skill 2": "Recognition [+2]"
+  },
+  {
+    "Item Name": "Amulet of Apep",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]"
+  },
+  {
+    "Item Name": "Amulet of Love",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "First Aid [+2]",
+    "Skill 2": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Ancient Aromatic Oil Glass Bottle",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Alchemy [+2]",
+    "Skill 3": "Theology [+2]",
+    "Effect 1": "Formality Enhancement [1]"
+  },
+  {
+    "Item Name": "Ancient Flute",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+1]",
+    "Skill 2": "Lookout [+1]",
+    "Effect 1": "Eradication [1]"
+  },
+  {
+    "Item Name": "Ancient Greek Protective Charm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Trap [+2]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "Apollo Brooch",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]",
+    "Skill 2": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "Aurangzeb's Ring",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Sniping [+3]",
+    "Skill 2": "Bow Attack [+2]",
+    "Skill 3": "Trap [+2]",
+    "Effect 1": "Less Stamina Loss in Dungeon [10]"
+  },
+  {
+    "Item Name": "Beryl Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Repair [+1]",
+    "Skill 3": "Lookout [+3]",
+    "Effect 1": "Restore all states (multiple) [5]"
+  },
+  {
+    "Item Name": "Blue Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+1]",
+    "Skill 2": "Art Trading [+1]",
+    "Skill 3": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Blue Gem Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Art Trading [+2]",
+    "Skill 3": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Book of Spices",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Spice Trading [+2]",
+    "Skill 2": "Food Trading [+2]",
+    "Skill 3": "Cooking [+2]",
+    "Effect 1": "Cooking skill enhancement [5]"
+  },
+  {
+    "Item Name": "Brave Pendant",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Swordplay [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Broach of Accomplishment",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Penetration [+3]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Broach of Achievement",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Leadership [+2]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Broach of Conquest",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Accuracy [+3]",
+    "Skill 2": "Surgery [+2]",
+    "Skill 3": "Arms [+2]"
+  },
+  {
+    "Item Name": "Broach of Victory",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+3]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Arms [+2]"
+  },
+  {
+    "Item Name": "Brooch of Fascination",
+    "Gender": "M / F",
+    "Attack": 8,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Cooking [+1]",
+    "Skill 2": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Brooch of Fascination",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Perfume Trading [+3]",
+    "Skill 2": "Spice Trading [+2]",
+    "Skill 3": "Jewellry Trading [+2]"
+  },
+  {
+    "Item Name": "Brooch of Prospect",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+1]",
+    "Skill 2": "Tactics [+2]"
+  },
+  {
+    "Item Name": "Buddhist Rosary",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Recognition [+2]"
+  },
+  {
+    "Item Name": "Cat Whiskers Charm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Jewellry Trading [+1]",
+    "Skill 3": "Dye Trading [+1]"
+  },
+  {
+    "Item Name": "Chares' Architectural Technology Book",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Crafts Trading [+1]",
+    "Skill 3": "Wares Trading [+1]",
+    "Effect 1": "Enhance Skill Refine [5]"
+  },
+  {
+    "Item Name": "Chibchan Talisman",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+2]",
+    "Skill 2": "Crafts Trading [+2]"
+  },
+  {
+    "Item Name": "Claw Talisman",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Livestock Trading [+2]",
+    "Skill 3": "Trap [+2]"
+  },
+  {
+    "Item Name": "Cretan Royal Family's Bracelet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+2]",
+    "Skill 2": "Art Trading [+2]",
+    "Skill 3": "Metal Trading [+1]"
+  },
+  {
+    "Item Name": "Crimson Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Appraisal [+1]",
+    "Skill 3": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Custom Amber Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Unlock [+2]",
+    "Effect 1": "Special Goods Production Rate Up [6]"
+  },
+  {
+    "Item Name": "Dove Brooch",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Metal Trading [+1]"
+  },
+  {
+    "Item Name": "Dueler's Necklace",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "Eagle Feather",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+2]",
+    "Skill 2": "Metal Trading [+3]",
+    "Skill 3": "Assault [+2]"
+  },
+  {
+    "Item Name": "Elena's Rosary",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Survival [+2]",
+    "Skill 2": "Provisions [+1]",
+    "Skill 3": "Theology [+1]",
+    "Effect 1": "Increase Loyalty [3]"
+  },
+  {
+    "Item Name": "Exquisite Navigator's Compass",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Navigation [+2]"
+  },
+  {
+    "Item Name": "Gharial Fang Bracelet",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Assault [+1]",
+    "Skill 2": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Glowstone Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Mineral Trading [+2]",
+    "Skill 2": "Jewellry Trading [+2]"
+  },
+  {
+    "Item Name": "Godly Bracelet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Guard [+1]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Penetration [+1]"
+  },
+  {
+    "Item Name": "Golden Seal Ring",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Steering [+1]",
+    "Effect 1": "Leak fixing [1]"
+  },
+  {
+    "Item Name": "Green Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Repair [+1]",
+    "Skill 3": "Lookout [+2]"
+  },
+  {
+    "Item Name": "Hand Fan",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Wining and Dining [+2]"
+  },
+  {
+    "Item Name": "Hero's Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Management Technique [+1]",
+    "Skill 2": "Navigation [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Holly Brooch",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Relieve all Fatigue (multiple) [20]"
+  },
+  {
+    "Item Name": "Honey Amber Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Provisions [+2]",
+    "Skill 2": "Frugality [+2]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Formality Enhancement [3]"
+  },
+  {
+    "Item Name": "Hyalite Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+2]",
+    "Skill 2": "Navigation [+2]",
+    "Skill 3": "Steering [+1]"
+  },
+  {
+    "Item Name": "Ice Crystal Brooch",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Search [+1]",
+    "Skill 2": "Art [+2]"
+  },
+  {
+    "Item Name": "Indigo Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+1]",
+    "Skill 2": "Livestock Trading [+1]",
+    "Skill 3": "Caution [+2]"
+  },
+  {
+    "Item Name": "Julien's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "King Minos' Earrings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Legendary Ring",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Evasion [+3]",
+    "Skill 2": "Detonics [+3]",
+    "Skill 3": "Penetration [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Maritime Amulet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Mathematician's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Ballistics [+1]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Meteorite Protective Talisman",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Sorcery [10]"
+  },
+  {
+    "Item Name": "Ojibwe Talisman",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Procurement [+1]",
+    "Skill 2": "Collection [+1]",
+    "Effect 1": "Cure Insomnia [5]"
+  },
+  {
+    "Item Name": "Ojibwe Talisman",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Procurement [+2]",
+    "Skill 2": "Collection [+2]",
+    "Skill 3": "Theology [+1]"
+  },
+  {
+    "Item Name": "Onyx Bracelet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Arms [+2]",
+    "Skill 3": "Haul [+2]"
+  },
+  {
+    "Item Name": "Orange Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]",
+    "Skill 2": "Theology [+1]",
+    "Skill 3": "Wining and Dining [+2]"
+  },
+  {
+    "Item Name": "Peacock Feather Earrings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+2]",
+    "Effect 1": "Formality Enhancement [8]"
+  },
+  {
+    "Item Name": "Pendant of Love",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 10,
+    "Skill 1": "Navigation [+3]",
+    "Skill 2": "Management Technique [+2]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Pewter Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Mineral Trading [+2]",
+    "Skill 2": "Frugality [+1]",
+    "Effect 1": "Persuasive skill enhancement [6]"
+  },
+  {
+    "Item Name": "Picture Book of Fairy Tales",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Ecological Research [+2]",
+    "Skill 3": "Survival [+1]",
+    "Effect 1": "Ecological Research [3]"
+  },
+  {
+    "Item Name": "Purple Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Search [+1]",
+    "Skill 2": "Merchandise Knowledge [+2]",
+    "Skill 3": "First Aid [+2]"
+  },
+  {
+    "Item Name": "Queen's Perfume Bottle",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Perfume Trading [+3]",
+    "Skill 2": "Jewellry Trading [+2]",
+    "Skill 3": "Sociability [+2]",
+    "Effect 1": "Formality Enhancement [3]"
+  },
+  {
+    "Item Name": "Replica Easter Egg (Beryl)",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Repair [+1]",
+    "Skill 3": "Lookout [+3]"
+  },
+  {
+    "Item Name": "Replica Easter Egg (Ruby)",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Appraisal [+1]",
+    "Skill 3": "Persuasion [+3]"
+  },
+  {
+    "Item Name": "Replica Easter Egg (Sapphire)",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+1]",
+    "Skill 2": "Art Trading [+1]",
+    "Skill 3": "Sociability [+3]"
+  },
+  {
+    "Item Name": "Ring of Royalty",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Salvage [+2]",
+    "Skill 2": "Unlock [+2]",
+    "Effect 1": "Special Goods Production Rate Up [6]"
+  },
+  {
+    "Item Name": "Ring of Southern Merchant",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Luxuries Trading [+1]",
+    "Skill 2": "Medicine Trading [+1]",
+    "Skill 3": "Accounts [+2]"
+  },
+  {
+    "Item Name": "Ring of the Sun God Helios",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+3]",
+    "Skill 2": "Arms [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase sailing speed [5]"
+  },
+  {
+    "Item Name": "Rotting Bracelet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Royal Easter Egg",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 18,
+    "Disguise": 20,
+    "Skill 1": "First Aid [+3]",
+    "Skill 2": "Surgery [+3]",
+    "Skill 3": "Rescue [+1]",
+    "Effect 1": "Reduce Disaster Damage [6]"
+  },
+  {
+    "Item Name": "Royal Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Navigation [+2]",
+    "Skill 3": "Management Technique [+2]",
+    "Effect 1": "Enhance Skill Refine [5]"
+  },
+  {
+    "Item Name": "Ruby Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Appraisal [+1]",
+    "Skill 3": "Persuasion [+3]",
+    "Effect 1": "Restore all states (multiple) [5]"
+  },
+  {
+    "Item Name": "Rudder Ribbon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Repair [+2]",
+    "Skill 2": "Provisions [+2]",
+    "Skill 3": "Frugality [+2]",
+    "Effect 1": "Surveying [1]"
+  },
+  {
+    "Item Name": "Sapphire Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+1]",
+    "Skill 2": "Art Trading [+1]",
+    "Skill 3": "Sociability [+3]",
+    "Effect 1": "Restore all states (multiple) [5]"
+  },
+  {
+    "Item Name": "Sea Dragon's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+2]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Sea Monster's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Shipbuilding [+2]"
+  },
+  {
+    "Item Name": "Shell Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art Trading [+2]",
+    "Effect 1": "Persuasive skill enhancement [8]"
+  },
+  {
+    "Item Name": "Shiny Stone Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Provisions [+1]",
+    "Skill 2": "Storage [+1]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Shooting Star Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Steering [+1]",
+    "Skill 3": "Evasion [+1]",
+    "Effect 1": "Increase skill effect duration [3]"
+  },
+  {
+    "Item Name": "Silver Pendant",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Geography [+1]",
+    "Skill 3": "Navigation [+1]",
+    "Effect 1": "Fatigue recovery [5]"
+  },
+  {
+    "Item Name": "Snake Shell Charm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Luxuries Trading [+1]",
+    "Skill 3": "Livestock Trading [+1]"
+  },
+  {
+    "Item Name": "Solomon's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+2]",
+    "Skill 2": "Biology [+1]"
+  },
+  {
+    "Item Name": "Sorcerer's Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Management Technique [+1]"
+  },
+  {
+    "Item Name": "South Pacific Transverse Route Map",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+2]",
+    "Skill 2": "Archaeology [+1]",
+    "Effect 1": "Surveying [1]"
+  },
+  {
+    "Item Name": "Star Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+1]",
+    "Skill 2": "Mineral Trading [+1]",
+    "Skill 3": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Star Sapphire Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fabric Trading [+2]",
+    "Skill 2": "Sociability [+1]",
+    "Skill 3": "Sundries Trading [+1]"
+  },
+  {
+    "Item Name": "Star-shaped Pendant",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fabric Trading [+1]",
+    "Skill 2": "Livestock Trading [+2]"
+  },
+  {
+    "Item Name": "Steam Engineer's Technical Book",
+    "Gender": "M / F",
+    "Attack": 21,
+    "Defense": 15,
+    "Disguise": 15,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Bow Attack [+2]"
+  },
+  {
+    "Item Name": "Stowe's Ring",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fabric Trading [+1]",
+    "Skill 2": "Textile Trading [+1]",
+    "Skill 3": "Frugality [+1]",
+    "Effect 1": "Formality Enhancement [5]"
+  },
+  {
+    "Item Name": "Superior Book of Concealing Method",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Gunfire [+3]",
+    "Effect 1": "Increase land speed [4]"
+  },
+  {
+    "Item Name": "Superior Celtic Bracelet",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 30,
+    "Skill 1": "Tactics [+3]",
+    "Skill 2": "Swordplay [+3]",
+    "Skill 3": "Assault [+3]",
+    "Effect 1": "Increase sailing speed [9]"
+  },
+  {
+    "Item Name": "Superior Garnet Brooch",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Crafts Trading [+4]",
+    "Skill 2": "Metal Trading [+4]",
+    "Effect 1": "Increase trade goods purchase [10]"
+  },
+  {
+    "Item Name": "Superior Gold Earrings",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Fabric Trading [+4]",
+    "Skill 2": "Accounts [+3]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Superior Jet Ring",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 30,
+    "Disguise": 25,
+    "Skill 1": "Accuracy [+3]",
+    "Skill 2": "Ballistics [+3]",
+    "Skill 3": "Penetration [+3]",
+    "Effect 1": "Reduce Vigour consumption [8]"
+  },
+  {
+    "Item Name": "Superior Red Flower Broach",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Art Trading [+4]",
+    "Skill 2": "Dye Trading [+4]",
+    "Skill 3": "Accounts [+2]",
+    "Effect 1": "Increase sailing speed [9]"
+  },
+  {
+    "Item Name": "Superior Ring of the Sun God Helios",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 40,
+    "Disguise": 25,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Swordplay [+3]",
+    "Effect 1": "Increase sailing speed [9]"
+  },
+  {
+    "Item Name": "Superior Silver-adorned Necklace",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Sewing [+2]",
+    "Skill 2": "Textile Trading [+4]",
+    "Skill 3": "Sociability [+3]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Teardrop Necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Procurement [+2]",
+    "Skill 2": "Storage [+1]",
+    "Skill 3": "Provisions [+2]"
+  },
+  {
+    "Item Name": "The Doria's Talisman",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Sail Handling [+2]",
+    "Skill 3": "Survival [+1]"
+  },
+  {
+    "Item Name": "Thessaloniki's Bracelet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Biology [+2]",
+    "Skill 2": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Tortoiseshell Charm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Cannon Fire Null [5]"
+  },
+  {
+    "Item Name": "Trade Amulet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Storage [+2]"
+  },
+  {
+    "Item Name": "Violent One's Bracelet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Body Language [+1]",
+    "Skill 3": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Vittoria's necklace",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Wining and Dining [+2]",
+    "Skill 3": "Art [+1]"
+  },
+  {
+    "Item Name": "War God's Amulet",
+    "Gender": "M / F",
+    "Attack": 8,
+    "Defense": 8,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Gunnery [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Yellow Easter Egg",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Reloading [+1]",
+    "Skill 2": "Penetration [+1]",
+    "Skill 3": "Fire Fighting [+1]"
+  }
+]

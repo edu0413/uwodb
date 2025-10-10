@@ -1,0 +1,3406 @@
+[
+  {
+    "Item Name": "A Hunter's Fur Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Frugality [+1]"
+  },
+  {
+    "Item Name": "Adorable Veil",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Advanced Geologist's Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Repair [+3]",
+    "Effect 1": "Focus (Fire & Flood) [1]"
+  },
+  {
+    "Item Name": "Advanced Steam Engineer's Hat",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 10,
+    "Skill 1": "Repair [+3]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Enhance Aides' growth [10]"
+  },
+  {
+    "Item Name": "Agamemnon's Gold Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Alpine Resident Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Textile Trading [+1]"
+  },
+  {
+    "Item Name": "Amenhotep IV's Headdress",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Ancient Crown",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Appraisal [+1]",
+    "Skill 3": "Search [+1]"
+  },
+  {
+    "Item Name": "Ancient Crown EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Appraisal [+1]",
+    "Skill 3": "Search [+1]",
+    "Effect 1": "Age Effect (B.C.) [1]"
+  },
+  {
+    "Item Name": "Ancient Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Marching [+1]",
+    "Skill 2": "Provisions [+1]"
+  },
+  {
+    "Item Name": "Ancient Priest's Blessed Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Art [+2]",
+    "Effect 1": "Lower the risk of disasters [7]"
+  },
+  {
+    "Item Name": "Ancient Roman Ceremonial Helm",
+    "Gender": "M",
+    "Attack": 3,
+    "Defense": 8,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Ballistics [+1]",
+    "Skill 3": "Leadership [+2]"
+  },
+  {
+    "Item Name": "Ancient Roman Ceremonial Helm",
+    "Gender": "M",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Ballistics [+2]",
+    "Skill 3": "Leadership [+2]"
+  },
+  {
+    "Item Name": "Ancient Warrior Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 15,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Ancient Warrior Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 15,
+    "Skill 1": "Guard [+1]",
+    "Skill 2": "Tactics [+2]"
+  },
+  {
+    "Item Name": "Archaeologist's Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]",
+    "Skill 2": "Theology [+1]",
+    "Skill 3": "Search [+1]"
+  },
+  {
+    "Item Name": "Arctic Resident Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+1]"
+  },
+  {
+    "Item Name": "Astrologer's Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 15,
+    "Skill 1": "Astronomy [+2]",
+    "Skill 2": "Recognition [+3]",
+    "Skill 3": "Management Technique [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Baseball Cap",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 5,
+    "Skill 1": "Ballistics [+2]",
+    "Skill 2": "Reloading [+2]",
+    "Skill 3": "Arms [+3]",
+    "Effect 1": "Reduce incidence of attacks [6]"
+  },
+  {
+    "Item Name": "Beginner's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Effect 1": "Enhance Character Advance [1]"
+  },
+  {
+    "Item Name": "Berserk's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Arms [+1]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Bingo Bongo Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Bingo Bongo Mask Reprint",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Brave Circlet",
+    "Gender": "F",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Leadership [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Brave Helm",
+    "Gender": "M",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Leadership [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Bridal Veil",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Luxuries Trading [+2]",
+    "Skill 2": "Textile Trading [+2]"
+  },
+  {
+    "Item Name": "Brilliant Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Salvage [+1]",
+    "Skill 3": "Haul [+1]"
+  },
+  {
+    "Item Name": "British Police Uniform Cap",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Caution [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Gunfire [+1]",
+    "Effect 1": "Age Effect (17th century) [1]"
+  },
+  {
+    "Item Name": "British Private Detective's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Biology [+1]"
+  },
+  {
+    "Item Name": "British Private Detective's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Appraisal [+2]"
+  },
+  {
+    "Item Name": "British Private Detective's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Effect 1": "Increase skill effect duration [5]"
+  },
+  {
+    "Item Name": "British-style Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+1]"
+  },
+  {
+    "Item Name": "Broad Felt Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Broad Felt Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Bunny Ear Headband",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 15,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Cooking [+1]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Caution [+2]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Wining and Dining [+2]",
+    "Skill 2": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 15,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Caution [+1]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Caution [+2]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 15,
+    "Skill 1": "Luxuries Trading [+2]",
+    "Skill 2": "Crafts Trading [+2]"
+  },
+  {
+    "Item Name": "Bunny Ears Top Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Survival [+2]",
+    "Skill 2": "Procurement [+2]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "Cacao Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Persuasion [+1]",
+    "Skill 3": "First Aid [+2]"
+  },
+  {
+    "Item Name": "Cake Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Search [+1]",
+    "Skill 2": "Art [+1]",
+    "Skill 3": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Cake Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Search [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Cancer's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Food Trading [+2]",
+    "Skill 2": "Fishing [+1]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase Relic Clue acquisition [8]"
+  },
+  {
+    "Item Name": "Captain Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Effect 1": "Enhance character growth [1]"
+  },
+  {
+    "Item Name": "Cassador Crown",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Cassador Crown",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Plunder [+1]",
+    "Effect 1": "Increase plunder rates [3]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Caution [+1]",
+    "Skill 2": "Merchandise Knowledge [+1]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Fishing [+1]",
+    "Effect 1": "Reduce Vigour consumption [1]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Fishing [+3]",
+    "Skill 2": "Procurement [+2]",
+    "Skill 3": "Collection [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 25,
+    "Skill 1": "Fishing [+2]",
+    "Skill 2": "Marching [+2]",
+    "Skill 3": "Trap [+1]"
+  },
+  {
+    "Item Name": "Cat Half Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Body Language [+2]",
+    "Skill 3": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Cat Hood",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Mine Laying [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Gunnery [+1]",
+    "Effect 1": "Reduce Vigour consumption [6]"
+  },
+  {
+    "Item Name": "Chef Hat",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 30,
+    "Disguise": 5,
+    "Skill 1": "Cooking [+2]",
+    "Skill 2": "First Aid [+2]",
+    "Skill 3": "Surgery [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Cheoyoung-mu Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 40,
+    "Skill 1": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Chocolate Cake Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Cooking [+3]",
+    "Skill 2": "Handicrafts [+1]",
+    "Skill 3": "Sewing [+1]",
+    "Effect 1": "Enhance Aides' growth [10]"
+  },
+  {
+    "Item Name": "Conqueror of the Ages Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 8,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Caution [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Consultant's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Body Language [+3]",
+    "Skill 3": "Sociability [+3]"
+  },
+  {
+    "Item Name": "Corinthian Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Corinthian Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Corinthian Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Surgery [+1]"
+  },
+  {
+    "Item Name": "Court Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+3]"
+  },
+  {
+    "Item Name": "Court Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Sociability [+2]",
+    "Skill 3": "Metal Trading [+1]"
+  },
+  {
+    "Item Name": "Cretan Headdress",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Caution [+1]"
+  },
+  {
+    "Item Name": "Crown of Grapes",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 10,
+    "Skill 1": "Art Trading [+3]",
+    "Skill 2": "Metal Trading [+2]",
+    "Skill 3": "Alcohol Trading [+2]",
+    "Effect 1": "Increase trade goods purchase [5]"
+  },
+  {
+    "Item Name": "Crown of Sacred Tree",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Biology [+1]",
+    "Skill 3": "Sniping [+1]"
+  },
+  {
+    "Item Name": "Crystal-plated Crown",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Search [+3]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Art [+2]"
+  },
+  {
+    "Item Name": "Dance Company Headdress",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Dark Chocolate Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Perfume Trading [+2]",
+    "Skill 2": "Spice Trading [+2]",
+    "Skill 3": "Jewellry Trading [+1]"
+  },
+  {
+    "Item Name": "Dark Pumpkin Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Body Language [+2]",
+    "Skill 2": "Marching [+1]",
+    "Skill 3": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Decorated Summer City Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Search [+1]",
+    "Skill 2": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Dueler's Hood",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Guard [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Dutch Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Dutch Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Elector's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Accounts [+1]"
+  },
+  {
+    "Item Name": "Elegant Hood",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Jewellry Trading [+1]"
+  },
+  {
+    "Item Name": "Emigrant Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Wares Trading [+2]",
+    "Skill 2": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "Empire Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]"
+  },
+  {
+    "Item Name": "Engineer Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Mineral Trading [+1]",
+    "Skill 2": "Firearms Trading [+1]",
+    "Skill 3": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "English Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Sail Handling [+3]",
+    "Skill 3": "Navigation [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "English Hood",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "English Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Erudite Coronet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]"
+  },
+  {
+    "Item Name": "Erudite Hat",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]"
+  },
+  {
+    "Item Name": "Explorer's Expedition Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 5,
+    "Skill 1": "Fishing [+3]",
+    "Skill 2": "Collection [+3]",
+    "Skill 3": "Search [+3]",
+    "Effect 1": "Enhance Aides' growth [15]"
+  },
+  {
+    "Item Name": "Fafnir Circlet",
+    "Gender": "F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Fafnir Helm",
+    "Gender": "M",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Fairy King's Crown",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Arms [+2]",
+    "Skill 2": "Accuracy [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Famous General's Corinthian Helmet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 50,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Merchandise Knowledge [+1]"
+  },
+  {
+    "Item Name": "Fantasista Hat",
+    "Gender": "M",
+    "Attack": 10,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Arms [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Steering [+2]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Feathered Bonnet",
+    "Gender": "F",
+    "Attack": 8,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+1]"
+  },
+  {
+    "Item Name": "Feathered Headband",
+    "Gender": "M",
+    "Attack": 8,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+1]"
+  },
+  {
+    "Item Name": "Festival Headband",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Festival Headband",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Effect 1": "Less Stamina Loss in Dungeon [2]"
+  },
+  {
+    "Item Name": "Festival Headband",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Festival Headband",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Effect 1": "Less Stamina Loss in Dungeon [2]"
+  },
+  {
+    "Item Name": "Fidelity Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+2]",
+    "Skill 2": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "Flower Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Appraisal [+1]",
+    "Effect 1": "Increase Relic Clue acquisition [3]"
+  },
+  {
+    "Item Name": "Flower Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Appraisal [+1]"
+  },
+  {
+    "Item Name": "Flower Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 5,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Ecological Research [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Flower Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Flower Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Medicine Trading [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Fortune's Finery Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Wares Trading [+2]",
+    "Skill 2": "Accounts [+1]"
+  },
+  {
+    "Item Name": "French Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Reloading [+2]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Navigation [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "French Hood",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Fabric Trading [+1]"
+  },
+  {
+    "Item Name": "French Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Gardener's Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 35,
+    "Disguise": 10,
+    "Skill 1": "Theology [+3]",
+    "Skill 2": "Archaeology [+3]",
+    "Skill 3": "Unlock [+3]",
+    "Effect 1": "Increase skill effect duration [8]"
+  },
+  {
+    "Item Name": "Gemini's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Body Language [+2]",
+    "Skill 2": "Sociability [+2]",
+    "Skill 3": "Accounts [+1]",
+    "Effect 1": "Enhance Aides' growth [6]"
+  },
+  {
+    "Item Name": "Gentleman Thief Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Arms [+2]",
+    "Skill 3": "Gunnery [+1]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Geographer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Geography [+1]"
+  },
+  {
+    "Item Name": "Geologist's Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Penetration [+3]",
+    "Skill 3": "Ballistics [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Gold Hyottoko Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 25,
+    "Skill 1": "Wining and Dining [+2]",
+    "Skill 2": "Persuasion [+1]",
+    "Skill 3": "Body Language [+2]"
+  },
+  {
+    "Item Name": "Great Pirate's Turban",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Guard [+2]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Green Silk Turban",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Green Silk Turban - Special",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Grenadier Headdress",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+2]",
+    "Skill 2": "Mine Laying [+1]"
+  },
+  {
+    "Item Name": "Grenadier Headdress",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+2]",
+    "Skill 2": "Tactics [+2]"
+  },
+  {
+    "Item Name": "Grenadier Headdress",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Mine Laying [+2]",
+    "Skill 2": "Ballistics [+1]",
+    "Skill 3": "Reloading [+1]"
+  },
+  {
+    "Item Name": "Guard Hat",
+    "Gender": "M / F",
+    "Attack": 23,
+    "Defense": 17,
+    "Disguise": 0,
+    "Skill 1": "Arms [+2]",
+    "Skill 2": "Bow Attack [+2]",
+    "Skill 3": "Sniping [+2]",
+    "Effect 1": "Reduce Vigour consumption [6]"
+  },
+  {
+    "Item Name": "Hakama Hat",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Arms [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Hakama Hat",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+3]",
+    "Skill 2": "Arms [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Haseki Circlet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Caution [+1]",
+    "Skill 3": "Art Trading [+1]"
+  },
+  {
+    "Item Name": "Hayreddin's Turban",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Tactics [+2]",
+    "Skill 2": "Reloading [+1]",
+    "Skill 3": "Penetration [+1]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Head Ornament of Alsace",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Head Ornament of Alsace",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sundries Trading [+1]"
+  },
+  {
+    "Item Name": "Helm with Golden Feather",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 13,
+    "Disguise": 10,
+    "Skill 1": "Metal Trading [+2]",
+    "Skill 2": "Art [+1]",
+    "Skill 3": "Alchemy [+1]"
+  },
+  {
+    "Item Name": "Helmet of Courage",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 90,
+    "Disguise": 30,
+    "Skill 1": "Evasion [+3]",
+    "Skill 2": "Guard [+3]",
+    "Skill 3": "Rowing [+3]",
+    "Effect 1": "Increase special shot effects [8]"
+  },
+  {
+    "Item Name": "Henry VIII's Helm",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 30,
+    "Disguise": 40,
+    "Skill 1": "Assault [+3]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "High Crown Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 9,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+2]",
+    "Skill 2": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Holy Night Hat",
+    "Gender": "M",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Leadership [+3]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Holy Night Mini Hat",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Leadership [+3]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Hyottoko Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 20,
+    "Skill 1": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Hyottoko Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 15,
+    "Skill 1": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Hyottoko Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 20,
+    "Skill 1": "Wining and Dining [+1]",
+    "Skill 2": "Lookout [+1]"
+  },
+  {
+    "Item Name": "Ichi-no-Tani Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Guard [+1]"
+  },
+  {
+    "Item Name": "Immortal Pirate's Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Steering [+1]",
+    "Skill 3": "Aboardage [+1]"
+  },
+  {
+    "Item Name": "Improved Bunny Ear Headband",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Steering [+3]",
+    "Skill 3": "Mine Detection [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Improved Fantasista Hat",
+    "Gender": "M",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Penetration [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Improved Gentleman Thief Mask",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 25,
+    "Disguise": 10,
+    "Skill 1": "Recognition [+3]",
+    "Skill 2": "Search [+2]",
+    "Skill 3": "Trap [+2]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Improved Lord Helm",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Shipbuilding [+2]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Sundries Trading [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Improved Shaman's Mask",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Sewing [+3]",
+    "Skill 2": "Storage [+3]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Improved Steam Engineer's Hat",
+    "Gender": "M",
+    "Attack": 23,
+    "Defense": 55,
+    "Disguise": 20,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Improved Steam Engineer's Hat",
+    "Gender": "F",
+    "Attack": 23,
+    "Defense": 55,
+    "Disguise": 20,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Improved Theater Star Hat",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Penetration [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Improved Voyager Beret",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Rowing [+3]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase plunder rates [10]"
+  },
+  {
+    "Item Name": "Improved Wolf-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 7,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Iron Helmet of Martial Artist",
+    "Gender": "M / F",
+    "Attack": 2,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]"
+  },
+  {
+    "Item Name": "Italian Cavalry Helmet",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Penetration [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Gunnery [+2]",
+    "Effect 1": "Focus (Loading) [7]"
+  },
+  {
+    "Item Name": "Jade Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Cooking [+1]"
+  },
+  {
+    "Item Name": "Jade Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Mineral Trading [+1]",
+    "Skill 2": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Jaguar Warrior Helmet",
+    "Gender": "M / F",
+    "Attack": 18,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Jaguar Warrior Helmet",
+    "Gender": "M / F",
+    "Attack": 18,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Survival [+1]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "Japanese Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 17,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Jariah Circlet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Caution [+1]"
+  },
+  {
+    "Item Name": "Jariah Circlet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Frugality [+1]",
+    "Skill 2": "Jewellry Trading [+1]"
+  },
+  {
+    "Item Name": "Kapotine Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0,
+    "Skill 1": "Arms [+1]"
+  },
+  {
+    "Item Name": "Kettle Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 7,
+    "Disguise": 3,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "First Aid [+1]"
+  },
+  {
+    "Item Name": "King Lanling Mask",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 30,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "King Lanling Mask",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Leadership [+1]",
+    "Skill 2": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "King Lanling Mask",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Leadership [+1]",
+    "Skill 2": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "King Lanling Mask - Special",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "King's Feather Crown",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Art [+1]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "King's Feather Crown EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Art [+1]",
+    "Skill 3": "Persuasion [+1]",
+    "Effect 1": "Age Effect (Mythical Era) [1]"
+  },
+  {
+    "Item Name": "Krampus' Hood",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Rowing [+1]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Laurel Crown of Prayers",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Management Technique [+2]",
+    "Skill 3": "Caution [+1]",
+    "Effect 1": "Lower the risk of disasters [8]"
+  },
+  {
+    "Item Name": "Laurel Wreath",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Skill 2": "Textile Trading [+2]",
+    "Skill 3": "Fabric Trading [+2]"
+  },
+  {
+    "Item Name": "Legend Seeker's Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 25,
+    "Disguise": 10,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Legendary Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 40,
+    "Disguise": 5,
+    "Skill 1": "Repair [+2]",
+    "Skill 2": "Surgery [+2]",
+    "Skill 3": "Ballistics [+2]",
+    "Effect 1": "Improve Anchoring Skills [15]"
+  },
+  {
+    "Item Name": "Leo's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Biology [+1]",
+    "Skill 2": "Recognition [+2]",
+    "Skill 3": "Ecological Research [+2]",
+    "Effect 1": "Reduce incidence of attacks [3]"
+  },
+  {
+    "Item Name": "Libra's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Accounts [+2]",
+    "Skill 3": "Storage [+1]",
+    "Effect 1": "Increase skill effect duration [7]"
+  },
+  {
+    "Item Name": "Lord Helm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Maius Crown",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Crafts Trading [+2]",
+    "Skill 3": "Dye Trading [+2]",
+    "Effect 1": "Reduce incidence of attacks [5]"
+  },
+  {
+    "Item Name": "Maius Crown",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Procurement [+2]",
+    "Skill 3": "Provisions [+2]"
+  },
+  {
+    "Item Name": "Maius Hat",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Crafts Trading [+2]",
+    "Skill 3": "Dye Trading [+2]",
+    "Effect 1": "Reduce incidence of attacks [5]"
+  },
+  {
+    "Item Name": "Maius Hat",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Procurement [+2]",
+    "Skill 3": "Provisions [+2]"
+  },
+  {
+    "Item Name": "Master's Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Linguistics [+1]",
+    "Skill 2": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Memory Traverser's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Skill 3": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Mentor's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]",
+    "Skill 2": "Biology [+1]"
+  },
+  {
+    "Item Name": "Mini Silk Hat",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Mini Silk Hat",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Mini Silk Hat",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Handicrafts [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Nautical Association Cap",
+    "Gender": "M",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Nautical Association Cap",
+    "Gender": "F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Noble Hood",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Appraisal [+1]"
+  },
+  {
+    "Item Name": "Noblewoman's Tropical Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Art [+1]"
+  },
+  {
+    "Item Name": "Occultism Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 15,
+    "Skill 1": "Alchemy [+1]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Handicrafts [+1]",
+    "Effect 1": "Enhance Aides' growth [10]"
+  },
+  {
+    "Item Name": "Oceanographer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Biology [+1]",
+    "Skill 2": "Geography [+1]"
+  },
+  {
+    "Item Name": "Odalisque Circlet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 13,
+    "Disguise": 25,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Olympia's Olive Crown",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Swordplay [+1]",
+    "Effect 1": "Reduce incidence of attacks [4]"
+  },
+  {
+    "Item Name": "Open Crown",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+3]"
+  },
+  {
+    "Item Name": "Ottoman Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 15,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Steering [+3]",
+    "Effect 1": "Melee Tactics [12]"
+  },
+  {
+    "Item Name": "Ottoman Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Panda Hat",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 15,
+    "Skill 1": "Management Technique [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Sail Handling [+2]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Patrol Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+1]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Peppermint Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 5,
+    "Skill 1": "Perfume Trading [+1]",
+    "Skill 2": "Art [+1]"
+  },
+  {
+    "Item Name": "Philosopher's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+1]",
+    "Skill 2": "Jewellry Trading [+2]"
+  },
+  {
+    "Item Name": "Pirate Crown",
+    "Gender": "M / F",
+    "Attack": 16,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Plague Doctor Mask",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 50,
+    "Disguise": 20,
+    "Skill 1": "First Aid [+3]",
+    "Skill 2": "Surgery [+3]",
+    "Skill 3": "Leadership [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Polar Bear Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 15,
+    "Skill 1": "Collection [+2]",
+    "Skill 2": "Procurement [+1]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Portuguese Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Sail Handling [+3]",
+    "Skill 3": "Navigation [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Portuguese Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Prairie Resident Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "Prester John's Helmet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Seasoning Trading [+1]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Prestigious Hood",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 0,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Livestock Trading [+1]"
+  },
+  {
+    "Item Name": "Privileged Uniform Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 10,
+    "Effect 1": "Enhance character growth [1]"
+  },
+  {
+    "Item Name": "Rabbit-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 10
+  },
+  {
+    "Item Name": "Rabbit-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 15,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Frugality [+1]",
+    "Skill 3": "Mine Laying [+1]",
+    "Effect 1": "Reduce Vigour consumption [1]"
+  },
+  {
+    "Item Name": "Rabbit-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 10,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Frugality [+1]",
+    "Skill 3": "Mine Laying [+1]"
+  },
+  {
+    "Item Name": "Rabbit-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Caution [+1]",
+    "Skill 2": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Rabbit-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 10,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Redbeard's Turban",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Assault [+2]",
+    "Skill 2": "Gunfire [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "Regulation Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 10
+  },
+  {
+    "Item Name": "Reindeer Headband",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10
+  },
+  {
+    "Item Name": "Reindeer Headband",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Marching [+1]",
+    "Skill 2": "Collection [+1]"
+  },
+  {
+    "Item Name": "Renowned Hood",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Accuracy [+3]",
+    "Skill 3": "Penetration [+3]",
+    "Effect 1": "Increase special shot effects [8]"
+  },
+  {
+    "Item Name": "Ribbon Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sewing [+2]",
+    "Skill 2": "Textile Trading [+2]",
+    "Skill 3": "Fabric Trading [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Rose Gold Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Round Beret",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+1]",
+    "Skill 2": "Theology [+1]"
+  },
+  {
+    "Item Name": "Ruffian's Hat",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 25,
+    "Disguise": 5,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Ruin Explorer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Search [+1]"
+  },
+  {
+    "Item Name": "Ruler of the Ages Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Metal Trading [+2]",
+    "Skill 3": "Management Technique [+1]"
+  },
+  {
+    "Item Name": "Russian Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+1]",
+    "Skill 2": "Mineral Trading [+1]"
+  },
+  {
+    "Item Name": "Samurai Lord's Iron Kabuto",
+    "Gender": "M",
+    "Attack": 20,
+    "Defense": 40,
+    "Disguise": 25,
+    "Skill 1": "Arms [+3]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Steering [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Santa Claus Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Provisions [+1]"
+  },
+  {
+    "Item Name": "Scalawag Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 8,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Caution [+1]"
+  },
+  {
+    "Item Name": "Scalawag Hat",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 8,
+    "Skill 1": "Ballistics [+2]",
+    "Skill 2": "Steering [+1]"
+  },
+  {
+    "Item Name": "Scalawag Hat",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 8,
+    "Skill 1": "Penetration [+1]",
+    "Skill 2": "Steering [+1]"
+  },
+  {
+    "Item Name": "Science Hat",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Ecological Research [+3]",
+    "Skill 2": "Recognition [+2]",
+    "Skill 3": "Search [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Sea Dragon's Circlet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Improve Anchoring Skills [15]"
+  },
+  {
+    "Item Name": "Sea Dragon's Circlet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Steering [+1]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Prevent Phantom Fire & Flood [1]"
+  },
+  {
+    "Item Name": "Sea Dragon's Circlet",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Rowing [+1]",
+    "Effect 1": "Increase Mine Damage [10]"
+  },
+  {
+    "Item Name": "Sea Dragon's Circlet",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Improve Anchoring Skills [10]"
+  },
+  {
+    "Item Name": "Sea Monster's Hood",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Steering [+1]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Increase sailing speed [4]"
+  },
+  {
+    "Item Name": "Sea Monster's Hood",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Steering [+1]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Improve Anchoring Skills [10]"
+  },
+  {
+    "Item Name": "Sea Monster's Hood",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Steering [+1]",
+    "Skill 2": "Rowing [+2]",
+    "Effect 1": "Prevent Phantom Fire & Flood [1]"
+  },
+  {
+    "Item Name": "Shaman's Mask",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Skill 3": "Arms [+1]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Sheep-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Collection [+3]",
+    "Skill 2": "Biology [+2]",
+    "Skill 3": "Ecological Research [+2]",
+    "Effect 1": "Enhance Aides' growth [8]"
+  },
+  {
+    "Item Name": "Sheriff's Hat",
+    "Gender": "M / F",
+    "Attack": 12,
+    "Defense": 45,
+    "Disguise": 15,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Guard [+2]",
+    "Skill 3": "Sniping [+1]"
+  },
+  {
+    "Item Name": "Silk Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Silk Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Sky Crown EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Throwing [+1]",
+    "Effect 1": "Increase Melee Capabilities [3]"
+  },
+  {
+    "Item Name": "Sorcerer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 15,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Spanish Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Reloading [+2]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Navigation [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Spanish Naval Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Special King Lanling Mask",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 50,
+    "Disguise": 30,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Spider Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Biology [+3]",
+    "Skill 2": "Ecological Research [+2]",
+    "Effect 1": "Increase Nanban trade rates [13]"
+  },
+  {
+    "Item Name": "Spirit Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 5,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Spirit's Black Helm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 15,
+    "Skill 1": "Guard [+1]",
+    "Skill 2": "Steering [+1]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Squash Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+2]"
+  },
+  {
+    "Item Name": "St. Patrick's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Alcohol Trading [+1]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "St. Patrick's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Effect 1": "Increase trade goods purchase [2]"
+  },
+  {
+    "Item Name": "Steam Engineer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Weapons Trading [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Steam Engineer's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Weapons Trading [+2]",
+    "Skill 2": "Storage [+2]",
+    "Effect 1": "Enhance Aides' growth [3]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+1]",
+    "Skill 2": "Procurement [+1]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Collection [+2]",
+    "Skill 2": "Procurement [+1]",
+    "Skill 3": "Livestock Trading [+2]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 17,
+    "Disguise": 0,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Trap [+1]",
+    "Skill 3": "Textile Trading [+2]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Caution [+2]",
+    "Skill 2": "Fabric Trading [+2]",
+    "Skill 3": "Steering [+1]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Throwing [+1]",
+    "Skill 3": "Textile Trading [+2]"
+  },
+  {
+    "Item Name": "Straw Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Frugality [+2]",
+    "Skill 3": "Storage [+1]"
+  },
+  {
+    "Item Name": "Summer Sailor Cap",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+2]",
+    "Skill 2": "Navigation [+2]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Sun Wukong's Headband",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Tactics [+2]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Superior Berserk's Headgear",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 25,
+    "Disguise": 20,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Sniping [+2]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Superior Brave Circlet",
+    "Gender": "F",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Evasion [+3]",
+    "Skill 2": "Guard [+3]",
+    "Skill 3": "Rowing [+3]",
+    "Effect 1": "Increase special shot effects [8]"
+  },
+  {
+    "Item Name": "Superior Brave Helm",
+    "Gender": "M",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Evasion [+3]",
+    "Skill 2": "Guard [+3]",
+    "Skill 3": "Rowing [+3]",
+    "Effect 1": "Increase special shot effects [8]"
+  },
+  {
+    "Item Name": "Superior British Private Detective's Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+3]",
+    "Skill 2": "Art [+3]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Superior British Private Detective's Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Handicrafts [+3]",
+    "Skill 2": "Food Trading [+4]",
+    "Skill 3": "Luxuries Trading [+4]",
+    "Effect 1": "Reduce incidence of attacks [6]"
+  },
+  {
+    "Item Name": "Superior Bunny Ear Headband",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Evasion [+3]",
+    "Skill 2": "Guard [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase skill effect duration [8]"
+  },
+  {
+    "Item Name": "Superior Cat Hood",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Fishing [+3]",
+    "Skill 2": "Recognition [+3]",
+    "Skill 3": "Trap [+1]",
+    "Effect 1": "Reduce Vigour consumption [6]"
+  },
+  {
+    "Item Name": "Superior Deep Crimson Crown",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Mineral Trading [+4]",
+    "Skill 2": "Jewellry Trading [+4]",
+    "Skill 3": "Wares Trading [+2]",
+    "Effect 1": "Increase Nanban trade rates [16]"
+  },
+  {
+    "Item Name": "Superior Explorer's Expedition Hat",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Assault [+3]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Guard [+3]",
+    "Effect 1": "Reduce Vigour consumption [8]"
+  },
+  {
+    "Item Name": "Superior Fantasista Hat",
+    "Gender": "M",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Assault [+3]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Superior Flower Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Art Trading [+4]",
+    "Skill 2": "Sundries Trading [+4]",
+    "Effect 1": "Increase Nanban trade rates [16]"
+  },
+  {
+    "Item Name": "Superior Fortune's Finery Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Sewing [+3]",
+    "Skill 2": "Wares Trading [+4]",
+    "Skill 3": "Jewellry Trading [+4]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Superior Gentleman Thief Mask",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 35,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Gunfire [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase Melee Capabilities [7]"
+  },
+  {
+    "Item Name": "Superior Guard Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Arms [+3]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Repair [+2]",
+    "Effect 1": "Increase skill effect duration [6]"
+  },
+  {
+    "Item Name": "Superior Krampus' Hood",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Guard [+2]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Superior Lord Helm",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Tactics [+1]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Superior Maius Crown",
+    "Gender": "F",
+    "Attack": 20,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Navigation [+3]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Superior Maius Hat",
+    "Gender": "M",
+    "Attack": 20,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Navigation [+3]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Superior Nautical Association Cap",
+    "Gender": "M",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase plunder rates [12]"
+  },
+  {
+    "Item Name": "Superior Nautical Association Cap",
+    "Gender": "F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase plunder rates [12]"
+  },
+  {
+    "Item Name": "Superior Pirate Crown",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 105,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+3]",
+    "Skill 2": "Accuracy [+3]",
+    "Skill 3": "Reloading [+3]",
+    "Effect 1": "Increase sailing speed [9]"
+  },
+  {
+    "Item Name": "Superior Ribbon Straw Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 15,
+    "Skill 1": "Repair [+3]",
+    "Skill 2": "Rowing [+3]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Increase skill effect duration [8]"
+  },
+  {
+    "Item Name": "Superior Sea Dragon's Circlet",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 90,
+    "Disguise": 15,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Guard [+3]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Superior Shaman's Mask",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Wares Trading [+3]",
+    "Skill 3": "Crafts Trading [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Superior Sheep-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Collection [+3]",
+    "Skill 2": "Ecological Research [+3]",
+    "Skill 3": "Biology [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Superior Steam Engineer's Hat",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Sniping [+2]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Superior Summer Sailor Cap",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 15,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Ballistics [+2]",
+    "Skill 3": "Accuracy [+2]",
+    "Effect 1": "Increase skill effect duration [6]"
+  },
+  {
+    "Item Name": "Superior Sun Wukong's Headband",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Sniping [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Trap [+2]",
+    "Effect 1": "Less Stamina Loss in Dungeon [16]"
+  },
+  {
+    "Item Name": "Superior Theater Star Hat",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Assault [+3]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Gunfire [+2]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Superior Western Hat",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Food Trading [+4]",
+    "Skill 2": "Spice Trading [+4]",
+    "Skill 3": "Perfume Trading [+2]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Superior Wolf-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Leadership [+2]",
+    "Skill 3": "Tactics [+2]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Swedish Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Steering [+3]",
+    "Effect 1": "Melee Tactics [12]"
+  },
+  {
+    "Item Name": "Taurus' Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Food Trading [+2]",
+    "Skill 2": "Seasoning Trading [+1]",
+    "Skill 3": "Livestock Trading [+1]",
+    "Effect 1": "Reduce supply consumption [4]"
+  },
+  {
+    "Item Name": "Ten Gallon Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Livestock Trading [+3]"
+  },
+  {
+    "Item Name": "Ten Gallon Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+1]",
+    "Skill 2": "Livestock Trading [+2]"
+  },
+  {
+    "Item Name": "Ten Gallon Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+1]",
+    "Skill 2": "Livestock Trading [+1]"
+  },
+  {
+    "Item Name": "Ten Gallon Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+1]",
+    "Skill 3": "Livestock Trading [+2]"
+  },
+  {
+    "Item Name": "Teutonic Helm",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Sword Mastery [+1]",
+    "Effect 1": "Age Effect (14th century) [1]"
+  },
+  {
+    "Item Name": "Teutonic Helm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Teutonic Helm",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Teutonic Helm",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 35,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Assault [+2]"
+  },
+  {
+    "Item Name": "Theater Star Hat",
+    "Gender": "F",
+    "Attack": 10,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Arms [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Steering [+2]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Traditional Greek Hat",
+    "Gender": "M",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 10,
+    "Skill 1": "Repair [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Surgery [+3]",
+    "Effect 1": "Increase skill effect duration [7]"
+  },
+  {
+    "Item Name": "Traditional Greek Hat",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 10,
+    "Skill 1": "Repair [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Surgery [+3]",
+    "Effect 1": "Increase skill effect duration [7]"
+  },
+  {
+    "Item Name": "Trendsetter's Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Skill 2": "Art Trading [+1]"
+  },
+  {
+    "Item Name": "Turnip Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Turnip Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Frugality [+2]",
+    "Skill 3": "Food Trading [+1]"
+  },
+  {
+    "Item Name": "Turnip Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Luxuries Trading [+2]",
+    "Skill 3": "Food Trading [+2]",
+    "Effect 1": "Reduce incidence of attacks [5]"
+  },
+  {
+    "Item Name": "Tutankhamen's Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Ultimate Cat Hood",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Reloading [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Ultimate Hakama Hat",
+    "Gender": "M",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Repair [+3]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Ultimate Krampus' Hood",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Navigation [+3]",
+    "Skill 2": "Repair [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Ultimate Lord Helm",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 40,
+    "Disguise": 15,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Navigation [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Ultimate Maius Crown",
+    "Gender": "F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+3]",
+    "Skill 2": "Medicine Trading [+3]",
+    "Skill 3": "Wares Trading [+3]",
+    "Effect 1": "Increase trade goods purchase [10]"
+  },
+  {
+    "Item Name": "Ultimate Maius Hat",
+    "Gender": "M",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+3]",
+    "Skill 2": "Medicine Trading [+3]",
+    "Skill 3": "Wares Trading [+3]",
+    "Effect 1": "Increase trade goods purchase [10]"
+  },
+  {
+    "Item Name": "Ultimate Summer Sailor Cap",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 35,
+    "Disguise": 10,
+    "Skill 1": "Management Technique [+3]",
+    "Skill 2": "Crafts Trading [+3]",
+    "Skill 3": "Handicrafts [+2]",
+    "Effect 1": "Increase Nanban trade rates [16]"
+  },
+  {
+    "Item Name": "Ultimate Sun Wukong's Headband",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Trap [+3]",
+    "Skill 2": "Swordplay [+3]",
+    "Skill 3": "Sniping [+3]",
+    "Effect 1": "Increase skill effect duration [6]"
+  },
+  {
+    "Item Name": "Ultimate Wolf-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Biology [+3]",
+    "Skill 2": "Collection [+3]",
+    "Skill 3": "Astronomy [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Venetian Command Hat",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Ballistics [+3]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Venetian Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 15,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Art Trading [+2]"
+  },
+  {
+    "Item Name": "Venetian Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Venetian Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 15,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Alchemy [+1]",
+    "Skill 3": "Metal Trading [+2]"
+  },
+  {
+    "Item Name": "Venetian Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Art [+1]"
+  },
+  {
+    "Item Name": "Venetian Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 15,
+    "Skill 1": "Fabric Trading [+2]",
+    "Skill 2": "Sewing [+2]"
+  },
+  {
+    "Item Name": "Venetian Navy Officer Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Vermillion Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Unlock [+1]",
+    "Skill 2": "Perfume Trading [+1]",
+    "Skill 3": "Repair [+1]"
+  },
+  {
+    "Item Name": "Vigilante Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Throwing [+1]"
+  },
+  {
+    "Item Name": "Virgo's Headgear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Astronomy [+1]",
+    "Skill 2": "Recognition [+2]",
+    "Skill 3": "Trap [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Voyager Beret",
+    "Gender": "M / F",
+    "Attack": 25,
+    "Defense": 40,
+    "Disguise": 20,
+    "Skill 1": "Arms [+3]",
+    "Skill 2": "Steering [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Voyager's Hat",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 85,
+    "Disguise": 30,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Detonics [+2]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Wanderer of the Ages Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Search [+2]",
+    "Skill 3": "Navigation [+1]"
+  },
+  {
+    "Item Name": "War Bonnet",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Western Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Gunfire [+1]"
+  },
+  {
+    "Item Name": "Western Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Alcohol Trading [+2]",
+    "Skill 2": "Sniping [+2]"
+  },
+  {
+    "Item Name": "Western Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Livestock Trading [+2]",
+    "Skill 2": "Gunfire [+2]",
+    "Skill 3": "Collection [+2]"
+  },
+  {
+    "Item Name": "White Plague Doctor Mask",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 30,
+    "Disguise": 20,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Repair [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Wizard Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]"
+  },
+  {
+    "Item Name": "Wizard Hat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 5,
+    "Skill 1": "Theology [+2]"
+  },
+  {
+    "Item Name": "Wolf-shaped Head Ornament",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 30,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Leadership [+1]",
+    "Skill 3": "Tactics [+2]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Xiao Qiao's Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Art Trading [+1]"
+  },
+  {
+    "Item Name": "Xiao Qiao's Headdress",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 5,
+    "Skill 1": "Art Trading [+1]"
+  },
+  {
+    "Item Name": "Xipe Totec's Mask",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Wining and Dining [+1]"
+  },
+  {
+    "Item Name": "Yang Guifei Crown",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Yang Guifei Crown - Special",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 2,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Yeniceri Elite Headgear",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 13,
+    "Disguise": 25,
+    "Skill 1": "Gunfire [+1]",
+    "Skill 2": "Survival [+1]"
+  },
+  {
+    "Item Name": "Yeniceri Headgear",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Survival [+1]",
+    "Skill 2": "Marching [+1]"
+  },
+  {
+    "Item Name": "Prince of Navigation's Monocle",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Geography [+2]",
+    "Skill 3": "Recognition [+2]",
+    "Effect 1": "Surveying [1]"
+  },
+  {
+    "Item Name": "Superior Monocle",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Fabric Trading [+4]",
+    "Skill 3": "Textile Trading [+4]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  }
+]

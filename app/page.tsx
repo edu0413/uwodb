@@ -13,6 +13,7 @@ import {
   Trophy,
   Medal,
   ChevronRight,
+  WavesIcon,
 } from "lucide-react";
 
 /* ===================== Types ===================== */
@@ -456,12 +457,12 @@ export default function Home() {
                     href="/db/sailor_equipment"
                     title="Sailor Equipment"
                     descr="Stats, skills & more"
-                    Icon={ShipIcon}
+                    Icon={WavesIcon}
                   />
                   <CTA
-                    href="/db/skills"
-                    title="Ship Skills"
-                    descr="Original • Optional • Rebuild"
+                    href="/db/equipment"
+                    title="Player Equipment"
+                    descr="Filter and build the best set"
                     Icon={ScrollText}
                   />
                 </div>
@@ -496,10 +497,9 @@ export default function Home() {
 
         {/* Mini Dashboard */}
         <section className="mx-auto max-w-5xl">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <StatCard label="Ships" value={fmt(ships.count)} sub={`Updated: ${formatDate(ships.updatedAt)}`} Icon={ShipIcon} />
             <StatCard label="Ship Skills" value={fmt(skills.count)} sub={`Updated: ${formatDate(skills.updatedAt)}`} Icon={ScrollText} />
-            <StatCard label="Railway Companies" value={fmt(rails.count)} sub={`Updated: ${formatDate(rails.updatedAt)}`} Icon={TrainFront} />
           </div>
         </section>
 
