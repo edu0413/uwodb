@@ -500,12 +500,16 @@ export default function Home() {
               transition={{ duration: 0.45, delay: 0.05 }}
               className="mt-3 text-stone-700"
             >
-              A unified knowledge hub for <em>Uncharted Waters Online</em>. Currently in <strong>testing</strong>.
+              A unified knowledge hub for <em>Uncharted Waters Online</em>. Currently in <strong>testing</strong>.<br/><br/>
+              This page was made with the sole purpose of aiding new, old or returning players.<br/>
+              You deserve to have a secure and pop-up free experience whenever you need to search for UWO info.<br/><br/>
+              All the data and guides present here are taken not only from our own knowledge but also from other pages which are duly credited on the footer.
             </motion.p>
 
             {/* Quick Explore */}
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
               <CTA href="/db/ships" title="Explore Ships" descr="Stats, capacity, skills & more" Icon={Ship} />
+              <CTA href="/db/sailor_equipment" title="Explore Sailor Equipment" descr="Stats, skills & more" Icon={Ship} />
               <CTA href="/db/railways" title="Railways & Investment" descr="Threshold effects & fares" Icon={TrainFront} />
               <CTA href="/db/skills" title="Ship Skills" descr="Original • Optional • Rebuild" Icon={ScrollText} />
             </div>

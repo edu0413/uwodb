@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2025-09-24",
+  "updatedAt": "2025-10-08",
   "nations": [
     {
-      "name": "Ottoman Empire",
-      "value": 412133,
-      "changePct": 22.2
+      "name": "France",
+      "value": 375394,
+      "changePct": 21.3
     },
     {
       "name": "Spain",
-      "value": 390978,
-      "changePct": 22.2
+      "value": 375346,
+      "changePct": -21.3
     },
     {
-      "name": "France",
-      "value": 230448,
-      "changePct": -13.1
-    },
-    {
-      "name": "Venice",
-      "value": 199353,
-      "changePct": -11.3
+      "name": "Ottoman Empire",
+      "value": 326750,
+      "changePct": -18.5
     },
     {
       "name": "Portugal",
-      "value": 185986,
-      "changePct": 10.6
+      "value": 202461,
+      "changePct": 11.5
+    },
+    {
+      "name": "Venice",
+      "value": 170535,
+      "changePct": -9.7
     },
     {
       "name": "England",
-      "value": 175424,
-      "changePct": -10.0
+      "value": 161762,
+      "changePct": -9.2
     },
     {
       "name": "Netherlands",
-      "value": 163034,
-      "changePct": 9.3
+      "value": 150975,
+      "changePct": -8.6
     }
   ]
 }

@@ -48,13 +48,13 @@ function useSeason(now: Date) {
 
   // ---- Config ----
   const WINTER_HOURS = 9;
-  const SUMMER_HOURS = 11;
+  const SUMMER_HOURS = 9;
 
   // Absolute anchor (PDT calendar): 2025-10-04 18:30 = Winter start
   const ANCHOR_Y = 2025;
   const ANCHOR_M = 10; // 1..12 (October)
-  const ANCHOR_D = 4;
-  const ANCHOR_MIN_OF_DAY = 18 * 60 + 30; // 18:30
+  const ANCHOR_D = 9;
+  const ANCHOR_MIN_OF_DAY = 15 * 60 + 30; // 18:30
 
   const WINTER_MIN = WINTER_HOURS * 60;
   const SUMMER_MIN = SUMMER_HOURS * 60;

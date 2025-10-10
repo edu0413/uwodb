@@ -1,0 +1,2262 @@
+[
+  {
+    "name": "Sailor Bandanna",
+    "type": "Adventure",
+    "description": "Bandanna favored by sailors. You can't help but feel the romance of the sea with it.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 4,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailor-bandanna"
+  },
+  {
+    "name": "Deckhand's Mop",
+    "type": "Adventure",
+    "description": "A tool used to clean the deck. When used with a deck brush, it keeps the deck shiny.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": -2,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "deckhands-mop"
+  },
+  {
+    "name": "Sailors' Old Compass",
+    "type": "Adventure",
+    "description": "Compass used for a long time. There are some noticeable damage, but there should be no problem with its accuracy.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 4,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": -3,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailors-old-compass"
+  },
+  {
+    "name": "Spare Sail Arrangement Set",
+    "type": "Adventure",
+    "description": "Tool to arrange spare sails. By keeping good track of it it'll be helpful for when in a pinch.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 80,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "spare-sail-arrangement-set"
+  },
+  {
+    "name": "Dampier's Diary",
+    "type": "Adventure",
+    "description": "Diary of a voyager who sailed around the world 3 times. It also describes the foods served during the travels.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": -3,
+      "Durability": 80,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Catering Master",
+      "description": "When a food item is used, there will be a chance not to consume it."
+    },
+    "slug": "dampiers-diary"
+  },
+  {
+    "name": "Sailors' Goddess Charm",
+    "type": "Adventure",
+    "description": "A charm with the protection from the ancient sea goddess. Will calm down the Crew.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 4,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailors-goddess-charm"
+  },
+  {
+    "name": "Sailors' Ancient Art of Surveying",
+    "type": "Adventure",
+    "description": "A document on old surveying techniques used when building structures.",
+    "stats": {
+      "Vertical Sail": 14,
+      "Horizontal Sail": 2,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailors-ancient-art-of-surveying"
+  },
+  {
+    "name": "Distress Signal Dictionary",
+    "type": "Adventure",
+    "description": "Dictionary with summary of distress signals of each nation. Compiled with the hope of helping voyagers even outside their national borders.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 12,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "High Lookout",
+    "special_effect": {
+      "name": "Search & Rescue",
+      "description": "Receives distress signals from NPCs while sailing."
+    },
+    "slug": "distress-signal-dictionary"
+  },
+  {
+    "name": "Sailors' Large Torch",
+    "type": "Adventure",
+    "description": "A large torch. The flame is easy to see even from a distance. Helps Sailors do their work.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 12,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Stormy Sailing",
+      "description": "In the event of a storm or snowstorm the max speed increases and the Ship will be able to sail normally. Also the Ship won't stop during Auto Navigation."
+    },
+    "slug": "sailors-large-torch"
+  },
+  {
+    "name": "Quartermaster's Earplugs",
+    "type": "Adventure",
+    "description": "Earplugs used to block out ambient sounds and enable Sailors to concentrate on steering operations. It cannot block out the sound of intense bombardment.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": -2,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Emergency Acceleration",
+    "special_effect": {
+      "name": "Turning Technique",
+      "description": "Difficulty in turning while using Emergency Acceleration during non-battle is reduced."
+    },
+    "slug": "quartermasters-earplugs"
+  },
+  {
+    "name": "Wooden Shovel",
+    "type": "Adventure",
+    "description": "An inexpensive wooden shovel. Light and easy to handle, but be careful not to get it too close to the open fire.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 8,
+      "Turning Speed": 2,
+      "Wave Resistance": 2,
+      "Armour": -1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Steam Engine",
+    "special_effect": {
+      "name": "Add Fuel",
+      "description": "Consume coal fuel to enhance the effectiveness of the steam engine. This doesn't apply to Combined Ships."
+    },
+    "slug": "wooden-shovel"
+  },
+  {
+    "name": "Sail Handlers' Gloves",
+    "type": "Adventure",
+    "description": "Gloves favored by sail handlers. Non-slip material is used to make the rope easier to handle.",
+    "stats": {
+      "Vertical Sail": 14,
+      "Horizontal Sail": 14,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sail-handlers-gloves"
+  },
+  {
+    "name": "Quartermaster's Earmuffs",
+    "type": "Adventure",
+    "description": "Earmuffs used to block out ambient sounds and enable Sailors to concentrate on steering operations. Also provides protection against the cold.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 10,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Emergency Acceleration",
+    "special_effect": {
+      "name": "Turning Technique",
+      "description": "Difficulty in turning while using Emergency Acceleration during non-battle is reduced."
+    },
+    "slug": "quartermasters-earmuffs"
+  },
+  {
+    "name": "Bronze Shovel",
+    "type": "Adventure",
+    "description": "Bronze shovel used to carry coal fuel. If Sailors aren't careful enough, the handle might burn.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 8,
+      "Turning Speed": 2,
+      "Wave Resistance": 2,
+      "Armour": -1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Steam Engine",
+    "special_effect": {
+      "name": "Add Fuel",
+      "description": "Consume coal fuel to enhance the effectiveness of the steam engine. This doesn't apply to Combined Ships."
+    },
+    "slug": "bronze-shovel"
+  },
+  {
+    "name": "Iron Shovel",
+    "type": "Adventure",
+    "description": "Iron shovel for transporting coal fuel. It's made with a sturdy material, making it easy to transport fuel.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 10,
+      "Turning Speed": 1,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Steam Engine",
+    "special_effect": {
+      "name": "Add Fuel",
+      "description": "Consume coal fuel to enhance the effectiveness of the steam engine. This doesn't apply to Combined Ships."
+    },
+    "slug": "iron-shovel"
+  },
+  {
+    "name": "Sailors' Small Torch",
+    "type": "Adventure",
+    "description": "A small torch. Even though it's small, its bright light will help sailors.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 5,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Stormy Sailing",
+      "description": "In the event of a storm or snowstorm the max speed increases and the Ship will be able to sail normally. Also the Ship won't stop during Auto Navigation."
+    },
+    "slug": "sailors-small-torch"
+  },
+  {
+    "name": "Small Wooden Shovel",
+    "type": "Adventure",
+    "description": "A small wooden shovel. Sailors will need to make more trips since the amount this shovel carries is small.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 3,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Steam Engine",
+    "special_effect": {
+      "name": "Add Fuel",
+      "description": "Consume coal fuel to enhance the effectiveness of the steam engine. This doesn't apply to Combined Ships."
+    },
+    "slug": "small-wooden-shovel"
+  },
+  {
+    "name": "Fresh Water Instrument",
+    "type": "Adventure",
+    "description": "An instrument to make drinking water. Comes with a powder that makes distilled water easier to drink.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 8,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Distillation",
+      "description": "The amount of water obtained through Procurement increasesand you can use this even without rain."
+    },
+    "slug": "fresh-water-instrument"
+  },
+  {
+    "name": "Advanced Distress Signal Dictionary",
+    "type": "Adventure",
+    "description": "Advanced dictionary with summary of distress signals of each nation. Compiled with the hope of helping voyagers even outside their national borders.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 15,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "High Lookout",
+    "special_effect": {
+      "name": "Search & Rescue",
+      "description": "Receives distress signals from NPCs while sailing."
+    },
+    "slug": "advanced-distress-signal-dictionary"
+  },
+  {
+    "name": "Sailors' Greater Torch",
+    "type": "Adventure",
+    "description": "A massive torch. The flame is easy to see even from a distance. Helps Sailors do their work.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 15,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Stormy Sailing",
+      "description": "In the event of a storm or snowstorm the max speed increases and the Ship will be able to sail normally. Also the Ship won't stop during Auto Navigation."
+    },
+    "slug": "sailors-greater-torch"
+  },
+  {
+    "name": "Advanced Distress Signal Dictionary",
+    "type": "Adventure",
+    "description": "Advanced dictionary with summary of distress signals of each nation. Compiled with the hope of helping voyagers even outside their national borders.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 15,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "High Lookout",
+    "special_effect": {
+      "name": "Search & Rescue",
+      "description": "Receives distress signals from NPCs while sailing."
+    },
+    "slug": "advanced-distress-signal-dictionary"
+  },
+  {
+    "name": "Storage Man's Rigging",
+    "type": "Trade",
+    "description": "A rigging used for storing a lot of cargo. Made from steel.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 6,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "storage-mans-rigging"
+  },
+  {
+    "name": "Storage Man's Inspection Book",
+    "type": "Trade",
+    "description": "A notebook with important contents on facility inspection. It's easy to understand with illustrations.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 8,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": -2,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "storage-mans-inspection-book"
+  },
+  {
+    "name": "Oak Wine Barrel",
+    "type": "Trade",
+    "description": "Useful barrel to not just store alcohol, but also to maintain ship balance being placed under cargo.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 10,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": -3,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "oak-wine-barrel"
+  },
+  {
+    "name": "Storage Man's Techniques Book",
+    "type": "Trade",
+    "description": "Document with information on loading and unloading objects.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 12,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "storage-mans-techniques-book"
+  },
+  {
+    "name": "Sailors' Money Charm",
+    "type": "Trade",
+    "description": "A lucky charm made from ancient money. Will calm down the crew.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 14,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailors-money-charm"
+  },
+  {
+    "name": "Simple Sailors' Calculating Tool",
+    "type": "Trade",
+    "description": "A simple tool for calculating cargo amounts. Can be easily used by Sailors.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 10,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": -2,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "simple-sailors-calculating-tool"
+  },
+  {
+    "name": "Secrets of Craft",
+    "type": "Trade",
+    "description": "A book written about secrets of craft making. It shows how to learn the basics and become a master.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 10,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Workshop",
+    "special_effect": {
+      "name": "Special Goods Production",
+      "description": "Special Goods made through Sewing, Casting or Handicrafts on the sea will be more likely to be high-performing. After Special Goods Production, the Durability of the Sailor Equipment will decrease."
+    },
+    "slug": "secrets-of-craft"
+  },
+  {
+    "name": "Physics Research Note",
+    "type": "Trade",
+    "description": "A study note from one physicist. It looks like their subject of study was on the relationship between loading method and propulsion power.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 14,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Loading Technology",
+      "description": "Reduces the speed decrease from the loading weight of your Cargo."
+    },
+    "slug": "physics-research-note"
+  },
+  {
+    "name": "Camouflage Guide",
+    "type": "Trade",
+    "description": "A book written about methods of deceiving people's eyes. It's rumored that it was written by a well-known magician.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 12,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Camouflaged Hold",
+    "special_effect": {
+      "name": "Camouflage (Hold)",
+      "description": "Makes it easier for enemies to plunder a fake Hold."
+    },
+    "slug": "camouflage-guide"
+  },
+  {
+    "name": "Fancy Perfume for Sailors",
+    "type": "Trade",
+    "description": "Refreshing lime scent that will suit a chic man of the sea. Knowledge on fragrances can also be utilized in cooking.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 12,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Herbalism",
+      "description": "When using Food Items on the sea, its effects are increased and resolve Plague, Insomnia, Anxiety, and Quarrelling."
+    },
+    "slug": "fancy-perfume-for-sailors"
+  },
+  {
+    "name": "Sailors' Wooden Goddess Figurine",
+    "type": "Trade",
+    "description": "A simple wooden statue of a goddess. Sailors find a home in it while it watches over their work on the sea.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 12,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Goddess' Protection",
+      "description": "Receive more protection against disasters from the Figurehead."
+    },
+    "slug": "sailors-wooden-goddess-figurine"
+  },
+  {
+    "name": "Sailors' Bronze Goddess Figurine",
+    "type": "Trade",
+    "description": "A bronze statue of a goddess. Daily care is essential to maintain its beauty.",
+    "stats": {
+      "Vertical Sail": 18,
+      "Horizontal Sail": 3,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 80,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Goddess' Protection",
+      "description": "Receive more protection against disasters from the Figurehead."
+    },
+    "slug": "sailors-bronze-goddess-figurine"
+  },
+  {
+    "name": "Sailors' Star Charm",
+    "type": "Trade",
+    "description": "A starry charm. For some reason, just holding it heightens the creative urge.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 6,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": "Workshop",
+    "special_effect": {
+      "name": "Special Goods Production",
+      "description": "Special Goods made through Sewing, Casting or Handicrafts on the sea will be more likely to be high-performing. After Special Goods Production, the Durability of the Sailor Equipment will decrease."
+    },
+    "slug": "sailors-star-charm"
+  },
+  {
+    "name": "Research Thesis on Physics",
+    "type": "Trade",
+    "description": "One physicist's research thesis that describes large number of experimental results obtained with the help of voyagers.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 14,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Loading Technology",
+      "description": "Reduces the speed decrease from the loading weight of your Cargo."
+    },
+    "slug": "research-thesis-on-physics"
+  },
+  {
+    "name": "Transporters' Wisdom",
+    "type": "Trade",
+    "description": "A book written about the wisdom of transporters. It contains knowledge of how to perform loading and unloading more efficiently.",
+    "stats": {
+      "Vertical Sail": -5,
+      "Horizontal Sail": 21,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "transporters-wisdom"
+  },
+  {
+    "name": "Token of Distant Sea Trading",
+    "type": "Trade",
+    "description": "A token that honors traders who have engaged in distant trade for a long period of time. It represents wisdom in regard to loading.",
+    "stats": {
+      "Vertical Sail": 18,
+      "Horizontal Sail": 18,
+      "Turning Speed": -1,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Loading Technology",
+      "description": "Reduces the speed decrease from the loading weight of your Cargo."
+    },
+    "slug": "token-of-distant-sea-trading"
+  },
+  {
+    "name": "Small Physics Research Note",
+    "type": "Trade",
+    "description": "A student's research note. The content is good, but the scribbled handwriting is hard to read.",
+    "stats": {
+      "Vertical Sail": 1,
+      "Horizontal Sail": 4,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Loading Technology",
+      "description": "Reduces the speed decrease from the loading weight of your Cargo."
+    },
+    "slug": "small-physics-research-note"
+  },
+  {
+    "name": "Sailors' Basics on Production Assistance",
+    "type": "Trade",
+    "description": "Book explaining how a Sailor can prepare themselves to be an Aide. Written about production techniques.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 6,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Aide Support (Prod. Assistance)",
+      "description": null
+    },
+    "slug": "sailors-basics-on-production-assistance"
+  },
+  {
+    "name": "Naumachia Battle Tunic",
+    "type": "Battle",
+    "description": "Equipment that's reminiscent of fighters from staged naval battles in ancient Coliseums. Increases the crew's morale.",
+    "stats": {
+      "Vertical Sail": -12,
+      "Horizontal Sail": 0,
+      "Turning Speed": -2,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "naumachia-battle-tunic"
+  },
+  {
+    "name": "Naumachia Battle Pilum",
+    "type": "Battle",
+    "description": "Weapon that's reminiscent of fighters from staged naval battles in ancient coliseums. Increases the crew's morale.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": -12,
+      "Turning Speed": -1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "naumachia-battle-pilum"
+  },
+  {
+    "name": "Naumachia Master Laurel",
+    "type": "Battle",
+    "description": "A replica of the laurel that commended the winner of the staged naval battle in ancient coliseums.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -6,
+      "Turning Speed": -2,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "naumachia-master-laurel"
+  },
+  {
+    "name": "Sailor's Gloves",
+    "type": "Battle",
+    "description": "Sturdy gloves to help sailors on their jobs. They're made from linens.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -2,
+      "Turning Speed": -1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 40,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "sailors-gloves"
+  },
+  {
+    "name": "Heavy Cannon-shot",
+    "type": "Battle",
+    "description": "Cannon-shot with highly increased weight. Because of its weight, carrying it is a job for novice sailors.",
+    "stats": {
+      "Vertical Sail": -5,
+      "Horizontal Sail": -5,
+      "Turning Speed": -2,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Heavy Bombing",
+    "special_effect": {
+      "name": "Gun Carriage Shock",
+      "description": "Makes it less likely for enemy shots to hit your ship at a certain rate, the further away you are from the center of their firing range. Your firing accuracy to faraway ships also decreases."
+    },
+    "slug": "heavy-cannon-shot"
+  },
+  {
+    "name": "Sterncastle Reinforcing Iron",
+    "type": "Battle",
+    "description": "Iron used to reinforce the sterncastle. Very sturdy but once damaged it takes time to be repaired.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -6,
+      "Turning Speed": 0,
+      "Wave Resistance": -2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Bullet-proof Armouring",
+    "special_effect": {
+      "name": "Heavy Iron Sterncastle",
+      "description": "Reduce damage received on Stern, but this effect will be disabled and the repair effect will be reduced until the Durability of the Ship is fully recovered."
+    },
+    "slug": "sterncastle-reinforcing-iron"
+  },
+  {
+    "name": "Shooting Training Record",
+    "type": "Battle",
+    "description": "A memo that records the shooting training content. The amount of training accumulated every day leads toconfidence in actual battles.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": -2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Shooting Room",
+    "special_effect": {
+      "name": "Intuitive Shooting",
+      "description": "The effects of the Gunfire Skill will increase but damage received will increase as well if it fails. While using a Gun or a Bow, the counter effect of both sides will increase."
+    },
+    "slug": "shooting-training-record"
+  },
+  {
+    "name": "Rudder Makers' Saw",
+    "type": "Battle",
+    "description": "A saw favored by rudder makers. Well-fitted in the hand of a user, it can fix rudders instantly.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Improved Rudder",
+    "special_effect": {
+      "name": "Repair Artisan (Rudder)",
+      "description": "Automatically repairs damaged rudders during sea battles. Once it repairs the complete damage of the rudder, the effect becomes disabled."
+    },
+    "slug": "rudder-makers-saw"
+  },
+  {
+    "name": "Sailmakers' Sewing Set",
+    "type": "Battle",
+    "description": "A sewing set favored by sailmakers. Well-fitted in the hand of a user, it can fix sails instantly.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 4,
+      "Turning Speed": -1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Sail Sewing Skill",
+    "special_effect": {
+      "name": "Repair Artisan (Sail)",
+      "description": "Automatically repairs damaged sails during sea battles. Once it repairs the complete damage of the sail, the effect becomes disabled."
+    },
+    "slug": "sailmakers-sewing-set"
+  },
+  {
+    "name": "Book of Lifesaving Healing",
+    "type": "Battle",
+    "description": "A book about advanced lifesaving treatments. One can learn how to save the life of someone who got seriously injured.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -2,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Resuscitation",
+      "description": "Recovers the Sailors' maximum recovery limit at regular time intervals if it's been decreased."
+    },
+    "slug": "book-of-lifesaving-healing"
+  },
+  {
+    "name": "Silver Scalpel",
+    "type": "Battle",
+    "description": "An expensive surgery tool. It is extremely sharp and won't cut the patient more than necessary.",
+    "stats": {
+      "Vertical Sail": -4,
+      "Horizontal Sail": -2,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Medical Support",
+    "special_effect": {
+      "name": "Emergency Cure",
+      "description": "Automatically uses the Surgery Skill at a certain rate to recover your Sailors during a Melee Battle."
+    },
+    "slug": "silver-scalpel"
+  },
+  {
+    "name": "Counterattack Flag",
+    "type": "Battle",
+    "description": "A flag used as a sign for counterattacks. It increases the morale of sailors to not give up even if losing.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 2,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Evade Melee Battle",
+    "special_effect": {
+      "name": "Retaliate",
+      "description": "Makes it possible to make an immediate counterattack when evading a Melee Battle, with a certain rate to become a Critical Attack, except during PvP battles."
+    },
+    "slug": "counterattack-flag"
+  },
+  {
+    "name": "Phalanx Shield",
+    "type": "Battle",
+    "description": "A shield used by Ancient Greek heavy infantries. It's suited for defense-focused fighting.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -6,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Armoured Ship Refit",
+    "special_effect": {
+      "name": "Prepare to Guard",
+      "description": "Reduces damage to Durability and makes it easier to withdraw from Melee Battles, but the Attack Powers of Cannon Attacks and Melee Battles decrease."
+    },
+    "slug": "phalanx-shield"
+  },
+  {
+    "name": "Improved Grapeshot",
+    "type": "Battle",
+    "description": "Cannon-shot with even more round shots. Drives a stronger fear to the enemy sailors' hearts.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Explosive Shell",
+    "special_effect": {
+      "name": "Explosive Loading",
+      "description": "Increases the rate for a Great Disorder. Disordered enemy Sailors may engage in Melee Battles to nearby enemy ships."
+    },
+    "slug": "improved-grapeshot"
+  },
+  {
+    "name": "Improved Incendiary Shot",
+    "type": "Battle",
+    "description": "Cannon-shot with even more gunpowder in it. It is very flammable.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 6,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Armouring Deterioration Bullet",
+    "special_effect": {
+      "name": "Combustion",
+      "description": "Increases the chance to weaken the value of Armour."
+    },
+    "slug": "improved-incendiary-shot"
+  },
+  {
+    "name": "Improved Double Shot",
+    "type": "Battle",
+    "description": "Cannon-shot with more weight. The two cannonballs that are fired severely impact the enemy ships.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Armour Piercing Bullet",
+    "special_effect": {
+      "name": "Armour Piercing",
+      "description": "Impact changes the direction of enemy ships at a certain rate when a shot hits them on the side."
+    },
+    "slug": "improved-double-shot"
+  },
+  {
+    "name": "Improved Smoke Shells",
+    "type": "Battle",
+    "description": "Cannon-shot with increased concentration of the smokescreen. Restricts the movements of those inside the blinding smokescreen.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 4,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Special Smoke Bomb",
+    "special_effect": {
+      "name": "Concentrated Smokescreen",
+      "description": "Temporarily lowers enemy ship's Loading Speed."
+    },
+    "slug": "improved-smoke-shells"
+  },
+  {
+    "name": "Infiltration Technical Book",
+    "type": "Battle",
+    "description": "A book about infiltration techniques. There's a disclaimer in the opening to hide the identity of the author.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 0,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Demolition Work",
+    "special_effect": {
+      "name": "Sabotage Tactics",
+      "description": "Increases the efficiency of Demolition Work at a certain rate. Also, loots Water and Timber during Sabotage."
+    },
+    "slug": "infiltration-technical-book"
+  },
+  {
+    "name": "Giant Gunpowder Bag",
+    "type": "Battle",
+    "description": "A giant bag stuffed with large amount of gunpowder. There's more than enough to create a large explosion in it.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "giant-gunpowder-bag"
+  },
+  {
+    "name": "High Precision Protractor",
+    "type": "Battle",
+    "description": "A protractor used to calculate angles for effective cannon shots. Although precise, it's easily affected by the ship's movement.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 2,
+      "Wave Resistance": -2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Intensive Charge",
+    "special_effect": {
+      "name": "Intensive Shelling",
+      "description": "Cannon power decreases while moving, but Range, Hit Probability and the cannon power of non-Critical Hits will be improved while not moving."
+    },
+    "slug": "high-precision-protractor"
+  },
+  {
+    "name": "High Magnification Telescope",
+    "type": "Battle",
+    "description": "A telescope that helps you see afar very well. The only downside is that it's harder to see close objects.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Long Range Cannon Fire",
+      "description": "Cannon power and Hit Probability to enemy ships that are far will improve, but these effects become weaker when the enemy ships are closer."
+    },
+    "slug": "high-magnification-telescope"
+  },
+  {
+    "name": "Refined Ram Blueprint",
+    "type": "Battle",
+    "description": "A blueprint illustrating the construction for a refined ram. It describes a way to more efficiently collide into enemy ships.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Ramming Tactics",
+    "special_effect": {
+      "name": "Refined Ram",
+      "description": "Collides your Ram into enemy ships and shake off their Sailors."
+    },
+    "slug": "refined-ram-blueprint"
+  },
+  {
+    "name": "Sailors' Victory Ribbon",
+    "type": "Battle",
+    "description": "A special ribbon used as a mark of the winner. Sailors' morale will rise and they will join forces to fight together.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 12,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Coordinated Salvo",
+      "description": "Able to fire more cannons even when the number of Sailors is fewer."
+    },
+    "slug": "sailors-victory-ribbon"
+  },
+  {
+    "name": "Baton of Command Center's Officers",
+    "type": "Battle",
+    "description": "A baton used by officers belonging to the Command Center. More accurate instructions regarding ship handling can be given to Sailors.",
+    "stats": {
+      "Vertical Sail": 7,
+      "Horizontal Sail": 6,
+      "Turning Speed": 2,
+      "Wave Resistance": 1,
+      "Armour": 1,
+      "Durability": 30,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "baton-of-command-centers-officers"
+  },
+  {
+    "name": "Pirate King's Coin",
+    "type": "Battle",
+    "description": "A gold coin plundered by Henry Every in India. It's made of pure gold with Sanskrit engraved on it. It's considered to be made in ancient times.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Melee Room",
+    "special_effect": {
+      "name": "Deadly Combat",
+      "description": "The effects of the Guard, Assault and Tactics Skills will increase but damage received will increase as well if it fails."
+    },
+    "slug": "pirate-kings-coin"
+  },
+  {
+    "name": "Tosenkyo",
+    "type": "Battle",
+    "description": "The oldest strategy book in Japan written by the Oe clan, a noble family of Kyoto. Later, it was handed down to the Mohri clan, a descendant of the Oe clan.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 6,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Command Post",
+    "special_effect": {
+      "name": "Sengoku Art of Warfare",
+      "description": "The Fire and Disorder caused to the enemy Ship sandwiched between your Ship and your ally Ship cannot be resolved for a certain period of time with a certain probability."
+    },
+    "slug": "tosenkyo"
+  },
+  {
+    "name": "Monomakh's Cap",
+    "type": "Battle",
+    "description": "A crown that has been passed down for generations by the emperors of Russia. It's made of warm fur and represents the prestige of the Russian Empire.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 8,
+      "Turning Speed": -2,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Welcome Melee Battle",
+    "special_effect": {
+      "name": "Winter General",
+      "description": "Reduce Water and Munitions on an enemy ship during Melee Battle. If a Fire breaks out on either your Ship or an enemy ship, the damage your ship receives during Melee Battle will increase."
+    },
+    "slug": "monomakhs-cap"
+  },
+  {
+    "name": "Prince of Yanping's Strategy Book",
+    "type": "Battle",
+    "description": "A book summarizing the art of warfare invented by Koxinga. The knowledge of battles of endurance at sea can be gained.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": -2,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Attack Prevention Net",
+    "special_effect": {
+      "name": "Reorganization of Force",
+      "description": "During Melee Battle, if you are inferior after a certain number of turns, the Retreat success rate will increase and the number of Sailors will be recovered after successful Retreat."
+    },
+    "slug": "prince-of-yanpings-strategy-book"
+  },
+  {
+    "name": "Wooden Horse Blueprint",
+    "type": "Battle",
+    "description": "A blueprint of a wooden horse used in a strategy concocted by a general in a great war in ancient Greece.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "The Trojan Horse",
+      "description": "During Melee Battle, your Sailors board an enemy ship and sabotage their Repair and Surgery operations after your Ship makes a Retreat. Once the sabotage has been completed, the Sailors will jump into the sea."
+    },
+    "slug": "wooden-horse-blueprint"
+  },
+  {
+    "name": "Requerimiento",
+    "type": "Battle",
+    "description": "A declaration letter authorizing the conquest of the New World. It was given to the Conquistadors by the king of Spain.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 4,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Conquistador",
+      "description": "After Melee Battle, the capabilities of the side that successfully made a Retreat first will be reduced in the next Melee Battle. The earlier the Retreat, the greater the effect."
+    },
+    "slug": "requerimiento"
+  },
+  {
+    "name": "Work Handbook for Novices",
+    "type": "Battle",
+    "description": "A handbook summarizing the daily work to be done for novice Sailors. It's an essential item until they become independent.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 6,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Repetitive Operations",
+      "description": "Skills will continue to be activated during Sea Battles. This doesn't include Item/Equipment effects."
+    },
+    "slug": "work-handbook-for-novices"
+  },
+  {
+    "name": "Maintenance Tool Set",
+    "type": "Battle",
+    "description": "A tool set used for maintenance of Ship Parts. If it's a slight scratch, it can be repaired in a blink of an eye.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": 1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Instant Maintenance",
+      "description": "Damage to Ship Parts will be prevented during Sea Battles with a certain probability. This Skill is cumulative."
+    },
+    "slug": "maintenance-tool-set"
+  },
+  {
+    "name": "Wave Monitoring Buoy",
+    "type": "Battle",
+    "description": "A device that can monitor the direction of waves by floating it on the sea. Anyone can handle it, but it will be a little difficult to recover it after use.",
+    "stats": {
+      "Vertical Sail": 14,
+      "Horizontal Sail": 2,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Naval Battle Map (Waves)",
+      "description": "During Sea Battles, the directions of the waves are displayed on the Naval Battle Map. The effect can be shared within the Fleet."
+    },
+    "slug": "wave-monitoring-buoy"
+  },
+  {
+    "name": "Small Weathervane",
+    "type": "Battle",
+    "description": "A small weathervane that can be carried around easily. Not only does it show the wind, but it also is used to soothe those watching it.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 14,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Naval Battle Map (Wind)",
+      "description": "During Sea Battles, the directions of the wind are displayed on the Naval Battle Map. The effect can be shared within the Fleet."
+    },
+    "slug": "small-weathervane"
+  },
+  {
+    "name": "Small Telescope",
+    "type": "Battle",
+    "description": "Lightweight and portable telescope. The accuracy is not very good, but you can observe the surroundings widely.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Naval Battle Map (Ships)",
+      "description": "During Sea Battles, the directions of the Ships are displayed on the Naval Battle Map. The effect can be shared within the Fleet."
+    },
+    "slug": "small-telescope"
+  },
+  {
+    "name": "Speaking Tube",
+    "type": "Battle",
+    "description": "A simple communication device. A sailor installed it on the ship without permission, but it was useful, so he was never blamed.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": -2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Naval Battle Map (Aiming)",
+      "description": "During Sea Battles, Enemy Ships taking aim at your Ship blink on and off on the Naval Battle Map. The effect can be shared within the Fleet."
+    },
+    "slug": "speaking-tube"
+  },
+  {
+    "name": "Basic Group Tactic",
+    "type": "Battle",
+    "description": "A book that describes the basic tactics of battles between fleets. It repeatedly emphasizes the importance of the survival of flagships.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Flagship's Spirit",
+      "description": "Damage to the Flagship decreases depending on the number of allies around, and increases depending on the number of incapacitated allies during the battle. The effects only increase slightly even when equipped by multiple players."
+    },
+    "slug": "basic-group-tactic"
+  },
+  {
+    "name": "Shell Hammer",
+    "type": "Battle",
+    "description": "A hammer for crafting shells. Be careful not to shake the ship during work as it requires delicate processing.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 2,
+      "Turning Speed": 2,
+      "Wave Resistance": -2,
+      "Armour": -1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Retreat Block",
+      "description": "Capable of launching cannon attacks against enemy ships, with a certain probability of preventing their retreat. Can be activated by halting your ship for a specific period. Not available to be used by high-Notoriety Pirate characters."
+    },
+    "slug": "shell-hammer"
+  },
+  {
+    "name": "Attack Nobori Flag",
+    "type": "Battle",
+    "description": "The nobori flag raised by those who boldly jump into the center of the battlefield. It's up to you to be brave or reckless.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 0,
+      "Turning Speed": 2,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Frontal Breakthrough",
+      "description": "The effect of the Evasion Skill increases against cannon attacks dealt by Enemy Ships that are closer to the outer circle of the Battle Area than your Ship."
+    },
+    "slug": "attack-nobori-flag"
+  },
+  {
+    "name": "Steel Wire Rope",
+    "type": "Battle",
+    "description": "A very durable rope woven with steel thread. You can wipe out the surrounding mines by submerging it on the seabed and pulling it by ship.",
+    "stats": {
+      "Vertical Sail": -6,
+      "Horizontal Sail": -6,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Sea Mine Removal",
+    "special_effect": {
+      "name": "Minesweeping",
+      "description": "The effective range of Sea Mine Removal increases, but the Ship Speed reduces."
+    },
+    "slug": "steel-wire-rope"
+  },
+  {
+    "name": "Reinforced Elm Lumber",
+    "type": "Battle",
+    "description": "Elm lumber for Ship reinforcement. Sailors who wanted to keep their ships from scratching had it made.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 0,
+      "Turning Speed": 2,
+      "Wave Resistance": 3,
+      "Armour": 2,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": null,
+      "description": null
+    },
+    "slug": "reinforced-elm-lumber"
+  },
+  {
+    "name": "Presterilized Bandage",
+    "type": "Battle",
+    "description": "Bandage stored in a clean state. Used to stop bleeding in emergencies.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 4,
+      "Turning Speed": -1,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Medical Support",
+    "special_effect": {
+      "name": "Emergency Cure",
+      "description": "Automatically uses the Surgery Skill at a certain rate to recover your Sailors during a Melee Battle."
+    },
+    "slug": "presterilized-bandage"
+  },
+  {
+    "name": "Bugle",
+    "type": "Battle",
+    "description": "Bugle that signals a counterattack, which boosts the morale of the sailors.",
+    "stats": {
+      "Vertical Sail": 18,
+      "Horizontal Sail": 2,
+      "Turning Speed": 1,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Evade Melee Battle",
+    "special_effect": {
+      "name": "Retaliate",
+      "description": "Makes it possible to make an immediate counterattack when evading a Melee Battle, with a certain rate to become a Critical Attack, except during PvP battles."
+    },
+    "slug": "bugle"
+  },
+  {
+    "name": "Ngumi Shield",
+    "type": "Battle",
+    "description": "A shield used by Nguni soldiers. With technique that developed as it was passed down, it has a strong defense.",
+    "stats": {
+      "Vertical Sail": -4,
+      "Horizontal Sail": -4,
+      "Turning Speed": -1,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Armoured Ship Refit",
+    "special_effect": {
+      "name": "Prepare to Guard",
+      "description": "Reduces damage to Durability and makes it easier to withdraw from Melee Battles, but the Attack Powers of Cannon Attacks and Melee Battles decrease."
+    },
+    "slug": "ngumi-shield"
+  },
+  {
+    "name": "Master's Improved Grapeshot",
+    "type": "Battle",
+    "description": "Grapeshots further improved by a master. Disperses even more round shots.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 8,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Explosive Shell",
+    "special_effect": {
+      "name": "Explosive Loading",
+      "description": "Increases the rate for a Great Disorder. Disordered enemy Sailors may engage in Melee Battles to nearby enemy ships."
+    },
+    "slug": "masters-improved-grapeshot"
+  },
+  {
+    "name": "Master's Improved Smoke Shells",
+    "type": "Battle",
+    "description": "Smoke shell further improved by a master. Covers enemy ships in thicker smoke.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 8,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Special Smoke Bomb",
+    "special_effect": {
+      "name": "Concentrated Smokescreen",
+      "description": "Temporarily lowers enemy ship's Loading Speed."
+    },
+    "slug": "masters-improved-smoke-shells"
+  },
+  {
+    "name": "Infiltration Disguise Set",
+    "type": "Battle",
+    "description": "A disguise set to use when infiltrating. It includes the essentials like glasses and a false beard.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": -2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Demolition Work",
+    "special_effect": {
+      "name": "Sabotage Tactics",
+      "description": "Increases the efficiency of Demolition Work at a certain rate. Also, loots Water and Timber during Sabotage."
+    },
+    "slug": "infiltration-disguise-set"
+  },
+  {
+    "name": "Full Gunpowder Bag",
+    "type": "Battle",
+    "description": "Bag filled to the brim with gunpowder. Must be handled with care.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 4,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Secret Blast",
+    "special_effect": {
+      "name": "Large Secret Blast",
+      "description": "Blasts the enemy ship's Timber hold as well as munitions during Melee Battles and causes fire."
+    },
+    "slug": "full-gunpowder-bag"
+  },
+  {
+    "name": "Cannon Sight",
+    "type": "Battle",
+    "description": "A sighting device used to calculate angles for effective and accurate cannon fire.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 6,
+      "Turning Speed": 1,
+      "Wave Resistance": -2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": "Intensive Charge",
+    "special_effect": {
+      "name": "Intensive Shelling",
+      "description": "Cannon power decreases while moving, but Range, Hit Probability and the cannon power of non-Critical Hits will be improved while not moving."
+    },
+    "slug": "cannon-sight"
+  },
+  {
+    "name": "Vintage of The Blessing",
+    "type": "Battle",
+    "description": "A tasty alcohol treated to the crew on special occasions. By drinking this together, the bond is strengthened.",
+    "stats": {
+      "Vertical Sail": 8,
+      "Horizontal Sail": 8,
+      "Turning Speed": -1,
+      "Wave Resistance": -1,
+      "Armour": 1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Coordinated Salvo",
+      "description": "Able to fire more cannons even when the number of Sailors is fewer."
+    },
+    "slug": "vintage-of-the-blessing"
+  },
+  {
+    "name": "Rewards for Sailors",
+    "type": "Battle",
+    "description": "Rewards given to Sailors. The abilities of Sailors will be greatly drawn out.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 14,
+      "Turning Speed": -1,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Coordinated Salvo",
+      "description": "Able to fire more cannons even when the number of Sailors is fewer."
+    },
+    "slug": "rewards-for-sailors"
+  },
+  {
+    "name": "Kohinur Diamond",
+    "type": "Battle",
+    "description": "World's largest diamond. It has been in many hands as if selecting its owner.",
+    "stats": {
+      "Vertical Sail": 14,
+      "Horizontal Sail": 0,
+      "Turning Speed": 2,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": "Melee Room",
+    "special_effect": {
+      "name": "Deadly Combat",
+      "description": "The effects of the Guard, Assault and Tactics Skills will increase but damage received will increase as well if it fails."
+    },
+    "slug": "kohinur-diamond"
+  },
+  {
+    "name": "Average Sailors' Work Notes",
+    "type": "Battle",
+    "description": "A memo written by average Sailors on their tasks. It even shows how to work more efficiently.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 8,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 0,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Repetitive Operations",
+      "description": "Skills will continue to be activated during Sea Battles. This doesn't include Item/Equipment effects."
+    },
+    "slug": "average-sailors-work-notes"
+  },
+  {
+    "name": "Cursed Magic Horn",
+    "type": "Battle",
+    "description": "A cursed horn of great dread. When played, it turns the enemy into stone, rendering retreat impossible.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 18,
+      "Turning Speed": 2,
+      "Wave Resistance": -1,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Retreat Block",
+      "description": "Capable of launching cannon attacks against enemy ships, with a certain probability of preventing their retreat. Can be activated by halting your ship for a specific period. Not available to be used by high-Notoriety Pirate characters."
+    },
+    "slug": "cursed-magic-horn"
+  },
+  {
+    "name": "Small Heavy Cannon-shot",
+    "type": "Battle",
+    "description": "Small cannon-shot with increased weight. Those who transport it are often discouraged when realizing it's heavier than it looks.",
+    "stats": {
+      "Vertical Sail": -2,
+      "Horizontal Sail": -2,
+      "Turning Speed": -1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Heavy Bombing",
+    "special_effect": {
+      "name": "Gun Carriage Shock",
+      "description": "Makes it less likely for enemy shots to hit your ship at a certain rate, the further away you are from the center of their firing range. Your firing accuracy to faraway ships also decreases."
+    },
+    "slug": "small-heavy-cannon-shot"
+  },
+  {
+    "name": "Small Improved Grapeshot",
+    "type": "Battle",
+    "description": "Small cannon-shot with increased round shots. Enemies will be bewildered by how full it is.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 2,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Explosive Shell",
+    "special_effect": {
+      "name": "Explosive Loading",
+      "description": "Increases the rate for a Great Disorder. Disordered enemy Sailors may engage in Melee Battles to nearby enemy ships."
+    },
+    "slug": "small-improved-grapeshot"
+  },
+  {
+    "name": "Small Improved Incendiary Shot",
+    "type": "Battle",
+    "description": "Small cannon-shot with more gunpowder. It may be small, but is still very flammable.",
+    "stats": {
+      "Vertical Sail": 1,
+      "Horizontal Sail": 3,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Armouring Deterioration Bullet",
+    "special_effect": {
+      "name": "Combustion",
+      "description": "Increases the chance to weaken the value of Armour."
+    },
+    "slug": "small-improved-incendiary-shot"
+  },
+  {
+    "name": "Small Improved Double Shot",
+    "type": "Battle",
+    "description": "Small cannon shot with increased weight. Enemies who let their guard down after seeing the size will be shocked by how dangerous it is.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Armour Piercing Bullet",
+    "special_effect": {
+      "name": "Armour Piercing",
+      "description": "Impact changes the direction of enemy ships at a certain rate when a shot hits them on the side."
+    },
+    "slug": "small-improved-double-shot"
+  },
+  {
+    "name": "Small Improved Smoke Shells",
+    "type": "Battle",
+    "description": "Small cannon-shot that produces thicker smokescreen. Aim well before firing and it will have good effect.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 2,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Special Smoke Bomb",
+    "special_effect": {
+      "name": "Concentrated Smokescreen",
+      "description": "Temporarily lowers enemy ship's Loading Speed."
+    },
+    "slug": "small-improved-smoke-shells"
+  },
+  {
+    "name": "Short Book of Lifesaving Healing",
+    "type": "Battle",
+    "description": "A short book on advanced lifesaving treatments. There is not much writing but its contents are accurate.",
+    "stats": {
+      "Vertical Sail": -2,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Resuscitation",
+      "description": "Recovers the Sailors' maximum recovery limit at regular time intervals if it's been decreased."
+    },
+    "slug": "short-book-of-lifesaving-healing"
+  },
+  {
+    "name": "Small Gunpowder Bag",
+    "type": "Battle",
+    "description": "A small bag filled to the brim with gunpowder. You should plan well to use it effectively.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Secret Blast",
+    "special_effect": {
+      "name": "Large Secret Blast",
+      "description": "Blasts the enemy ship's Timber hold as well as munitions during Melee Battles and causes fire."
+    },
+    "slug": "small-gunpowder-bag"
+  },
+  {
+    "name": "Rough Refined Ram Blueprint",
+    "type": "Battle",
+    "description": "A rough blueprint on the structure of a Refined Ram. It could be used to come up with battle tactics using a ram.",
+    "stats": {
+      "Vertical Sail": 2,
+      "Horizontal Sail": 0,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Ramming Tactics",
+    "special_effect": {
+      "name": "Refined Ram",
+      "description": "Collides your Ram into enemy ships and shake off their Sailors."
+    },
+    "slug": "rough-refined-ram-blueprint"
+  },
+  {
+    "name": "Short Infiltration Technical Book",
+    "type": "Battle",
+    "description": "A simple book written about infiltration techniques. It has no detail on how to escape after infiltrating.",
+    "stats": {
+      "Vertical Sail": 5,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Demolition Work",
+    "special_effect": {
+      "name": "Sabotage Tactics",
+      "description": "Increases the efficiency of Demolition Work at a certain rate. Also, loots Water and Timber during Sabotage."
+    },
+    "slug": "short-infiltration-technical-book"
+  },
+  {
+    "name": "One Delectable Puff",
+    "type": "Battle",
+    "description": "Highest grade of tobacco enjoyed by Baccanian pirates. Tastes best when smoking alongside your plunder.",
+    "stats": {
+      "Vertical Sail": 12,
+      "Horizontal Sail": 6,
+      "Turning Speed": -1,
+      "Wave Resistance": 0,
+      "Armour": -1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Commandeer",
+      "description": "When the number of Sailors decreases during Melee Battle, your Melee Battle strength doesn't decrease as much but your Sailor's maximum recovery may decrease."
+    },
+    "slug": "one-delectable-puff"
+  },
+  {
+    "name": "Sultan's Authorization",
+    "type": "Battle",
+    "description": "An imperial rescript by the Ottoman sultan authorizing Hayreddin's control of the empire's navy.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": -2,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Barbarossa's Naval Tactic",
+      "description": "When your ship's Durability is below a certain amount, your cannon's accuracy and evasion abilities increase."
+    },
+    "slug": "sultans-authorization"
+  },
+  {
+    "name": "Common Sense",
+    "type": "Battle",
+    "description": "A pamphlet written by Thomas Paine. It criticizes England's control and advocated for the independence of North America.",
+    "stats": {
+      "Vertical Sail": 6,
+      "Horizontal Sail": 6,
+      "Turning Speed": 0,
+      "Wave Resistance": 1,
+      "Armour": 0,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Automatic Mechanism",
+      "description": "When Gatling Gun or Flamethrower is available to use in an attack, they are automatically fired during Melee Battle."
+    },
+    "slug": "common-sense"
+  },
+  {
+    "name": "Aides' Guide (Nml.Shot Def.)",
+    "type": "Battle",
+    "description": "A guide to the mindset needed to become an Aide, including information on ship defence against damage from Normal Shots.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 6,
+      "Turning Speed": -2,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Aide Sup.(Nml Shot Def)",
+      "description": "Increases the effects of the following Aide Skills: Normal Shot Defence and Double-Shot Defence."
+    },
+    "slug": "aides-guide-nmlshot-def"
+  },
+  {
+    "name": "Aides' Guide (Sp.Shell Def.)",
+    "type": "Battle",
+    "description": "Book explaining how a Sailor can prepare themselves to be an Aide. Written about ship damage from special shells.",
+    "stats": {
+      "Vertical Sail": 10,
+      "Horizontal Sail": 0,
+      "Turning Speed": 1,
+      "Wave Resistance": 0,
+      "Armour": 1,
+      "Durability": 150,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Aide Support (Sp. Shell Def)",
+      "description": null
+    },
+    "slug": "aides-guide-spshell-def"
+  },
+  {
+    "name": "Gyoyomon Rosary",
+    "type": "Battle",
+    "description": "Rosary of Otomo clan's emblem, the apricot leaf.",
+    "stats": {
+      "Vertical Sail": -4,
+      "Horizontal Sail": 20,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 70,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Commandeer",
+      "description": "When the number of Sailors decreases during Melee Battle, your Melee Battle strength doesn't decrease as much but your Sailor's maximum recovery may decrease."
+    },
+    "slug": "gyoyomon-rosary"
+  },
+  {
+    "name": "Official Seal of Tang and Silla",
+    "type": "Battle",
+    "description": "A seal said to be used by Jang Bogo, who had an official rank in both the Tang Empire and the Silla Kingdom.",
+    "stats": {
+      "Vertical Sail": 20,
+      "Horizontal Sail": -4,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 70,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Barbarossa's Naval Tactic",
+      "description": "When your ship's Durability is below a certain amount, your cannon's accuracy and evasion abilities increase."
+    },
+    "slug": "official-seal-of-tang-and-silla"
+  },
+  {
+    "name": "Black Bart's Pirate Code",
+    "type": "Battle",
+    "description": "Code of conducts that Bartholomew Roberts enforced on his crew. Although strict, it is mostly democratic.",
+    "stats": {
+      "Vertical Sail": -10,
+      "Horizontal Sail": -10,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 2,
+      "Durability": 70,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Automatic Mechanism",
+      "description": "When Gatling Gun or Flamethrower is available to use in an attack, they are automatically fired during Melee Battle."
+    },
+    "slug": "black-barts-pirate-code"
+  },
+  {
+    "name": "Small High Magnification Telescope",
+    "type": "Battle",
+    "description": "A telescope that can see far despite it being small. But its field of vision is narrow due to the size.",
+    "stats": {
+      "Vertical Sail": 4,
+      "Horizontal Sail": 0,
+      "Turning Speed": 0,
+      "Wave Resistance": 0,
+      "Armour": 0,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Long Range Cannon Fire",
+      "description": "Cannon power and Hit Probability to enemy ships that are far will improve, but these effects become weaker when the enemy ships are closer."
+    },
+    "slug": "small-high-magnification-telescope"
+  },
+  {
+    "name": "Small Sterncastle Reinforcing Iron",
+    "type": "Battle",
+    "description": "Small iron to repair the sterncastle. Its strength is slightly weaker than regular iron, but is easier to repair with.",
+    "stats": {
+      "Vertical Sail": -8,
+      "Horizontal Sail": -8,
+      "Turning Speed": 0,
+      "Wave Resistance": -1,
+      "Armour": 1,
+      "Durability": 15,
+      "COST": null
+    },
+    "required_ship_skill": "Bullet-proof Armouring",
+    "special_effect": {
+      "name": "Heavy Iron Sterncastle",
+      "description": "Reduce damage received on Stern, but this effect will be disabled and the repair effect will be reduced until the Durability of the Ship is fully recovered."
+    },
+    "slug": "small-sterncastle-reinforcing-iron"
+  },
+  {
+    "name": "Senior Aides' Guide (Exp.Shell Def.)",
+    "type": "Battle",
+    "description": "A full guide to the mindset needed to become an Aide, including information on ship damage caused by Explosive Shells.",
+    "stats": {
+      "Vertical Sail": 0,
+      "Horizontal Sail": 16,
+      "Turning Speed": 0,
+      "Wave Resistance": 2,
+      "Armour": 1,
+      "Durability": 50,
+      "COST": null
+    },
+    "required_ship_skill": null,
+    "special_effect": {
+      "name": "Aide Sup.(Exp.Shell Def)",
+      "description": "Increases the effects of the following Aide Skills: Armor-piercing Explosive Def. and Fracturing Explosive Def."
+    },
+    "slug": "senior-aides-guide-expshell-def"
+  }
+]
