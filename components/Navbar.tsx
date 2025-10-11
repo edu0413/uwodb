@@ -74,7 +74,7 @@ function useSeason(now: Date) {
 
   // Order is Winter first, then Summer
   const inWinter = totalMin < WINTER_MIN;
-  const season = inWinter ? "Winter" : "Summer";
+  const season = inWinter ? "Summer" : "Winter";
   const periodMin = inWinter ? WINTER_MIN : SUMMER_MIN;
   const sinceLast = inWinter ? totalMin : totalMin - WINTER_MIN;
 
