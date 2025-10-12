@@ -1867,5 +1867,85 @@
     "Skill 1": "Steering [+1]",
     "Skill 2": "Gunnery [+1]",
     "Effect 1": "Reduce supply consumption [4]"
+  },
+  {
+    "Item Name": "Bajougutsu",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 14,
+    "Disguise": 5,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Baseball Cleats",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 5,
+    "Skill 1": "Navigation [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Gao Qiang Lu",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+1]"
+  },
+  {
+    "Item Name": "Korean Gaiters",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 18,
+    "Disguise": 0,
+    "Skill 1": "Assault [+1]"
+  },
+  {
+    "Item Name": "Mycenaean Soldier's Foot Armour",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Mycenaean Soldier's Foot Armour EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Effect 1": "Age Effect (Mythical Era) [1]"
+  },
+  {
+    "Item Name": "Prester John's Foot Armour",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 21,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Wrought Iron Shin Armour",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Tactics [+3]"
+  },
+  {
+    "Item Name": "Wrought Steel Shin Armour - Special",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Survival [+2]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Frugality [+3]"
   }
 ]

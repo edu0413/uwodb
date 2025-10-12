@@ -1376,5 +1376,1072 @@
     "Skill 1": "Reloading [+1]",
     "Skill 2": "Penetration [+1]",
     "Skill 3": "Fire Fighting [+1]"
+  },
+  {
+    "Item Name": "Ancient Glass Fragment",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Sundries Trading [+1]"
+  },
+  {
+    "Item Name": "Ancient Indian Sheet Music",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+3]",
+    "Skill 2": "Frugality [+2]",
+    "Skill 3": "Pet Training [+2]",
+    "Effect 1": "Reduce Disaster Damage [5]"
+  },
+  {
+    "Item Name": "Ancient Queen's Ship Handling Guide",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Surgery [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Melee Tactics [5]"
+  },
+  {
+    "Item Name": "Ancient Star Atlas",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+2]",
+    "Skill 2": "Sail Handling [+1]",
+    "Skill 3": "Surveying [+1]",
+    "Effect 1": "Increase Relic Clue acquisition [5]"
+  },
+  {
+    "Item Name": "Aroma Pomander",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Surgery [+2]",
+    "Effect 1": "Persuasive skill enhancement [12]"
+  },
+  {
+    "Item Name": "Aztec Calendar",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Surveying [+2]",
+    "Skill 2": "Unlock [+1]",
+    "Skill 3": "Frugality [+1]"
+  },
+  {
+    "Item Name": "Aztec Opal",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+3]",
+    "Skill 2": "First Aid [+2]",
+    "Skill 3": "Surgery [+2]"
+  },
+  {
+    "Item Name": "Biography of Admiral Nelson",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Penetration [+2]",
+    "Skill 2": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Bouquet of Roses",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Bracelets of Courage",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Swordplay [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Broken Order of Merit",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+2]",
+    "Skill 2": "Navigation [+1]",
+    "Skill 3": "Steering [+1]",
+    "Effect 1": "Reduce incidence of attacks [3]"
+  },
+  {
+    "Item Name": "Bronze Udewa",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0,
+    "Skill 1": "First Aid [+2]"
+  },
+  {
+    "Item Name": "Calendar Watch of Wisdom",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+2]",
+    "Skill 2": "Reloading [+1]",
+    "Skill 3": "Penetration [+1]"
+  },
+  {
+    "Item Name": "Cameo Habille",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Repair [+1]",
+    "Effect 1": "Increase skill effect duration [3]"
+  },
+  {
+    "Item Name": "Celadon Flower Vase",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Art Trading [+2]",
+    "Skill 2": "Metal Trading [+2]",
+    "Skill 3": "Accounts [+1]"
+  },
+  {
+    "Item Name": "Collected Tales of King Minos",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]",
+    "Skill 3": "Search [+1]"
+  },
+  {
+    "Item Name": "Commentariolus",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+3]",
+    "Skill 2": "Surveying [+1]"
+  },
+  {
+    "Item Name": "Complete Works of Music",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Salvage [+2]",
+    "Skill 3": "Haul [+2]",
+    "Effect 1": "Increase sailing speed [5]"
+  },
+  {
+    "Item Name": "Coronation Commemorative Coin",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Sociability [+1]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Decorative Manaban",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Skill 2": "Spice Trading [+1]",
+    "Skill 3": "Perfume Trading [+1]"
+  },
+  {
+    "Item Name": "Dialogus de Systema Cosmicum",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+3]",
+    "Skill 2": "Astronomy [+2]"
+  },
+  {
+    "Item Name": "Earth-coloured Manjerico",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Storage [+1]",
+    "Skill 2": "Frugality [+1]",
+    "Effect 1": "Cooking skill enhancement [2]"
+  },
+  {
+    "Item Name": "Emerald Tablet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Alchemy [+1]"
+  },
+  {
+    "Item Name": "Expert Fisherman's Collecting",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+1]",
+    "Skill 2": "Collection [+1]",
+    "Effect 1": "Collection [10]"
+  },
+  {
+    "Item Name": "Expert Fisherman's Cooking",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+1]",
+    "Skill 2": "Cooking [+1]",
+    "Effect 1": "Cooking skill enhancement [5]"
+  },
+  {
+    "Item Name": "Expert Fisherman's Sturdy Fishing Gear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+1]",
+    "Effect 1": "Fishing [15]"
+  },
+  {
+    "Item Name": "Eye of a Basilisk",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+1]",
+    "Skill 2": "Jewellry Trading [+1]"
+  },
+  {
+    "Item Name": "Far East Voyage Record",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Geography [+2]",
+    "Effect 1": "Recognition [5]"
+  },
+  {
+    "Item Name": "Favourite Jewellry Box",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+1]",
+    "Skill 2": "Jewellry Trading [+2]",
+    "Effect 1": "Formality Enhancement [5]"
+  },
+  {
+    "Item Name": "First-Class Adventurer's Training Techniques",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Pet Training [+2]",
+    "Skill 2": "Collection [+1]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "First-Class Merchant's Training Techniques",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Pet Training [+2]",
+    "Skill 2": "Accounts [+1]",
+    "Skill 3": "Livestock Trading [+1]"
+  },
+  {
+    "Item Name": "Full Score of the Clouds",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "Conduct consort [1]"
+  },
+  {
+    "Item Name": "Golden Arc",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 15,
+    "Disguise": 20,
+    "Skill 1": "Sewing [+1]",
+    "Skill 2": "Casting [+1]",
+    "Skill 3": "Handicrafts [+1]",
+    "Effect 1": "Special Goods Production Rate Up [6]"
+  },
+  {
+    "Item Name": "Golden Clip",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Dye Trading [+2]",
+    "Skill 2": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Golden Clip EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Dye Trading [+2]",
+    "Skill 2": "Unlock [+1]",
+    "Effect 1": "Age Effect (16th century) [1]"
+  },
+  {
+    "Item Name": "Golden Heart",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "First Aid [+2]",
+    "Skill 2": "Rescue [+1]"
+  },
+  {
+    "Item Name": "Guangfu Exhortation",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Mine Detection [+3]",
+    "Effect 1": "Enhance Skill Refine [6]"
+  },
+  {
+    "Item Name": "Guineafowl Feathers",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Ecological Research [+1]"
+  },
+  {
+    "Item Name": "Hamaya of Diving Protection",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Bow Attack [+2]",
+    "Effect 1": "Reduce Disaster Damage [6]"
+  },
+  {
+    "Item Name": "Hieroglyph Decipher Record",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+1]"
+  },
+  {
+    "Item Name": "High-quality Whale Baleen Fishing Gear",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+2]",
+    "Effect 1": "Fishing [15]"
+  },
+  {
+    "Item Name": "Honour Student's Proof",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]",
+    "Skill 2": "Accounts [+1]",
+    "Skill 3": "Gunnery [+1]"
+  },
+  {
+    "Item Name": "Hyakuman-Isshin Banner",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 15,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Leadership [+1]",
+    "Effect 1": "Increase special shot effects [6]"
+  },
+  {
+    "Item Name": "Interim Thaler",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+2]",
+    "Skill 2": "Metal Trading [+1]"
+  },
+  {
+    "Item Name": "Ivory Sea Clock",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+1]",
+    "Skill 2": "Recognition [+2]",
+    "Skill 3": "Art [+2]"
+  },
+  {
+    "Item Name": "Jack of Spades",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Jack of Spades EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Effect 1": "Age Effect (17th century) [1]"
+  },
+  {
+    "Item Name": "Jade Ornament",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Salvage [+1]",
+    "Skill 2": "Mine Laying [+1]",
+    "Skill 3": "Trap [+1]",
+    "Effect 1": "Sorcery (thunder) [5]"
+  },
+  {
+    "Item Name": "Jingbirok",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Archaeology [+2]",
+    "Effect 1": "Search [5]"
+  },
+  {
+    "Item Name": "Koxinga's Military Tactics",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Languages Reader",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Linguistics [+1]"
+  },
+  {
+    "Item Name": "Leather Bracelets",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Mineral Trading [+2]",
+    "Skill 2": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "Lemegeton",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Recognition [+1]"
+  },
+  {
+    "Item Name": "Lemegeton EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Recognition [+1]",
+    "Effect 1": "Increase Relic Clue acquisition [8]"
+  },
+  {
+    "Item Name": "Love Poems - Earth",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Body Language [+1]",
+    "Effect 1": "Cooking skill enhancement [2]"
+  },
+  {
+    "Item Name": "Love Poems - Reprint",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Body Language [+2]"
+  },
+  {
+    "Item Name": "Love Poems - Sea",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+1]",
+    "Effect 1": "Cooking skill enhancement [1]"
+  },
+  {
+    "Item Name": "Love Poems - Sun",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Body Language [+2]",
+    "Effect 1": "Cooking skill enhancement [3]"
+  },
+  {
+    "Item Name": "Magellan's Log",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+2]",
+    "Effect 1": "Indian Ocean languages translation [1]"
+  },
+  {
+    "Item Name": "Magical Tome of Construction",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Alchemy [+1]"
+  },
+  {
+    "Item Name": "Magical Tome of Elements",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+1]",
+    "Skill 2": "Archaeology [+1]",
+    "Skill 3": "Biology [+1]"
+  },
+  {
+    "Item Name": "Magical Tome of Life",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "First Aid [+1]",
+    "Skill 3": "Surgery [+1]"
+  },
+  {
+    "Item Name": "Manjerico",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Storage [+1]",
+    "Skill 2": "Persuasion [+1]",
+    "Effect 1": "Cooking skill enhancement [3]"
+  },
+  {
+    "Item Name": "Manjerico Replica",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Frugality [+2]"
+  },
+  {
+    "Item Name": "Maritime Miscellany",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+2]",
+    "Skill 2": "Biology [+1]"
+  },
+  {
+    "Item Name": "Mink's Fur",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Textile Trading [+1]"
+  },
+  {
+    "Item Name": "Mysterious Fragrant Wood",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Collection [+3]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Procurement [+1]",
+    "Effect 1": "Reduce supply consumption [4]"
+  },
+  {
+    "Item Name": "Nanban Goods Catalogue",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]",
+    "Skill 2": "Art Trading [+1]",
+    "Skill 3": "Wares Trading [+1]"
+  },
+  {
+    "Item Name": "Navigators' Handbook",
+    "Gender": "M / F",
+    "Attack": 35,
+    "Defense": 25,
+    "Disguise": 30,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Steering [+3]",
+    "Effect 1": "Enhance Skill Refine [7]"
+  },
+  {
+    "Item Name": "Neo Six Secret Teachings & Three Strategies",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Trap [+2]"
+  },
+  {
+    "Item Name": "New Chronicles",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Merchandise Knowledge [+2]",
+    "Skill 3": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Ocean-coloured Manjerico",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Storage [+1]",
+    "Effect 1": "Cooking skill enhancement [1]"
+  },
+  {
+    "Item Name": "Oceans",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+2]",
+    "Skill 2": "Frugality [+1]",
+    "Skill 3": "Lookout [+1]"
+  },
+  {
+    "Item Name": "Opera di Bartolomeo",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Cooking [+3]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Alcohol Trading [+1]"
+  },
+  {
+    "Item Name": "Order of the Golden Fleece",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Textile Trading [+2]",
+    "Skill 2": "Tactics [+2]"
+  },
+  {
+    "Item Name": "Order of the Golden Fleece Replica",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Textile Trading [+2]",
+    "Skill 2": "Tactics [+2]"
+  },
+  {
+    "Item Name": "Order of the Warrior",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Ballistics [+1]",
+    "Effect 1": "Reduce Disaster Damage [6]"
+  },
+  {
+    "Item Name": "Ornamental Kyara",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Perfume Trading [+1]",
+    "Skill 2": "Procurement [+2]"
+  },
+  {
+    "Item Name": "Ornamental Rakoku",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Perfume Trading [+1]",
+    "Skill 3": "Search [+1]"
+  },
+  {
+    "Item Name": "Papaya Mug",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Wining and Dining [+1]",
+    "Skill 3": "Persuasion [+1]",
+    "Effect 1": "Celebratory toasting [1]"
+  },
+  {
+    "Item Name": "Picatrix",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Surveying [+2]",
+    "Skill 2": "Fishing [+1]"
+  },
+  {
+    "Item Name": "Pocket Watch",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+1]"
+  },
+  {
+    "Item Name": "Professional Fisherman's Notes",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+2]"
+  },
+  {
+    "Item Name": "Record of Europe",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Theology [+2]",
+    "Effect 1": "Search [5]"
+  },
+  {
+    "Item Name": "Ruby-Encrusted Hand Mirror",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Fabric Trading [+2]",
+    "Skill 3": "Sociability [+1]",
+    "Effect 1": "Formality Enhancement [3]"
+  },
+  {
+    "Item Name": "Sancai Horse",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+1]",
+    "Skill 2": "Caution [+1]"
+  },
+  {
+    "Item Name": "Scarab of Lapidary",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+1]"
+  },
+  {
+    "Item Name": "Seal of Glory",
+    "Gender": "M / F",
+    "Attack": 16,
+    "Defense": 16,
+    "Disguise": 20,
+    "Skill 1": "Navigation [+1]",
+    "Skill 2": "Management Technique [+1]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Reduce supply consumption [4]"
+  },
+  {
+    "Item Name": "Secrets of Shipbuilding",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Shipbuilding [+1]",
+    "Effect 1": "Wining and Dining [10]"
+  },
+  {
+    "Item Name": "Silk Serviette",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+2]",
+    "Skill 2": "Seasoning Trading [+1]",
+    "Skill 3": "Luxuries Trading [+1]"
+  },
+  {
+    "Item Name": "Silver Horseshoes",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+2]",
+    "Skill 2": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "Solomon's Key",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Unlock [+1]",
+    "Effect 1": "Sorcery [5]"
+  },
+  {
+    "Item Name": "Starry Hair Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Astronomy [+2]",
+    "Effect 1": "Restore all states (multiple) [5]"
+  },
+  {
+    "Item Name": "Strange Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "First Aid [+1]",
+    "Effect 1": "Sorcery [15]"
+  },
+  {
+    "Item Name": "Sun-coloured Manjerico",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Storage [+2]",
+    "Skill 2": "Frugality [+2]",
+    "Effect 1": "Cooking skill enhancement [3]"
+  },
+  {
+    "Item Name": "Superior Belgian Lace",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Livestock Trading [+3]",
+    "Skill 2": "Firearms Trading [+3]",
+    "Skill 3": "Sewing [+3]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Superior Pocket Watch",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Livestock Trading [+4]",
+    "Skill 2": "Alcohol Trading [+4]",
+    "Effect 1": "Increase trade goods purchase [10]"
+  },
+  {
+    "Item Name": "Superior Silk Serviette",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Cooking [+2]",
+    "Skill 2": "Spice Trading [+4]",
+    "Skill 3": "Sociability [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Superior Silk Shawl",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Spice Trading [+3]",
+    "Skill 2": "Sewing [+3]",
+    "Skill 3": "Handicrafts [+3]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Tainan Treasure Maps",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Throwing [+2]",
+    "Skill 2": "Appraisal [+2]",
+    "Effect 1": "Recognition [5]"
+  },
+  {
+    "Item Name": "Tenmoku Tea Bowl",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+2]",
+    "Skill 2": "Merchandise Knowledge [+2]",
+    "Effect 1": "Formality Enhancement [8]"
+  },
+  {
+    "Item Name": "The Companion to Mathematics",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Arms [+2]",
+    "Skill 2": "Gunnery [+2]",
+    "Skill 3": "Ballistics [+2]",
+    "Effect 1": "Increase sailing speed [5]"
+  },
+  {
+    "Item Name": "The Lives",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+3]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Theology [+1]"
+  },
+  {
+    "Item Name": "Thirty-Six Stratagems",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+1]",
+    "Skill 2": "Assault [+2]"
+  },
+  {
+    "Item Name": "Tortoiseshell Cameo",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Repair [+1]"
+  },
+  {
+    "Item Name": "Uncle Hoca",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Frugality [+1]"
+  },
+  {
+    "Item Name": "Unicorn Horn",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Sorcery (thunder) [6]"
+  },
+  {
+    "Item Name": "Valentine Bouquet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Vigour recovery [18]"
+  },
+  {
+    "Item Name": "Xu Xiake's Travels",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+3]",
+    "Skill 2": "Recognition [+2]"
+  },
+  {
+    "Item Name": "Zephyrus's Wind Bag",
+    "Gender": "M / F",
+    "Attack": 18,
+    "Defense": 12,
+    "Disguise": 20,
+    "Skill 1": "Reloading [+2]",
+    "Skill 2": "Ballistics [+2]",
+    "Skill 3": "Gunnery [+1]",
+    "Effect 1": "Increase sailing speed [5]"
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "Item Name": "Adventurerous Noble's Loupe",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Geography [+2]",
+    "Skill 2": "Recognition [+1]"
+  },
+  {
     "Item Name": "Alexander the Great's Sword",
     "Gender": "M / F",
     "Attack": 60,
@@ -1334,5 +1343,1787 @@
     "Skill 1": "Sniping [+2]",
     "Skill 2": "Bow Attack [+2]",
     "Skill 3": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Angel's Wings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Theology [+1]"
+  },
+  {
+    "Item Name": "Apotolos Amina",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Effect 1": "Increase Relic Clue acquisition [12]"
+  },
+  {
+    "Item Name": "Apotolos Amina EX",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Merchandise Knowledge [+1]",
+    "Effect 1": "Less Stamina Loss in Dungeon [15]"
+  },
+  {
+    "Item Name": "Azusayumi",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Babylonian Harp",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Bagpipes",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Food Trading [+1]",
+    "Effect 1": "Bagpipes Performance [0]"
+  },
+  {
+    "Item Name": "Bahinemo Warrior's Shield",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 24,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Balmung",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "Bangasa",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Sewing [+2]",
+    "Skill 2": "Shipbuilding [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Bard's Lute",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Sociability [+3]",
+    "Skill 3": "Management Technique [+3]",
+    "Effect 1": "Increase trade goods purchase [10]"
+  },
+  {
+    "Item Name": "Baseball Bat",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Guard [+3]",
+    "Skill 3": "Assault [+2]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Basileus Spatha",
+    "Gender": "M / F",
+    "Attack": 62,
+    "Defense": 0,
+    "Disguise": 5,
+    "Skill 1": "Assault [+1]",
+    "Skill 2": "Plunder [+1]",
+    "Skill 3": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Baudelaire",
+    "Gender": "M / F",
+    "Attack": 66,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Baudelaire EX",
+    "Gender": "M / F",
+    "Attack": 66,
+    "Defense": 0,
+    "Disguise": 0,
+    "Effect 1": "Increase special shot effects [8]"
+  },
+  {
+    "Item Name": "Bayonet",
+    "Gender": "M / F",
+    "Attack": 65,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Bear Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Bes's Knife",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Survival [+1]"
+  },
+  {
+    "Item Name": "Bident",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Bill",
+    "Gender": "M / F",
+    "Attack": 75,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Plunder [+2]",
+    "Skill 2": "Swordplay [+1]",
+    "Skill 3": "Assault [+1]",
+    "Effect 1": "Increase plunder rates [10]"
+  },
+  {
+    "Item Name": "Blue Devil's Wings",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Search [+3]",
+    "Skill 2": "Unlock [+3]",
+    "Skill 3": "Trap [+2]",
+    "Effect 1": "Increase land speed [6]"
+  },
+  {
+    "Item Name": "Bourdon Lance",
+    "Gender": "M / F",
+    "Attack": 55,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Brionac",
+    "Gender": "M / F",
+    "Attack": 79,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "British Private Detective's Magnifying Glass",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Biology [+2]",
+    "Skill 2": "Collection [+1]"
+  },
+  {
+    "Item Name": "Brown Rabbit Toy",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Buzdygan",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase Melee Capabilities [6]"
+  },
+  {
+    "Item Name": "Caduceus",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Caution [+1]",
+    "Skill 2": "Management Technique [+1]"
+  },
+  {
+    "Item Name": "Caesar's Gladius",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+1]",
+    "Skill 2": "Leadership [+1]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Ceremonial Rhyton",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 20,
+    "Skill 1": "Procurement [+2]",
+    "Skill 2": "Wining and Dining [+2]",
+    "Skill 3": "Collection [+2]",
+    "Effect 1": "Fatigue recovery [5]"
+  },
+  {
+    "Item Name": "Colada del Cid",
+    "Gender": "M / F",
+    "Attack": 78,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Compendium of Natural History",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+1]",
+    "Skill 2": "Biology [+1]"
+  },
+  {
+    "Item Name": "Daikyu",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Tactics [+1]",
+    "Skill 3": "Penetration [+1]"
+  },
+  {
+    "Item Name": "Damascus Swords",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Tactics [+2]",
+    "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Dancer's Tambourine",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Rowing [+3]",
+    "Skill 3": "Navigation [+3]",
+    "Effect 1": "Lower the risk of disasters [11]"
+  },
+  {
+    "Item Name": "Deathscythe",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Plunder [+3]",
+    "Effect 1": "Increase plunder rates [10]"
+  },
+  {
+    "Item Name": "Deck Scrubber",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Decorated Musket",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]"
+  },
+  {
+    "Item Name": "Devil's Pitchfork",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Plunder [+3]",
+    "Skill 3": "Assault [+2]",
+    "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Devil's Wings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 15,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Guard [+1]",
+    "Effect 1": "Increase plunder rates [10]"
+  },
+  {
+    "Item Name": "Dolphin Float",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 50,
+    "Disguise": 20,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+3]",
+    "Skill 3": "Biology [+3]",
+    "Effect 1": "Enhance Skill Refine [7]"
+  },
+  {
+    "Item Name": "Dragon Broadaxe",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Ballistics [+3]",
+    "Skill 2": "Reloading [+2]",
+    "Skill 3": "Penetration [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Dragoon Revolver",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Sniping [+2]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Durandal",
+    "Gender": "M / F",
+    "Attack": 66,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Dussack",
+    "Gender": "M / F",
+    "Attack": 83,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Easel & Canvas EX",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Effect 1": "Increase trade goods purchase [3]"
+  },
+  {
+    "Item Name": "Espee Rapiere",
+    "Gender": "M / F",
+    "Attack": 55,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Trap [+1]",
+    "Effect 1": "Increase Relic Clue acquisition [5]"
+  },
+  {
+    "Item Name": "Excalibur",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "Fallen Angel Feathers",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art [+1]",
+    "Skill 2": "Archaeology [+1]"
+  },
+  {
+    "Item Name": "Fragarach",
+    "Gender": "M / F",
+    "Attack": 88,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "Fruit Knife",
+    "Gender": "M / F",
+    "Attack": 2,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Cooking [+1]",
+    "Skill 2": "Handicrafts [+1]"
+  },
+  {
+    "Item Name": "Gae Bulg",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "Gardener's Shears",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+3]",
+    "Skill 2": "Biology [+3]",
+    "Skill 3": "Collection [+3]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Gladius",
+    "Gender": "M / F",
+    "Attack": 44,
+    "Defense": 0,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Goddess Harp",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Art Trading [+1]",
+    "Skill 2": "Art [+2]",
+    "Effect 1": "Harp performance [0]"
+  },
+  {
+    "Item Name": "Gohei",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Crafts Trading [+2]",
+    "Skill 3": "Sundries Trading [+2]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Gorz",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Grand Admiral's Astrolabe",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Surveying [+2]",
+    "Skill 2": "Navigation [+2]",
+    "Skill 3": "Salvage [+2]"
+  },
+  {
+    "Item Name": "Gungnir",
+    "Gender": "M / F",
+    "Attack": 115,
+    "Defense": 20,
+    "Disguise": 20,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Assault [+3]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Harp of the Saint King",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Theology [+3]",
+    "Skill 2": "Survival [+2]",
+    "Skill 3": "First Aid [+2]",
+    "Effect 1": "Lower the risk of disasters [3]"
+  },
+  {
+    "Item Name": "Harp of the Saint King",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Theology [+3]",
+    "Skill 2": "Archaeology [+3]",
+    "Skill 3": "First Aid [+2]",
+    "Effect 1": "Lower the risk of disasters [3]"
+  },
+  {
+    "Item Name": "Holy Lance of Viracocha",
+    "Gender": "M / F",
+    "Attack": 55,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Surgery [+2]",
+    "Skill 2": "Biology [+2]",
+    "Skill 3": "Metal Trading [+2]",
+    "Effect 1": "Full Recovery [1]"
+  },
+  {
+    "Item Name": "Holy Water Sprinkler",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Theology [+2]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Reduce incidence of attacks [3]"
+  },
+  {
+    "Item Name": "Honebami Toushirou",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Reloading [+3]",
+    "Skill 3": "Leadership [+1]",
+    "Effect 1": "Increase Mine Damage [10]"
+  },
+  {
+    "Item Name": "Horn of the Sky",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "Horn Performance (Quintet) [0]"
+  },
+  {
+    "Item Name": "Hunting Festival Horn",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Collection [+2]",
+    "Skill 3": "Search [+1]",
+    "Effect 1": "Horn Performance [0]"
+  },
+  {
+    "Item Name": "Hunting Horn",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Biology [+1]",
+    "Effect 1": "Horn Performance [0]"
+  },
+  {
+    "Item Name": "Hurdy Gurdy",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Crafts Trading [+1]",
+    "Effect 1": "Hurdy Gurdy Performance [0]"
+  },
+  {
+    "Item Name": "Hydrangea Bangasa",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Shipbuilding [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Improved Excalibur",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Assault [+3]"
+  },
+  {
+    "Item Name": "Improved Gae Bulg",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Assault [+3]"
+  },
+  {
+    "Item Name": "Improved Kanemoto",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Improved Labrys",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Assault [+3]"
+  },
+  {
+    "Item Name": "Improved Mjolnir",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Gunfire [+3]"
+  },
+  {
+    "Item Name": "Improved Yunnan Zhan Ma Dao",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Swordplay [+3]",
+    "Skill 3": "Surgery [+2]"
+  },
+  {
+    "Item Name": "Janissary's Knife",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Throwing [+1]",
+    "Skill 2": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Jeweled Shamshir",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 60,
+    "Skill 1": "Luxuries Trading [+1]",
+    "Skill 2": "Textile Trading [+2]",
+    "Effect 1": "Enhance Skill Refine [5]"
+  },
+  {
+    "Item Name": "Kanemoto",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]"
+  },
+  {
+    "Item Name": "Khopesh",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+1]",
+    "Skill 2": "Wares Trading [+2]"
+  },
+  {
+    "Item Name": "Kopia",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Kunishige",
+    "Gender": "M / F",
+    "Attack": 72,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Labrys",
+    "Gender": "M / F",
+    "Attack": 48,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]"
+  },
+  {
+    "Item Name": "Labrys EX",
+    "Gender": "M / F",
+    "Attack": 48,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Effect 1": "Age Effect (Mythical Era) [1]"
+  },
+  {
+    "Item Name": "Laevatein",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Landsknecht Greatsword",
+    "Gender": "M / F",
+    "Attack": 75,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Lanista Gladius",
+    "Gender": "M / F",
+    "Attack": 78,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Merchandise Knowledge [+1]"
+  },
+  {
+    "Item Name": "Large Ink Brush",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Steering [+3]",
+    "Skill 2": "Swordplay [+3]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Increase special shot effects [13]"
+  },
+  {
+    "Item Name": "Large Telescope",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Ballistics [+3]",
+    "Skill 2": "Penetration [+3]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Focus (Loading) [6]"
+  },
+  {
+    "Item Name": "Le Matte Revolver",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+1]"
+  },
+  {
+    "Item Name": "Lu Bu's Ji",
+    "Gender": "M / F",
+    "Attack": 68,
+    "Defense": 0,
+    "Disguise": 5,
+    "Skill 1": "Weapons Trading [+1]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Sword Mastery [+1]"
+  },
+  {
+    "Item Name": "Lu Bu's Ji",
+    "Gender": "M / F",
+    "Attack": 68,
+    "Defense": 0,
+    "Disguise": 5,
+    "Skill 1": "Weapons Trading [+1]",
+    "Skill 2": "Assault [+1]"
+  },
+  {
+    "Item Name": "Mamorigatana",
+    "Gender": "M / F",
+    "Attack": 44,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Throwing [+2]",
+    "Skill 2": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Marlin",
+    "Gender": "M / F",
+    "Attack": 75,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Food Trading [+3]",
+    "Skill 2": "Cooking [+2]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Masquerade",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Appraisal [+2]",
+    "Skill 2": "Art [+2]",
+    "Skill 3": "Theology [+2]"
+  },
+  {
+    "Item Name": "Mehmed II's Shamshir",
+    "Gender": "M / F",
+    "Attack": 52,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Collection [+1]",
+    "Skill 2": "Perfume Trading [+1]",
+    "Skill 3": "Leadership [+1]"
+  },
+  {
+    "Item Name": "Modified Bajo Tsutsu",
+    "Gender": "M / F",
+    "Attack": 95,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+3]",
+    "Skill 2": "Sniping [+1]",
+    "Skill 3": "Surgery [+2]"
+  },
+  {
+    "Item Name": "Modified Shuang Shou Dao",
+    "Gender": "M / F",
+    "Attack": 95,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Guard [+2]"
+  },
+  {
+    "Item Name": "Monk's Spade",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Morgenstern",
+    "Gender": "M / F",
+    "Attack": 43,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+1]",
+    "Skill 2": "Tactics [+1]"
+  },
+  {
+    "Item Name": "Ninja Kunai",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Throwing [+3]",
+    "Skill 2": "Trap [+3]",
+    "Skill 3": "Unlock [+2]",
+    "Effect 1": "Less Stamina Loss in Dungeon [16]"
+  },
+  {
+    "Item Name": "Observational Astrolabe",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Astronomy [+2]",
+    "Skill 2": "Navigation [+2]",
+    "Skill 3": "Geography [+2]",
+    "Effect 1": "Increase sailing speed [5]"
+  },
+  {
+    "Item Name": "Osafune",
+    "Gender": "M / F",
+    "Attack": 56,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]"
+  },
+  {
+    "Item Name": "Panda Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Crafts Trading [+3]",
+    "Skill 2": "Handicrafts [+2]",
+    "Skill 3": "Sewing [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Parrot Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sewing [+2]",
+    "Skill 2": "Casting [+1]",
+    "Skill 3": "Cooking [+1]",
+    "Effect 1": "Reduce Vigour consumption [6]"
+  },
+  {
+    "Item Name": "Partisan",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Plunder [+1]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Pirate Slayer",
+    "Gender": "M / F",
+    "Attack": 44,
+    "Defense": 16,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Planetary Telescope",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Geography [+1]",
+    "Skill 3": "Astronomy [+1]",
+    "Effect 1": "Surveying [8]"
+  },
+  {
+    "Item Name": "Pole Blade",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]",
+    "Skill 2": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Prestigious Gladius",
+    "Gender": "M / F",
+    "Attack": 68,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Evasion [+1]",
+    "Skill 3": "Accuracy [+1]"
+  },
+  {
+    "Item Name": "Prince Consort",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Jewellry Trading [+2]",
+    "Skill 2": "Sociability [+2]",
+    "Skill 3": "Management Technique [+1]"
+  },
+  {
+    "Item Name": "Pruning Shears",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Storage [+1]",
+    "Skill 2": "Ecological Research [+1]",
+    "Skill 3": "Procurement [+1]"
+  },
+  {
+    "Item Name": "Pumpkin Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+3]",
+    "Skill 2": "Alchemy [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Ram-dao",
+    "Gender": "M / F",
+    "Attack": 75,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Ranger's Revolver",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sniping [+2]",
+    "Skill 2": "Firearms Trading [+2]"
+  },
+  {
+    "Item Name": "Red Devil's Wings",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Evasion [+3]",
+    "Skill 3": "Arms [+2]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Renowned Shamshir",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 45,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+3]",
+    "Skill 2": "Gunnery [+3]",
+    "Skill 3": "Detonics [+3]",
+    "Effect 1": "Special Goods Production Rate Up [6]"
+  },
+  {
+    "Item Name": "Replica Pirate Slayer",
+    "Gender": "M / F",
+    "Attack": 44,
+    "Defense": 16,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Rhyton",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 20,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Alcohol Trading [+2]",
+    "Skill 3": "Body Language [+1]"
+  },
+  {
+    "Item Name": "Round Shield",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Guard [+1]",
+    "Skill 2": "Survival [+1]",
+    "Skill 3": "First Aid [+2]"
+  },
+  {
+    "Item Name": "Ruyi Bang",
+    "Gender": "M / F",
+    "Attack": 70,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Plunder [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Sagaris",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Sword Mastery [+1]",
+    "Skill 3": "Assault [+1]",
+    "Effect 1": "Less Stamina Loss in Dungeon [15]"
+  },
+  {
+    "Item Name": "Saint Anthony's Recorder",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+1]",
+    "Effect 1": "Increase trade goods purchase [3]"
+  },
+  {
+    "Item Name": "Seraph's Wings",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 20,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Metal Trading [+2]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Serpent of the Sea",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "Serpent Performance (Quintet) [0]"
+  },
+  {
+    "Item Name": "Sextant of Wisdom",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Geography [+2]",
+    "Skill 2": "Astronomy [+2]",
+    "Effect 1": "Surveying [5]"
+  },
+  {
+    "Item Name": "Silver Fork",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Casting [+2]",
+    "Skill 2": "Wares Trading [+2]",
+    "Skill 3": "Firearms Trading [+2]",
+    "Effect 1": "Increase trade goods purchase [5]"
+  },
+  {
+    "Item Name": "Silver Spoon",
+    "Gender": "M / F",
+    "Attack": 7,
+    "Defense": 0,
+    "Disguise": 5,
+    "Skill 1": "Seasoning Trading [+1]",
+    "Skill 2": "Storage [+1]"
+  },
+  {
+    "Item Name": "Snowman",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Cooking [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Sorcerer's Broom",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]"
+  },
+  {
+    "Item Name": "Special Ancla",
+    "Gender": "M / F",
+    "Attack": 58,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Steering [+2]",
+    "Skill 2": "Swordplay [+2]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Special Quadrant",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+1]",
+    "Skill 2": "Geography [+1]",
+    "Effect 1": "Surveying [7]"
+  },
+  {
+    "Item Name": "Spontoon",
+    "Gender": "M / F",
+    "Attack": 58,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+2]"
+  },
+  {
+    "Item Name": "Stuffed Cat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Luxuries Trading [+2]",
+    "Skill 2": "Textile Trading [+2]",
+    "Skill 3": "Storage [+2]"
+  },
+  {
+    "Item Name": "Stuffed Crocodile",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Dolphin",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Dye Trading [+3]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Elephant",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Wares Trading [+3]",
+    "Skill 2": "Casting [+3]",
+    "Skill 3": "Shipbuilding [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Hamster",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+3]",
+    "Skill 2": "Wares Trading [+3]",
+    "Skill 3": "Shipbuilding [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Holy Bear",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 50,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+3]",
+    "Skill 2": "Alchemy [+2]",
+    "Skill 3": "Management Technique [+3]",
+    "Effect 1": "Increase skill effect duration [6]"
+  },
+  {
+    "Item Name": "Stuffed Killer Whale",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Textile Trading [+3]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Storage [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Maneki-neko",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Accounts [+3]",
+    "Skill 2": "Alchemy [+2]",
+    "Skill 3": "Casting [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Otter",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Plunder [+3]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Increase plunder rates [8]"
+  },
+  {
+    "Item Name": "Stuffed Owl",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Geography [+3]",
+    "Skill 3": "Biology [+3]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Penguin",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Skill 2": "Ecological Research [+1]"
+  },
+  {
+    "Item Name": "Stuffed Piggy",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Dye Trading [+3]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Storage [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Seal",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Textile Trading [+3]",
+    "Skill 2": "Sewing [+2]",
+    "Skill 3": "Storage [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Shark",
+    "Gender": "M / F",
+    "Attack": 40,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Cooking [+3]",
+    "Skill 2": "Collection [+3]",
+    "Skill 3": "Storage [+3]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Stuffed Sleeping Cat",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+3]",
+    "Skill 2": "Geography [+3]",
+    "Skill 3": "Biology [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Stuffed Sloth",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 50,
+    "Disguise": 0,
+    "Skill 1": "Storage [+3]",
+    "Skill 2": "Handicrafts [+2]",
+    "Skill 3": "Shipbuilding [+2]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Stuffed Tiger",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 10,
+    "Skill 1": "Sewing [+2]",
+    "Skill 2": "Handicrafts [+2]",
+    "Skill 3": "Casting [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Stuffed Turtle",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Wares Trading [+2]",
+    "Skill 2": "Casting [+2]",
+    "Skill 3": "Shipbuilding [+1]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Superior British Private Detective's Magnifying Glass",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 30,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Mineral Trading [+4]",
+    "Skill 3": "Jewellry Trading [+4]",
+    "Effect 1": "Increase Nanban trade rates [15]"
+  },
+  {
+    "Item Name": "Superior Buzdygan",
+    "Gender": "M / F",
+    "Attack": 110,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Mineral Trading [+4]",
+    "Skill 2": "Weapons Trading [+4]",
+    "Effect 1": "Reduce supply consumption [8]"
+  },
+  {
+    "Item Name": "Superior Parrot Doll",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 30,
+    "Skill 1": "Dye Trading [+4]",
+    "Skill 2": "Sociability [+2]",
+    "Skill 3": "Frugality [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Superior Ruyi Bang",
+    "Gender": "M / F",
+    "Attack": 105,
+    "Defense": 45,
+    "Disguise": 10,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Plunder [+3]",
+    "Effect 1": "Special Goods Production Rate Up [6]"
+  },
+  {
+    "Item Name": "Superior Silver Spoon",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Cooking [+2]",
+    "Skill 2": "Luxuries Trading [+4]",
+    "Skill 3": "Merchandise Knowledge [+3]",
+    "Effect 1": "Increase skill effect duration [6]"
+  },
+  {
+    "Item Name": "Superior Tebutje",
+    "Gender": "M / F",
+    "Attack": 120,
+    "Defense": 40,
+    "Disguise": 10,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Aboardage [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [8]"
+  },
+  {
+    "Item Name": "Swordbreaker",
+    "Gender": "M / F",
+    "Attack": 51,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]"
+  },
+  {
+    "Item Name": "Swordbreaker EX",
+    "Gender": "M / F",
+    "Attack": 51,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Effect 1": "Age Effect (18th century) [1]"
+  },
+  {
+    "Item Name": "Terra Amina",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Guard [+2]",
+    "Skill 2": "Sword Mastery [+2]"
+  },
+  {
+    "Item Name": "Tessak",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Evasion [+2]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Teutonic Shield",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 50,
+    "Disguise": 0,
+    "Skill 1": "Theology [+3]",
+    "Skill 2": "Archaeology [+3]",
+    "Skill 3": "Art [+3]",
+    "Effect 1": "Increase land speed [6]"
+  },
+  {
+    "Item Name": "The Cursed Keris",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Evasion [+2]",
+    "Skill 2": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "The Emperor's Scepter",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+3]",
+    "Skill 2": "Accounts [+3]",
+    "Skill 3": "Rowing [+3]",
+    "Effect 1": "Enhance Skill Refine [7]"
+  },
+  {
+    "Item Name": "The Oldest Revolver",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Gunfire [+2]",
+    "Skill 2": "Appraisal [+2]"
+  },
+  {
+    "Item Name": "The Superior Oldest Revolver",
+    "Gender": "M / F",
+    "Attack": 110,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Seasoning Trading [+4]",
+    "Skill 2": "Food Trading [+4]",
+    "Effect 1": "Increase sailing speed [9]"
+  },
+  {
+    "Item Name": "Theorbo",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sundries Trading [+1]",
+    "Effect 1": "Theorbo Performance [0]"
+  },
+  {
+    "Item Name": "Thunderer Revolver",
+    "Gender": "M / F",
+    "Attack": 80,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+4]",
+    "Skill 2": "Gunfire [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase Melee Capabilities [6]"
+  },
+  {
+    "Item Name": "Tizona",
+    "Gender": "M / F",
+    "Attack": 83,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Treasure Hunter's Knife",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Tactics [+3]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase special shot effects [12]"
+  },
+  {
+    "Item Name": "Trombone of the Flowers",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "Trombone Performance (Quintet) [0]"
+  },
+  {
+    "Item Name": "Trumpet of the Moon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "Second Trumpet (quintet) [0]"
+  },
+  {
+    "Item Name": "Trumpet of the Sun",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+1]",
+    "Effect 1": "First Trumpet (quintet) [0]"
+  },
+  {
+    "Item Name": "Two-handed Blade",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Assault [+3]",
+    "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Uchiwa",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Sundries Trading [+3]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Management Technique [+2]",
+    "Effect 1": "Increase sailing speed [6]"
+  },
+  {
+    "Item Name": "Ultimate Raikiri",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+3]",
+    "Skill 3": "Evasion [+1]"
+  },
+  {
+    "Item Name": "Vajra",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Sword Mastery [+2]"
+  },
+  {
+    "Item Name": "Voyager's Wooden Paddle",
+    "Gender": "M / F",
+    "Attack": 100,
+    "Defense": 45,
+    "Disguise": 10,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Ballistics [+3]",
+    "Skill 3": "Accuracy [+2]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "War Pickaxe",
+    "Gender": "M / F",
+    "Attack": 85,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Rowing [+2]",
+    "Skill 3": "Evasion [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "White Rabbit Toy",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Dye Trading [+2]",
+    "Skill 2": "Storage [+2]",
+    "Skill 3": "Provisions [+1]"
+  },
+  {
+    "Item Name": "Zanbato",
+    "Gender": "M / F",
+    "Attack": 90,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sword Mastery [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Accuracy [+3]",
+    "Effect 1": "Increase Melee Capabilities [5]"
+  },
+  {
+    "Item Name": "Zweihander",
+    "Gender": "M / F",
+    "Attack": 45,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Guard [+1]"
   }
 ]

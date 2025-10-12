@@ -3402,5 +3402,798 @@
     "Skill 2": "Fabric Trading [+4]",
     "Skill 3": "Textile Trading [+4]",
     "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Academic Tam",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+1]",
+    "Skill 2": "Sundries Trading [+1]"
+  },
+  {
+    "Item Name": "Advanced Biretta",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Search [+1]",
+    "Skill 3": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Alsatian Headwear",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Altered Maedate",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Ayam",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Barong",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Theology [+1]",
+    "Skill 2": "Art Trading [+1]"
+  },
+  {
+    "Item Name": "Basic Biretta",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+1]",
+    "Skill 2": "Search [+1]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "Bear Head",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 15,
+    "Skill 1": "Collection [+1]"
+  },
+  {
+    "Item Name": "British-style White Brim",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+1]"
+  },
+  {
+    "Item Name": "Butterfly Hairpiece",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Casting [+1]",
+    "Skill 2": "Handicrafts [+1]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Cat Ears",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 15,
+    "Skill 1": "Persuasion [+2]",
+    "Skill 2": "Body Language [+1]",
+    "Skill 3": "Plunder [+2]"
+  },
+  {
+    "Item Name": "Cat Ears",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 15,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Body Language [+1]",
+    "Skill 3": "Plunder [+1]",
+    "Effect 1": "Increase special shot effects [5]"
+  },
+  {
+    "Item Name": "Cat Ears",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 15,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Body Language [+1]",
+    "Skill 3": "Plunder [+1]"
+  },
+  {
+    "Item Name": "Cat Ears",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 15,
+    "Skill 1": "Collection [+2]",
+    "Skill 2": "Procurement [+2]",
+    "Skill 3": "Search [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Cat Ears",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 15,
+    "Skill 1": "Plunder [+1]",
+    "Skill 2": "Fishing [+1]",
+    "Skill 3": "Trap [+1]"
+  },
+  {
+    "Item Name": "Chameleon",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0,
+    "Skill 1": "Ecological Research [+1]"
+  },
+  {
+    "Item Name": "Chapeau Ecarlate",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Perfume Trading [+1]",
+    "Skill 2": "Repair [+1]"
+  },
+  {
+    "Item Name": "Chaplet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Luxuries Trading [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Chaplet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Luxuries Trading [+1]"
+  },
+  {
+    "Item Name": "Chaplet",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Luxuries Trading [+1]",
+    "Skill 2": "Seasoning Trading [+1]"
+  },
+  {
+    "Item Name": "Cherry Blossom Hair Decoration",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Biology [+1]",
+    "Skill 2": "Ecological Research [+1]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Chinese Kerchief",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Chinese Kerchief - Special",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Christmas mitre",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Coronation Barrette",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Storage [+1]",
+    "Skill 2": "Fabric Trading [+1]"
+  },
+  {
+    "Item Name": "Coronation Flowers",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Sundries Trading [+1]",
+    "Skill 2": "Perfume Trading [+1]"
+  },
+  {
+    "Item Name": "Custom Tricorne",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Navigation [+1]",
+    "Skill 2": "Management Technique [+1]",
+    "Skill 3": "Arms [+1]"
+  },
+  {
+    "Item Name": "Dark Halo",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Deluxe Feathered Bicorne",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 3,
+    "Disguise": 0,
+    "Skill 1": "Frugality [+1]",
+    "Skill 2": "Steering [+1]",
+    "Skill 3": "Surveying [+1]"
+  },
+  {
+    "Item Name": "Deluxe Maschera",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 6,
+    "Disguise": 20,
+    "Skill 1": "Persuasion [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Elementary Biretta",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+1]",
+    "Skill 2": "Search [+1]"
+  },
+  {
+    "Item Name": "Enkidu Head",
+    "Gender": "M / F",
+    "Attack": 5,
+    "Defense": 10,
+    "Disguise": 20,
+    "Skill 1": "Assault [+3]",
+    "Skill 2": "Guard [+2]",
+    "Effect 1": "Reduce Vigour consumption [4]"
+  },
+  {
+    "Item Name": "Flower Accessory",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 4,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Folded Eboshi",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Gold-lacquered Kanzashi",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Art Trading [+2]"
+  },
+  {
+    "Item Name": "Halloween Horn",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Sewing [+1]",
+    "Effect 1": "Reduce supply consumption [6]"
+  },
+  {
+    "Item Name": "Halo",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Halo of Gold",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+3]",
+    "Effect 1": "Reduce Vigour consumption [6]"
+  },
+  {
+    "Item Name": "Halo of Roses",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+2]",
+    "Skill 2": "Theology [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Improved Pharaoh's Headcloth",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 15,
+    "Disguise": 5,
+    "Skill 1": "Appraisal [+3]",
+    "Skill 2": "Unlock [+2]",
+    "Effect 1": "Increase land speed [3]"
+  },
+  {
+    "Item Name": "Improved Starfish Hair Ornament",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 30,
+    "Disguise": 15,
+    "Skill 1": "Sewing [+3]",
+    "Skill 2": "Handicrafts [+3]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Reduce Vigour consumption [7]"
+  },
+  {
+    "Item Name": "Intermediate Biretta",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Search [+1]",
+    "Skill 3": "Marching [+1]"
+  },
+  {
+    "Item Name": "Jack O'lantern",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 30,
+    "Disguise": 10,
+    "Skill 1": "Body Language [+2]",
+    "Skill 2": "Marching [+3]",
+    "Skill 3": "Persuasion [+1]"
+  },
+  {
+    "Item Name": "Jeollip",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Luminoso Corona",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Master Biretta",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Recognition [+2]",
+    "Skill 2": "Search [+2]",
+    "Skill 3": "Unlock [+1]"
+  },
+  {
+    "Item Name": "Mayor's Sombrero",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 13,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+2]",
+    "Skill 2": "Food Trading [+1]",
+    "Skill 3": "Sociability [+2]"
+  },
+  {
+    "Item Name": "Mermaid Accessory",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Sewing [+1]",
+    "Skill 2": "Handicrafts [+1]",
+    "Skill 3": "Alchemy [+2]",
+    "Effect 1": "Reduce Vigour consumption [5]"
+  },
+  {
+    "Item Name": "Passionate Flower Ornament",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Archaeology [+3]",
+    "Skill 2": "Theology [+2]"
+  },
+  {
+    "Item Name": "Petasos",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 10,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Provisions [+2]",
+    "Skill 3": "Collection [+2]",
+    "Effect 1": "Reduce Vigour consumption [4]"
+  },
+  {
+    "Item Name": "Pickelhaube",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]",
+    "Skill 2": "Gunfire [+1]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Pickelhaube",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+1]"
+  },
+  {
+    "Item Name": "Pickelhaube",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]",
+    "Skill 2": "Tactics [+2]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Pickelhaube",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Marching [+2]",
+    "Skill 2": "Gunfire [+1]",
+    "Skill 3": "Guard [+1]"
+  },
+  {
+    "Item Name": "Plum Blossom Hair Clasp",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Plum Blossom Hair Clasp - Special",
+    "Gender": "F",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Surgery [+1]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Plum Hair Accessory",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Luxuries Trading [+2]",
+    "Skill 3": "Crafts Trading [+2]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Plum Hair Accessory",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Detonics [+2]",
+    "Skill 2": "Penetration [+2]",
+    "Skill 3": "Ballistics [+2]",
+    "Effect 1": "Increase special shot effects [14]"
+  },
+  {
+    "Item Name": "Prime Breton",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Metal Trading [+3]",
+    "Skill 2": "Sundries Trading [+3]",
+    "Skill 3": "Cooking [+3]",
+    "Effect 1": "Reduce supply consumption [7]"
+  },
+  {
+    "Item Name": "Princess's Hair Accessory",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Metal Trading [+1]",
+    "Skill 2": "Accounts [+1]"
+  },
+  {
+    "Item Name": "Prior Chibchan Tribal Chief's Corona",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Sociability [+2]",
+    "Skill 2": "Metal Trading [+1]"
+  },
+  {
+    "Item Name": "Pumpkin-head",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0,
+    "Skill 1": "Body Language [+2]"
+  },
+  {
+    "Item Name": "Pumpkin-head",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 10,
+    "Skill 1": "Body Language [+2]",
+    "Skill 2": "Marching [+1]",
+    "Skill 3": "Persuasion [+2]"
+  },
+  {
+    "Item Name": "Raden Kanzashi",
+    "Gender": "F",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+1]",
+    "Skill 2": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "Samo",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 10,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Samurai Eboshi",
+    "Gender": "M",
+    "Attack": 10,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+2]"
+  },
+  {
+    "Item Name": "Shigezane Eboshi",
+    "Gender": "M",
+    "Attack": 5,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Merchandise Knowledge [+1]",
+    "Skill 2": "Crafts Trading [+1]"
+  },
+  {
+    "Item Name": "Si-fang Pingding Jin",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Special Banda",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Spice Trading [+2]",
+    "Skill 2": "Alcohol Trading [+2]"
+  },
+  {
+    "Item Name": "Special Tricornio",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 8,
+    "Disguise": 0,
+    "Skill 1": "Spice Trading [+2]",
+    "Skill 2": "Alcohol Trading [+2]"
+  },
+  {
+    "Item Name": "Starfish Hair Ornament",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Fishing [+3]",
+    "Skill 2": "Collection [+2]",
+    "Skill 3": "Search [+2]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Sunflower Hair Accessory",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 10,
+    "Skill 1": "Seasoning Trading [+2]",
+    "Skill 2": "Perfume Trading [+2]",
+    "Skill 3": "Food Trading [+2]",
+    "Effect 1": "Lower the risk of disasters [9]"
+  },
+  {
+    "Item Name": "Superior Breton",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Food Trading [+3]",
+    "Skill 2": "Textile Trading [+3]",
+    "Skill 3": "Handicrafts [+3]",
+    "Effect 1": "Lower the risk of disasters [10]"
+  },
+  {
+    "Item Name": "Superior Enkidu Head",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 100,
+    "Disguise": 30,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Gunfire [+3]",
+    "Effect 1": "Increase plunder rates [12]"
+  },
+  {
+    "Item Name": "Superior Pickelhaube",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 30,
+    "Disguise": 0,
+    "Skill 1": "Reloading [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Gunnery [+1]",
+    "Effect 1": "Age Effect (15th century) [1]"
+  },
+  {
+    "Item Name": "Superior Sunflower Hair Accessory",
+    "Gender": "F",
+    "Attack": 30,
+    "Defense": 35,
+    "Disguise": 15,
+    "Skill 1": "Swordplay [+3]",
+    "Skill 2": "Sword Mastery [+2]",
+    "Skill 3": "Assault [+2]",
+    "Effect 1": "Increase plunder rates [12]"
+  },
+  {
+    "Item Name": "Superior Toque Blanche",
+    "Gender": "M / F",
+    "Attack": 30,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Food Trading [+4]",
+    "Skill 2": "Accounts [+3]",
+    "Skill 3": "Sociability [+2]",
+    "Effect 1": "Increase trade goods purchase [9]"
+  },
+  {
+    "Item Name": "Tong Tian Guan",
+    "Gender": "M",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0
+  },
+  {
+    "Item Name": "Tong Tian Guan - Special",
+    "Gender": "M",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Tactics [+1]",
+    "Skill 2": "First Aid [+1]"
+  },
+  {
+    "Item Name": "Toque Blanche",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Handicrafts [+2]",
+    "Skill 2": "Luxuries Trading [+2]",
+    "Skill 3": "Alcohol Trading [+2]",
+    "Effect 1": "Enhance Aides' growth [3]"
+  },
+  {
+    "Item Name": "Voile Bleue",
+    "Gender": "F",
+    "Attack": 5,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+2]",
+    "Skill 2": "Evasion [+2]",
+    "Skill 3": "Tactics [+1]",
+    "Effect 1": "Increase skill effect duration [5]"
+  },
+  {
+    "Item Name": "Voile Violet",
+    "Gender": "F",
+    "Attack": 0,
+    "Defense": 5,
+    "Disguise": 0,
+    "Skill 1": "Accounts [+1]",
+    "Skill 2": "Sociability [+1]"
+  },
+  {
+    "Item Name": "Warrior Crest",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 18,
+    "Disguise": 0,
+    "Skill 1": "Leadership [+1]",
+    "Skill 2": "Plunder [+1]"
+  },
+  {
+    "Item Name": "White Jade Kanzashi",
+    "Gender": "F",
+    "Attack": 8,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Management Technique [+1]",
+    "Skill 2": "Arms [+1]"
+  },
+  {
+    "Item Name": "Wrinkled Eboshi",
+    "Gender": "M",
+    "Attack": 8,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Management Technique [+1]",
+    "Skill 2": "Arms [+1]"
   }
 ]

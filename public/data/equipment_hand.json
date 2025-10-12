@@ -883,5 +883,135 @@
     "Skill 2": "Guard [+1]",
     "Skill 3": "Tactics [+1]",
     "Effect 1": "Increase Melee Capabilities [4]"
+  },
+  {
+    "Item Name": "Bi-gap",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 7,
+    "Disguise": 0,
+    "Skill 1": "Swordplay [+1]"
+  },
+  {
+    "Item Name": "Improved Wrought Iron Wrist Armour",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 15,
+    "Disguise": 0,
+    "Skill 1": "Gunnery [+2]",
+    "Skill 2": "Ballistics [+2]",
+    "Skill 3": "Arms [+2]"
+  },
+  {
+    "Item Name": "Kote",
+    "Gender": "M / F",
+    "Attack": 10,
+    "Defense": 14,
+    "Disguise": 10,
+    "Skill 1": "Assault [+1]",
+    "Skill 2": "Guard [+1]"
+  },
+  {
+    "Item Name": "Prester John's Wrist Guards",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 12,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+1]"
+  },
+  {
+    "Item Name": "Samurai Lord's Wrist Guards",
+    "Gender": "M",
+    "Attack": 15,
+    "Defense": 20,
+    "Disguise": 0,
+    "Skill 1": "Management Technique [+2]",
+    "Skill 2": "Assault [+2]",
+    "Skill 3": "Rowing [+2]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Seeker's Panja",
+    "Gender": "M / F",
+    "Attack": 0,
+    "Defense": 0,
+    "Disguise": 0,
+    "Skill 1": "Astronomy [+2]",
+    "Skill 2": "Archaeology [+1]",
+    "Skill 3": "Theology [+1]"
+  },
+  {
+    "Item Name": "Superior Gold Hands",
+    "Gender": "M / F",
+    "Attack": 60,
+    "Defense": 50,
+    "Disguise": 15,
+    "Skill 1": "Reloading [+3]",
+    "Skill 2": "Gunfire [+3]",
+    "Skill 3": "Sniping [+3]",
+    "Effect 1": "Increase plunder rates [11]"
+  },
+  {
+    "Item Name": "Superior Panja",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 20,
+    "Disguise": 30,
+    "Skill 1": "Casting [+2]",
+    "Skill 2": "Textile Trading [+4]",
+    "Skill 3": "Frugality [+4]",
+    "Effect 1": "Increase sailing speed [8]"
+  },
+  {
+    "Item Name": "Supreme Panja",
+    "Gender": "M / F",
+    "Attack": 20,
+    "Defense": 30,
+    "Disguise": 30,
+    "Skill 1": "Firearms Trading [+4]",
+    "Skill 2": "Jewellry Trading [+4]",
+    "Skill 3": "Wares Trading [+2]",
+    "Effect 1": "Lower the risk of disasters [11]"
+  },
+  {
+    "Item Name": "Ultimate Panja",
+    "Gender": "M / F",
+    "Attack": 50,
+    "Defense": 50,
+    "Disguise": 0,
+    "Skill 1": "Guard [+3]",
+    "Skill 2": "Assault [+3]",
+    "Skill 3": "Tactics [+3]",
+    "Effect 1": "Lower the risk of disasters [11]"
+  },
+  {
+    "Item Name": "Wrought Iron Wrist Armour",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Ballistics [+2]"
+  },
+  {
+    "Item Name": "Wrought Iron Wrist Armour - Special",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Rowing [+2]",
+    "Skill 2": "Steering [+2]",
+    "Skill 3": "Ballistics [+2]"
+  },
+  {
+    "Item Name": "Wrought Steel Wrist Armour - Special",
+    "Gender": "M / F",
+    "Attack": 15,
+    "Defense": 25,
+    "Disguise": 0,
+    "Skill 1": "Sail Handling [+2]",
+    "Skill 2": "Repair [+2]",
+    "Skill 3": "Storage [+3]"
   }
 ]
