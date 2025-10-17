@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar"; // ✅ add this line
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "UWO Database - Indies at War",
@@ -27,8 +28,8 @@ export default function RootLayout({
       >
         {/* ✅ Navbar now appears on every page */}
         <Navbar />
-
         {children}
+        <Footer /> 
       </body>
     </html>
   );

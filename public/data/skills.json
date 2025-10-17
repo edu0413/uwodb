@@ -1,0 +1,1034 @@
+[
+  {
+    "name": "Appraisal",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of discovery items can be made on collection of treasure reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Archaeology",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of discovery items can be made on collection of historical reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Art",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of discovery items can be made on collection of art reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Astronomy",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of Astronomy discoveries and gathering related information.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Biology",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of discovery items can be made on collection of biology reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Collection",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "A variety of materials and goods can be gathered.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Ecological Research",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Discover flora and fauna in their natural habitat.",
+    "refined_effect": "Increases experience and restores fatigue."
+  },
+  {
+    "name": "Eradication",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Can ease damage from the likes of rats and seaweed.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Fishing",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Fish can be caught.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Geography",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of a discovery item can be made on collection of geographical reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Haul",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Sunken ships can be hauled without affecting sailing. Sailing Speed is increased when used together with hauling assistance.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Linguistics",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Through the classification and analysis of many languages, you are able to write a dictionary.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Marching",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Curb Fatigue and rate of bandit attack on land. Slightly reduce damage in sunken ship.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Mine Detection",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Detect enemy laid sea mines during battle.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Navigation",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Bring out the hidden performance in a particular vessel through a high level of skill in ship handling.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Observe",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "You can specify a place that seems to have something.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Persuasion",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Talk to the girl at the bar about adventures and you can get friendly with her.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Pet Training",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Draws out the special effects of pets. The effects drawn out will increase depending on Rank.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Procurement",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Secure water when it rains and obtain food provisions on land.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Provisions",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Cheap purchase of Water, Food, Timber and Munitions at Port.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Recognition",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Can be used to discover Sea Regions, Ruins, Astronomical Objects, and search for flotsam.",
+    "refined_effect": "Increases experience and restores fatigue."
+  },
+  {
+    "name": "Rescue",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Can rescue a Fleet Member that cannot sail or Sailors that have fallen overboard.",
+    "refined_effect": "Increases the effectiveness of the Rescue skill during sea battle."
+  },
+  {
+    "name": "Sail Handling",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Increases the sailing speed of the ship. The effect increases according to Rank.",
+    "refined_effect": "Extends the range that can be reached at with Auto Navigation."
+  },
+  {
+    "name": "Salvage",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "You can raise sleeping, sunken hulks from the bottom of the sea.",
+    "refined_effect": "When salvaging shipwrecks, the success rate of salvage increases, and damage to the crew and hull is reduced."
+  },
+  {
+    "name": "Search",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "With correct location and excavation, all treasures can be found.",
+    "refined_effect": "Increases experience and restores fatigue."
+  },
+  {
+    "name": "Surveying",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Survey the surroundings and define present location.",
+    "refined_effect": "When using the Observe Skill or a Treasure Map, the discovery detection range is increased."
+  },
+  {
+    "name": "Survival",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Lessen harm to crew in times of drought and hunger, storm and blizzard.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Theology",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Appraisal of discovery items can be made on collection of religious reports.",
+    "refined_effect": "Increase in fame and experience. Also, reduced headaches at the archives meaning you can browse for longer."
+  },
+  {
+    "name": "Throwing",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "The attack power and attack speed of throwing weapons in land battles are raised.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Trap",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Discover/Disarm traps set in dungeon Increase effectiveness of Trap-type techs.",
+    "refined_effect": "Trap Techs have a larger range and effect."
+  },
+  {
+    "name": "Unlock",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "The locks and traps for finding discovery items can be released.",
+    "refined_effect": "Opening chests in a dungeon gains more loot."
+  },
+  {
+    "name": "Violin Performance",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Play the violin to relieve sailors of Fatigue, stress, and homesickness. Repel sirens.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Wining and Dining",
+    "price": "",
+    "role": "adv",
+    "acquisition": "",
+    "description": "Treating the crew to alcoholic trade goods relieves their Fatigue.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Accounts",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "You will be able to negotiate prices and see the nearby towns' market rates.",
+    "refined_effect": "Better success through haggling."
+  },
+  {
+    "name": "Alchemy",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "A chemical technique of refining materials to turn them into gold.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Alcohol Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More alcohol can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Art Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More artwork can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Body Language",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "You can converse with people on the street without knowing their language.",
+    "refined_effect": "Once body language is successful once in a city, it is always successful while in that city."
+  },
+  {
+    "name": "Casting",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Tradable industrial products can be manufactured into weapons.",
+    "refined_effect": "Chance to Consume fewer materials and higher chance of great successes."
+  },
+  {
+    "name": "Caution",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "To guard against enemy at sea and not fall for an Ambush.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Cooking",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Groceries can be made into dishes.",
+    "refined_effect": "Chance to Consume fewer materials and higher chance of great successes."
+  },
+  {
+    "name": "Crafts Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More crafts can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Dye Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More dye can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Escape",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Stop fighting during a sea battle and flee at full speed.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Fabric Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More fabric can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Firearms Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More firearms can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Food Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More provisions can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Frugality",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Reduces the consumption of Water and Food provided to Sailors as well as the cost of hiring Sailors.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Handicrafts",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Tradable material such as wood can be fashioned into another tradable item such as a work of art.",
+    "refined_effect": "Chance to Consume fewer materials and higher chance of great successes."
+  },
+  {
+    "name": "Jewellry Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More precious stones can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Livestock Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More domestic livestock can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Luxuries Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More luxuries can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Management Skill",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "High level methods of management bring about the effective use of equipment on special vessels.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Medicine Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More medicine can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Merchandise Knowledge",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Utilize vast and deep knowledge of Merchandise and increase effectiveness of Item-type Techs.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Metal Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More precious metals can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Mineral Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More mineral ore can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Perfume Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More fragrance can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Seasoning Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More seasonings can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Sewing",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Tradable ingredients can be made into clothing.",
+    "refined_effect": "Chance to Consume fewer materials and higher chance of great successes."
+  },
+  {
+    "name": "Sociability",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "Talking with people holding high positions becomes easier. Reduce the chance of failure in price negotiations.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Spice Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More seasonings can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Storage",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "In case of shipwreck or being looted, damage can be somewhat eased. Preserved food can be made.",
+    "refined_effect": "Chance to Consume fewer materials and higher chance of great successes."
+  },
+  {
+    "name": "Sundries Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More miscellaneous goods can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Textile Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More fibre can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Wares Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More wares can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Weapons Trading",
+    "price": "",
+    "role": "trd",
+    "acquisition": "",
+    "description": "More weapons can be bought at the market.",
+    "refined_effect": "Able to use 100 vigour once per visit instead of a Purchase Order. Repeated purchases of goods won't decrease the available amount as much."
+  },
+  {
+    "name": "Aboardage",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Easier to engage in Melee Battle.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Accuracy",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Cannons, autocannons and flamethrowers can hit targets more easily. Also, they can shoot at close range.",
+    "refined_effect": "Increases the cannonspeed after being fired."
+  },
+  {
+    "name": "Arms",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Thanks to good knowledge of weapons, you are able to operate powerful equipment on special ships.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Assault",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Temporary increase in Attack Power during Melee Battle.",
+    "refined_effect": "When using it, 33 %(approx) chance that it will act as an Obstruction (preventing item use by enemy) during melee battle. NOTE: If the effect applies, assault skill itself won't bring extra kills towards enemy crew."
+  },
+  {
+    "name": "Ballistics",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Extends cannon firing range.",
+    "refined_effect": "The cannonfire range is further increased."
+  },
+  {
+    "name": "Bow Attack",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Increases the Critical rate when using a bow or crossbow in Land Battle.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Evasion",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Makes it difficult for enemy bombs to strike during battle.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Fire Fighting",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Extinguish fire at sea.",
+    "refined_effect": "When using it, it repairs your ship durability."
+  },
+  {
+    "name": "First Aid",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Lowers the loss of crew due to injury during battle or exploration.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Guard",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Temporary increase in Defence Power during Melee Battle.",
+    "refined_effect": "When using it, chance that the vigour of your opponent will be reduced during melee battle."
+  },
+  {
+    "name": "Gunfire",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Decrease the opponent's attack and defense power during Melee Battles. And increase the attack speed of guns and handguns in Land Battles.",
+    "refined_effect": "When using it, 33 %(approx) chance that it will act as an Obstruction (preventing item use by enemy) during melee battle. NOTE: If the effect applies, gunfire won't reduce the melee stats of your enemy at all."
+  },
+  {
+    "name": "Gunnery",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Cannon loads become quicker, and cannons, autocanons and flamethrowers less prone to break down.",
+    "refined_effect": "Reduces the vigour cost of all cannonskills by 10 %."
+  },
+  {
+    "name": "Leadership",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Alleviation of issues with the crew such as disorder, fighting, and mutiny.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Lookout",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "You are able to know the name of the captain of a far off ship.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Mine Laying",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Ability to lay sea mines during battle.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Pathology",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Medical treatment for outbreaks of scurvy or infectious disease at sea.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Penetration",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Increases destructive capability of cannon.",
+    "refined_effect": "When in use, chance of causing abnormality (disorder, leaks etc..) is raised."
+  },
+  {
+    "name": "Plunder",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "After victory in hand to hand combat or a land battle, plunder your enemy's possessions.",
+    "refined_effect": "Increase item plunder chances. Increases the chance of successful item plunder."
+  },
+  {
+    "name": "Reloading",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Temporary increase in speed of cannon loads.",
+    "refined_effect": "The loading speed increases further."
+  },
+  {
+    "name": "Repair",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Timber can be used to repair ships.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Request Convoy",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Support from your country's navy is called. Cannot be used for personal disputes.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Request Reinforce",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Call for reinforcements from another fleet.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Rowing",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Increases speed of vessels fitted with oars.",
+    "refined_effect": "The acceleration and shipspeed are raised (approx. 5 %). Also the penalty of turning is eased when using it."
+  },
+  {
+    "name": "Shipbuilding",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Ships can be built at the Shipyard.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Sniping",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Increases the attack power and attack speed of long-range weapons.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Steering",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Increases ship Turning Speed. Also lessens damage from sea mines, etc.",
+    "refined_effect": "Enhances the effectiveness of Cannon Evade from Figureheads and damage taken by rams is reduced."
+  },
+  {
+    "name": "Surgery",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Medical treatment for crew injured in battle. Water is required.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Sword Mastery",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "The attack power and attack speed of close-range weapons in land battles are raised.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Swordplay",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "The attack power in melee battles and the attack power of close-range weapons in land battles is raised.",
+    "refined_effect": "Reduces the vigour cost of melee skills by 10 %."
+  },
+  {
+    "name": "Tactics",
+    "price": "",
+    "role": "btl",
+    "acquisition": "",
+    "description": "Can increase Attack and Defence Power during Melee Battle.",
+    "refined_effect": "When using it, chance that the vigour of your opponent will be reduced during melee battle."
+  },
+  {
+    "name": "Ancient Egyptian",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to read books. Used for ancient texts in Egypt.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Arabic",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Islamic lands.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Celtic",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to read books. Used for ancient texts on the island of Britain.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Chinese",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used all across China.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Dutch",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used near Northern Flanders.",
+    "refined_effect": ""
+  },
+  {
+    "name": "English",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in the vicinity of Britain.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Far North Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Browsing books and conversing becomes possible in Russia and the Far North.",
+    "refined_effect": ""
+  },
+  {
+    "name": "French",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used near France.",
+    "refined_effect": ""
+  },
+  {
+    "name": "German",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Germany.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Greek",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in the Balkan Peninsula.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Hebrew",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to read books. Used for ancient texts in the Sinai peninsula.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Indian Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used all across India.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Italian",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used near Italy.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Japanese",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Japan.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Korean",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used all across Korean Peninsula.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Latin",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used by European scholars.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Malay/Tagalog",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in the south-east region of South-east Asia.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Mayan Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Central America.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Mon-Khmer lang.",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Indo-China.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Nahuatl",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in part of Central America.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Nordic",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Scandinavia.",
+    "refined_effect": ""
+  },
+  {
+    "name": "North American Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in the vicinity of North America.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Oceanic Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Oceania.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Persian",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Hormuz and Basra.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Portuguese",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used near Iberia.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Quechuan",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in part of the South American continent.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Slavic",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in Eastern Europe.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Spanish",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used near Iberia.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Swahili",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in East Africa.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Thai/Burmese",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used mainly in the Malay peninsula.",
+    "refined_effect": ""
+  },
+  {
+    "name": "Turkish",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used around Turkey.",
+    "refined_effect": ""
+  },
+  {
+    "name": "West African Languages",
+    "price": "",
+    "role": "lang",
+    "acquisition": "",
+    "description": "Ability to converse and read books. Used in the south-west of Africa.",
+    "refined_effect": ""
+  }
+]

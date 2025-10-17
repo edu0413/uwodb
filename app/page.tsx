@@ -103,15 +103,6 @@ async function getShipsStats(): Promise<CountInfo> {
   const json = await fetchFirstJSON(["/data/ships.json", "/data/ships.min.json", "/data/Ships.json", "/data/ships-db.json"]);
   return { count: extractCountGeneric(json, ["ships", "data", "items"]), updatedAt: extractUpdatedAt(json) };
 }
-async function getSkillsStats(): Promise<CountInfo> {
-  const json = await fetchFirstJSON(["/data/skills.json", "/data/ship_skills.json", "/data/skills.min.json"]);
-  return { count: extractCountGeneric(json, ["skills", "optionalSkills", "data", "items"]), updatedAt: extractUpdatedAt(json) };
-}
-async function getRailwaysStats(): Promise<CountInfo> {
-  const json = await fetchFirstJSON(["/data/railways.json"]);
-  const count = (Array.isArray(json?.companies) && json.companies.length) || extractCountGeneric(json, ["companies", "data"]);
-  return { count, updatedAt: extractUpdatedAt(json) };
-}
 
 /* ---- Influence parsing ---- */
 function toSlug(n: string) {
@@ -408,10 +399,8 @@ export default function Home() {
 
   useEffect(() => {
     (async () => {
-      const [s, k, r] = await Promise.all([getShipsStats(), getSkillsStats(), getRailwaysStats()]);
+      const [s] = await Promise.all([getShipsStats()]);
       setShips(s);
-      setSkills(k);
-      setRails(r);
     })();
   }, []);
 
@@ -454,10 +443,16 @@ export default function Home() {
                     Icon={ShipIcon}
                   />
                   <CTA
+                    href="/db/skills"
+                    title="Explore Character Skills"
+                    descr="Compendium of skills"
+                    Icon={ScrollText}
+                  />
+                  <CTA
                     href="/db/ship_skills"
                     title="Explore Ship Skills"
                     descr="Compendium of ship skills"
-                    Icon={ShipIcon}
+                    Icon={ScrollText}
                   />
                   <CTA
                     href="/db/sailor_equipment"
@@ -503,9 +498,8 @@ export default function Home() {
 
         {/* Mini Dashboard */}
         <section className="mx-auto max-w-5xl">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
             <StatCard label="Ships" value={fmt(ships.count)} sub={`Updated: ${formatDate(ships.updatedAt)}`} Icon={ShipIcon} />
-            <StatCard label="Ship Skills" value={fmt(skills.count)} sub={`Updated: ${formatDate(skills.updatedAt)}`} Icon={ScrollText} />
           </div>
         </section>
 
