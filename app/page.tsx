@@ -450,13 +450,19 @@ export default function Home() {
                   <CTA
                     href="/db/ships"
                     title="Explore Ships"
-                    descr="Stats, capacity, skills & more"
+                    descr="Compare stats, capacity, skills & more"
+                    Icon={ShipIcon}
+                  />
+                  <CTA
+                    href="/db/ship_skills"
+                    title="Explore Ship Skills"
+                    descr="Compendium of ship skills"
                     Icon={ShipIcon}
                   />
                   <CTA
                     href="/db/sailor_equipment"
                     title="Sailor Equipment"
-                    descr="Stats, skills & more"
+                    descr="Check stats, effects & more"
                     Icon={WavesIcon}
                   />
                   <CTA

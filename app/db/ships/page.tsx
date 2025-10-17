@@ -151,6 +151,25 @@ export default function ShipsPage() {
   // Expanded rows
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
+  // Compare selection (max 3)
+  const [compare, setCompare] = useState<Ship[]>([]);
+
+  const isCompared = (name: string) =>
+    compare.some(s => s["Ship Name"] === name);
+
+  const canAddMore = compare.length < 3;
+
+  const toggleCompareShip = (ship: Ship) => {
+    setCompare(prev => {
+      const exists = prev.some(s => s["Ship Name"] === ship["Ship Name"]);
+      if (exists) return prev.filter(s => s["Ship Name"] !== ship["Ship Name"]);
+      if (prev.length >= 3) return prev; // hard cap at 3
+      return [...prev, ship];
+    });
+  };
+
+  const clearCompare = () => setCompare([]);
+
   useEffect(() => {
     let cancelled = false;
     fetch(DATA_SHIPS).then((r) => r.json()).then((d: Ship[]) => { if (!cancelled) setShips(d); });
@@ -278,7 +297,7 @@ export default function ShipsPage() {
         <div className="mt-6 rounded-2xl border border-slate-800 bg-slate-900/50 p-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-1 text-xs uppercase tracking-wider text-slate-400"><ListFilter className="h-4 w-4"/> Filters</span>
-            <button onClick={resetFilters} className="ml-auto text-xs text-indigo-400 hover:text-indigo-300">Reset</button>
+            <button onClick={resetFilters} className="cursor-pointer ml-auto text-xs text-indigo-400 hover:text-indigo-300">Reset</button>
           </div>
 
           <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -343,6 +362,162 @@ export default function ShipsPage() {
           </div>
         </div>
 
+        {/* Compare card */}
+        {compare.length > 0 && (
+          <div className="mt-4 rounded-2xl border border-indigo-800/40 bg-indigo-950/30 p-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-semibold text-slate-200">
+                Compare Ships ({compare.length}/3)
+              </h3>
+              <button
+                onClick={clearCompare}
+                className="cursor-pointer text-xs text-indigo-300 hover:text-indigo-200"
+              >
+                Clear
+              </button>
+            </div>
+
+            <div className="mt-1 text-[11px] text-slate-400">
+              Green chips indicate the best value for that stat (ties are highlighted too).
+            </div>
+
+            {/* ---- build rows + wins ---- */}
+            {(() => {
+              const statRows = [
+                { label: "Size", kind: "text", get: (s: Ship) => s.Size },
+                { label: "Role", kind: "text", get: (s: Ship) => s.Type ?? "—" },
+                { label: "V. Sail", kind: "number", get: (s: Ship) => s["V. Sail"] },
+                { label: "H. Sail", kind: "number", get: (s: Ship) => s["H. Sail"] },
+                { label: "Total Sails", kind: "number", get: (s: Ship) => totalSails(s) },
+                { label: "Row Power", kind: "number", get: (s: Ship) => s["Row Power"] },
+                { label: "Turn Speed", kind: "number", get: (s: Ship) => s["Turn Speed"] },
+                { label: "Wave Resist", kind: "number", get: (s: Ship) => s.WR },
+                { label: "Armor", kind: "number", get: (s: Ship) => s["Arm."] },
+                { label: "Guns", kind: "number", get: (s: Ship) => s["C.C."] },
+                { label: "Hold", kind: "number", get: (s: Ship) => s.Hold },
+                { label: "Durability", kind: "number", get: (s: Ship) => s["Base Dura."] },
+                { label: "Crew (Max)", kind: "number", get: (s: Ship) => parseCrewRange(s.Cabin).max ?? NaN },
+                { label: "Masts", kind: "number", get: (s: Ship) => s.Mast },
+                { label: "Material", kind: "text", get: (s: Ship) => s["Base Material"] },
+              ] as const;
+
+              // count "wins" per ship (ties count for all winners)
+              const wins = Array(compare.length).fill(0) as number[];
+              statRows.forEach((row) => {
+                if (row.kind !== "number") return;
+                const vals = compare.map((s) => row.get(s));
+                const nums = vals.map((v) =>
+                  typeof v === "number" && Number.isFinite(v) ? v : -Infinity
+                );
+                const best = Math.max(...nums);
+                if (best === -Infinity) return;
+                nums.forEach((v, i) => {
+                  if (v === best) wins[i] += 1;
+                });
+              });
+
+              // rank by wins (ties share rank)
+              const uniqueScores = Array.from(new Set([...wins].sort((a, b) => b - a)));
+              const scoreToRank = new Map<number, number>();
+              uniqueScores.forEach((score, idx) => scoreToRank.set(score, idx + 1));
+              const ranks = wins.map((w) => scoreToRank.get(w) || 3);
+
+              const rankClass = (rank: number) =>
+                rank === 1
+                  ? "text-amber-300 font-semibold"
+                  : rank === 2
+                  ? "text-slate-300 font-medium"
+                  : "text-slate-200";
+
+              return (
+                <div className="mt-3 overflow-x-auto">
+                  <table className="w-full table-fixed text-sm">
+                    <colgroup>
+                      <col className="w-[18rem]" />
+                      {/* equal width for ship columns */}
+                      {compare.map((_, i) => (
+                        <col key={i} />
+                      ))}
+                    </colgroup>
+
+                    <thead className="bg-slate-900/60">
+                      <tr>
+                        <th className="px-3 py-2 text-left text-slate-300">Stat</th>
+                        {compare.map((s, i) => (
+                          <th key={s["Ship Name"]} className="px-3 py-2">
+                            <div
+                              className={`mx-auto truncate max-w-[22ch] text-center ${rankClass(
+                                ranks[i]
+                              )}`}
+                              title={s["Ship Name"]}
+                            >
+                              {s["Ship Name"]}
+                            </div>
+                            <div className="mt-0.5 text-center text-[11px] text-slate-400">
+                              Best stats: <span className="text-slate-300">{wins[i]}</span>
+                            </div>
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+
+                    <tbody className="border-t border-slate-800">
+                      {statRows.map((row, ridx) => {
+                        const values = compare.map((s) => row.get(s));
+                        const isNumber = row.kind === "number";
+                        const nums = isNumber
+                          ? values.map((v) =>
+                              typeof v === "number" && Number.isFinite(v) ? v : -Infinity
+                            )
+                          : [];
+                        const best = isNumber ? Math.max(...(nums as number[])) : undefined;
+
+                        return (
+                          <tr
+                            key={row.label}
+                            className={ridx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10"}
+                          >
+                            <td className="px-3 py-2 text-slate-300 whitespace-nowrap">
+                              {row.label}
+                            </td>
+
+                            {compare.map((s, cidx) => {
+                              const v = values[cidx];
+                              const num = typeof v === "number" && Number.isFinite(v) ? (v as number) : null;
+                              const isBest = isNumber && num != null && num === best;
+
+                              return (
+                                <td key={`${row.label}-${s["Ship Name"]}`} className="px-3 py-2 text-center">
+                                  {row.kind === "text" ? (
+                                    <span className="text-slate-200">{String(v ?? "—")}</span>
+                                  ) : num != null ? (
+                                    <span
+                                      className={
+                                        isBest
+                                          ? "inline-flex items-center rounded-md px-2 py-0.5 bg-emerald-500/10 text-emerald-300 ring-1 ring-emerald-500/30 font-semibold"
+                                          : "text-slate-200"
+                                      }
+                                      title={isBest ? "Best" : undefined}
+                                    >
+                                      {num.toLocaleString("en-US")}
+                                    </span>
+                                  ) : (
+                                    <span className="text-slate-400">—</span>
+                                  )}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              );
+            })()}
+          </div>
+        )}
+
         {/* Results: Table */}
         <div className="mt-4 text-sm text-slate-400">Showing <span className="text-slate-200 font-medium">{visible.length}</span> of {ships.length} ships</div>
 
@@ -395,10 +570,35 @@ export default function ShipsPage() {
                       <tr>
                         <td colSpan={colSpanAll} className="p-0">
                           <div className="px-4 py-3 bg-slate-900/40 border-t border-b border-slate-800">
-                            <div className="flex items-center gap-2 mb-2">
-                              <span className="text-slate-100 font-semibold">Optional Skills for <span className="underline">{name}</span></span>
-                              <span className="text-xs text-slate-400">(click row again to collapse)</span>
+                            <div className="flex items-start justify-between mb-2 gap-2">
+                              <div className="flex items-center gap-2">
+                                <span className="text-slate-100 font-semibold">
+                                  Optional Skills for <span className="underline">{name}</span>
+                                </span>
+                                <span className="text-xs text-slate-400">(click row again to collapse)</span>
+                              </div>
+
+                              <button
+                                onClick={(e) => { e.stopPropagation(); toggleCompareShip(ship); }}
+                                disabled={!isCompared(name) && !canAddMore}
+                                title={
+                                  !isCompared(name) && !canAddMore
+                                    ? "You can compare up to 3 ships"
+                                    : isCompared(name)
+                                    ? "Remove from compare"
+                                    : "Add to compare"
+                                }
+                                className={cls(
+                                  "cursor-pointer px-3 py-1.5 rounded-lg text-xs border transition",
+                                  isCompared(name)
+                                    ? "border-rose-500/40 bg-rose-500/10 text-rose-200 hover:bg-rose-500/20"
+                                    : "border-indigo-500/40 bg-indigo-500/10 text-indigo-200 hover:bg-indigo-500/20 disabled:opacity-50"
+                                )}
+                              >
+                                {isCompared(name) ? "Remove from Compare" : "Add to Compare"}
+                              </button>
                             </div>
+
 
                             {cards.length === 0 ? (
                               <p className="text-slate-300/80 italic">No optional skills listed.</p>
@@ -419,7 +619,8 @@ export default function ShipsPage() {
                                               src={firstSrc}
                                               alt={`${s.name} icon`}
                                               title={s.name}
-                                              className="w-5 h-5 object-contain"
+                                              style={{ width: "24px", height: "28px" }}
+                                              className="object-contain"
                                               loading="lazy"
                                               decoding="async"
                                               onError={(e) => {
