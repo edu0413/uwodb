@@ -92,11 +92,13 @@ function useSkillIcon(name: string) {
   }, [name]);
 
   const [index, setIndex] = useState(0);
-  const [src, setSrc] = useState(`${IMAGE_BASE}/${candidates[0]}${IMAGE_EXTS[0]}`);
+  const [src, setSrc] = useState(
+    `${IMAGE_BASE}/${encodeURIComponent(candidates[0])}${IMAGE_EXTS[0]}`
+  );
 
   useEffect(() => {
     setIndex(0);
-    setSrc(`${IMAGE_BASE}/${candidates[0]}${IMAGE_EXTS[0]}`);
+    setSrc(`${IMAGE_BASE}/${encodeURIComponent(candidates[0])}${IMAGE_EXTS[0]}`);
   }, [candidates]);
 
   const onError = () => {
@@ -106,7 +108,9 @@ function useSkillIcon(name: string) {
 
     if (variantIdx < candidates.length) {
       setIndex(next);
-      setSrc(`${IMAGE_BASE}/${candidates[variantIdx]}${IMAGE_EXTS[extIdx]}`);
+      setSrc(
+        `${IMAGE_BASE}/${encodeURIComponent(candidates[variantIdx])}${IMAGE_EXTS[extIdx]}`
+      );
     } else {
       setSrc(PLACEHOLDER);
     }
