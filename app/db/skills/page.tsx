@@ -60,35 +60,34 @@ function roleColors(role: string) {
 
 /* Local image attempt — only local files; no CDN fallback */
 function useSkillIcon(name: string) {
-  // Sanitize name into multiple possible filename variants
   const candidates = useMemo(() => {
     const raw = name.trim();
-    const lower = raw.toLowerCase();
 
-    // Safe slug: replace everything not a-z0-9 with hyphens
-    const hyphen = lower
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "") // remove accents
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/(^-|-$)/g, "");
+    // strip accents once so all variants share the same base
+    const normalized = raw.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const lower = normalized.toLowerCase();
 
-    // Underscore version
-    const underscore = lower
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^a-z0-9]+/g, "_")
-      .replace(/(^_|_$)/g, "");
+    // NEW: sentence case -> "Alcohol trading"
+    const sentence =
+      lower.length ? lower[0].toUpperCase() + lower.slice(1) : lower;
 
-    // Remove all special chars (just compact name)
-    const compact = lower
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^a-z0-9]/g, "");
+    // (also useful) Title Case -> "Alcohol Trading"
+    const title = lower.replace(/\b([a-z])/g, (_, c) => c.toUpperCase());
 
-    // Add a version replacing "/" with "-"
-    const noSlash = lower.replace(/[\\/]+/g, "-");
+    // existing slug/underscore/compact variants
+    const hyphen = lower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    const underscore = lower.replace(/[^a-z0-9]+/g, "_").replace(/(^_|_$)/g, "");
+    const compact = lower.replace(/[^a-z0-9]/g, "");
 
-    return [raw, lower, hyphen, underscore, compact, noSlash];
+    // handle slashes explicitly (some files avoid '/')
+    const noSlashHyphen = lower.replace(/[\\/]+/g, "-");
+    const noSlashSpace  = lower.replace(/[\\/]+/g, " ");
+
+    // Order matters: try exact, then sentence, then title, then others.
+    // De-dup to keep things clean.
+    return Array.from(
+      new Set([raw, sentence, title, lower, noSlashSpace, noSlashHyphen, hyphen, underscore, compact])
+    );
   }, [name]);
 
   const [index, setIndex] = useState(0);
@@ -109,7 +108,7 @@ function useSkillIcon(name: string) {
     if (variantIdx < candidates.length) {
       setIndex(next);
       setSrc(
-        `${IMAGE_BASE}/${encodeURIComponent(candidates[variantIdx])}${IMAGE_EXTS[extIdx]}`
+        `${IMAGE_BASE}/${encodeURIComponent(candidates[variantIdx])}${IMAGE_EXTS[extIdx].toLowerCase()}`
       );
     } else {
       setSrc(PLACEHOLDER);
