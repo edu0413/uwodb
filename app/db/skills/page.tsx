@@ -63,25 +63,31 @@ function useSkillIcon(name: string) {
   const candidates = useMemo(() => {
     const raw = name.trim();
 
-    // normalize once to strip accents
+    // strip accents once so all variants share the same base
     const normalized = raw.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const lower = normalized.toLowerCase();
-    const title = lower.replace(/\b([a-z])/g, (_, c) => c.toUpperCase()); // "Malay Tagalog"
 
-    // 👇 add these (no-slash variants)
-    const rawNoSlash   = normalized.replace(/[\\/]+/g, ""); // "MalayTagalog"
-    const titleNoSlash = title.replace(/[\\/]+/g, "");      // "MalayTagalog"
-    const lowerNoSlash = lower.replace(/[\\/]+/g, "");      // "malaytagalog"
+    // NEW: sentence case -> "Alcohol trading"
+    const sentence =
+      lower.length ? lower[0].toUpperCase() + lower.slice(1) : lower;
 
-    const hyphen     = lower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    // (also useful) Title Case -> "Alcohol Trading"
+    const title = lower.replace(/\b([a-z])/g, (_, c) => c.toUpperCase());
+
+    // existing slug/underscore/compact variants
+    const hyphen = lower.replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
     const underscore = lower.replace(/[^a-z0-9]+/g, "_").replace(/(^_|_$)/g, "");
-    const compact    = lower.replace(/[^a-z0-9]/g, "");
+    const compact = lower.replace(/[^a-z0-9]/g, "");
 
-    // Try exact → no-slash (preserving case) → title/lower → sluggy ones
-    return Array.from(new Set([
-      raw, rawNoSlash, title, titleNoSlash, lower, lowerNoSlash,
-      hyphen, underscore, compact,
-    ]));
+    // handle slashes explicitly (some files avoid '/')
+    const noSlashHyphen = lower.replace(/[\\/]+/g, "-");
+    const noSlashSpace  = lower.replace(/[\\/]+/g, " ");
+
+    // Order matters: try exact, then sentence, then title, then others.
+    // De-dup to keep things clean.
+    return Array.from(
+      new Set([raw, sentence, title, lower, noSlashSpace, noSlashHyphen, hyphen, underscore, compact])
+    );
   }, [name]);
 
   const [index, setIndex] = useState(0);
