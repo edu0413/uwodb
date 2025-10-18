@@ -19706,7 +19706,7 @@
     "Cabin": "100/262",
     "C.C.": 118,
     "Hold": 385,
-    "Mast": 2,
+    "Mast": 4,
     "Base Material": "Nocturnal Admiral Metal",
     "Cash Ship": "Yes",
     "Steam": "No"
@@ -21202,7 +21202,7 @@
     "Cabin": "115/295",
     "C.C.": 115,
     "Hold": 575,
-    "Mast": 2,
+    "Mast": 4,
     "Base Material": "Ancient Hyper Metal",
     "Cash Ship": "Yes",
     "Steam": "No"

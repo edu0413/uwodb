@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useEffect, useMemo, useState, Fragment, useRef } from "react";
-import { motion } from "framer-motion";
 import type { LucideIcon } from "lucide-react";
+import { GitCompare, Plus, X } from "lucide-react";
+
 import {
   Ship as ShipIcon,
   Ruler,
@@ -360,6 +361,31 @@ export default function ShipsPage() {
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
             <IconSortSelect sortKey={sortKey} sortDir={sortDir} setSortKey={setSortKey} setSortDir={setSortDir} />
           </div>
+
+          {/* CTA: Compare hint (bottom-right) */}
+          <div className="mt-6">
+            {/* wide inner container that still sits at the end */}
+            <div className="ml-auto w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl flex flex-col items-center sm:flex-row sm:items-end gap-4">
+              <div className="flex-1 text-center sm:text-right">
+                <div className="text-3xl md:text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+                  Compare ships
+                </div>
+                <div className="text-[11px] text-slate-400">
+                  by clicking the button on a ship row
+                </div>
+              </div>
+
+              <button
+                type="button"
+                aria-disabled="true"
+                className="inline-flex items-center gap-2 rounded-xl border border-emerald-400/40 bg-emerald-500/10 px-4 py-2 text-sm font-semibold text-emerald-300 ring-1 ring-inset ring-emerald-500/30 shadow hover:bg-emerald-500/15 animate-pulse cursor-default"
+                title="Add to compare (example)"
+              >
+                <GitCompare className="h-4 w-4" />
+                Add to compare
+              </button>
+            </div>
+          </div>
         </div>
 
         {/* Compare card */}
@@ -519,18 +545,36 @@ export default function ShipsPage() {
         )}
 
         {/* Results: Table */}
-        <div className="mt-4 text-sm text-slate-400">Showing <span className="text-slate-200 font-medium">{visible.length}</span> of {ships.length} ships</div>
+        <div className="mt-4 text-sm text-slate-400">
+          Showing <span className="text-slate-200 font-medium">{visible.length}</span> of {ships.length} ships
+        </div>
 
         <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/50 shadow-sm">
           <table className="w-full border-collapse text-sm">
             <thead className="bg-slate-900/40">
               <tr>
+                {/* NEW compare header cell (non-sortable) */}
+                <th
+                  className="w-36 px-3 py-2 border border-slate-800 text-slate-300 text-center"
+                  title="Quickly add/remove a ship to the compare panel"
+                >
+                  Compare
+                </th>
+
                 {colOrder.map((key) => {
                   const meta = columnLabels[key];
                   const Icon = meta.icon;
                   return (
-                    <th key={String(key)} onClick={() => handleHeaderSort(key)} title={meta.tooltip}
-                        className={cls("px-3 py-2 border border-slate-800 text-slate-200 cursor-pointer select-none", meta.align === "left" && "text-left", meta.align === "right" && "text-right", (!meta.align || meta.align === "center") && "text-center")}
+                    <th
+                      key={String(key)}
+                      onClick={() => handleHeaderSort(key)}
+                      title={meta.tooltip}
+                      className={cls(
+                        "px-3 py-2 border border-slate-800 text-slate-200 cursor-pointer select-none",
+                        meta.align === "left" && "text-left",
+                        meta.align === "right" && "text-right",
+                        (!meta.align || meta.align === "center") && "text-center"
+                      )}
                     >
                       <div className="flex flex-col items-center leading-tight">
                         <Icon className="w-4 h-4 mb-0.5" aria-hidden />
@@ -546,6 +590,7 @@ export default function ShipsPage() {
                 })}
               </tr>
             </thead>
+
             <tbody>
               {visible.map((ship, idx) => {
                 const name = ship["Ship Name"];
@@ -558,9 +603,52 @@ export default function ShipsPage() {
 
                 return (
                   <Fragment key={name}>
-                    <tr onClick={() => toggleExpanded(expanded, setExpanded, name)} className={cls("transition-colors cursor-pointer", idx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10", "hover:bg-slate-800/60")}> 
+                    <tr
+                      onClick={() => toggleExpanded(expanded, setExpanded, name)}
+                      className={cls(
+                        "transition-colors cursor-pointer",
+                        idx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10",
+                        "hover:bg-slate-800/60"
+                      )}
+                    >
+                      {/* NEW compare cell before all other columns */}
+                      <td className="px-3 py-2 border border-slate-800 text-center">
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            toggleCompareShip(ship);
+                          }}
+                          disabled={!isCompared(name) && !canAddMore}
+                          title={
+                            !isCompared(name) && !canAddMore
+                              ? "You can compare up to 3 ships"
+                              : isCompared(name)
+                              ? "Remove from compare"
+                              : "Add to compare"
+                          }
+                          className={cls(
+                            "cursor-pointer inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs border transition ring-1 ring-inset",
+                            isCompared(name)
+                              ? "border-rose-500/40 bg-rose-500/10 text-rose-200 ring-rose-500/30 hover:bg-rose-500/20"
+                              : "border-emerald-400/40 bg-emerald-500/10 text-emerald-300 ring-emerald-500/30 hover:bg-emerald-500/15 disabled:opacity-50"
+                          )}
+                        >
+                          <GitCompare className="h-4 w-4" />
+                          {isCompared(name) ? "Remove" : "Compare"}
+                        </button>
+
+                      </td>
+
                       {colOrder.map((key) => (
-                        <td key={`${name}-${String(key)}`} className={cls("px-3 py-2 border border-slate-800", columnLabels[key].align === "left" && "text-left", columnLabels[key].align === "right" && "text-right", (!columnLabels[key].align || columnLabels[key].align === "center") && "text-center")}>
+                        <td
+                          key={`${name}-${String(key)}`}
+                          className={cls(
+                            "px-3 py-2 border border-slate-800",
+                            columnLabels[key].align === "left" && "text-left",
+                            columnLabels[key].align === "right" && "text-right",
+                            (!columnLabels[key].align || columnLabels[key].align === "center") && "text-center"
+                          )}
+                        >
                           {ship[key] as any}
                         </td>
                       ))}
@@ -568,7 +656,8 @@ export default function ShipsPage() {
 
                     {isOpen && (
                       <tr>
-                        <td colSpan={colSpanAll} className="p-0">
+                        {/* NOTE: +1 because we added the Compare column */}
+                        <td colSpan={colSpanAll + 1} className="p-0">
                           <div className="px-4 py-3 bg-slate-900/40 border-t border-b border-slate-800">
                             <div className="flex items-start justify-between mb-2 gap-2">
                               <div className="flex items-center gap-2">
@@ -578,27 +667,7 @@ export default function ShipsPage() {
                                 <span className="text-xs text-slate-400">(click row again to collapse)</span>
                               </div>
 
-                              <button
-                                onClick={(e) => { e.stopPropagation(); toggleCompareShip(ship); }}
-                                disabled={!isCompared(name) && !canAddMore}
-                                title={
-                                  !isCompared(name) && !canAddMore
-                                    ? "You can compare up to 3 ships"
-                                    : isCompared(name)
-                                    ? "Remove from compare"
-                                    : "Add to compare"
-                                }
-                                className={cls(
-                                  "cursor-pointer px-3 py-1.5 rounded-lg text-xs border transition",
-                                  isCompared(name)
-                                    ? "border-rose-500/40 bg-rose-500/10 text-rose-200 hover:bg-rose-500/20"
-                                    : "border-indigo-500/40 bg-indigo-500/10 text-indigo-200 hover:bg-indigo-500/20 disabled:opacity-50"
-                                )}
-                              >
-                                {isCompared(name) ? "Remove from Compare" : "Add to Compare"}
-                              </button>
                             </div>
-
 
                             {cards.length === 0 ? (
                               <p className="text-slate-300/80 italic">No optional skills listed.</p>
@@ -606,14 +675,21 @@ export default function ShipsPage() {
                               <div className="grid md:grid-cols-2 gap-3">
                                 {cards.map((s, i) => {
                                   const cardKey = s.name ? `${name}-skill-${s.name}` : `${name}-skill-${i}`;
-                                  const ingredientsText = s.ingredients && s.ingredients.length > 0 ? s.ingredients.join(", ") : s.recipe;
+                                  const ingredientsText =
+                                    s.ingredients && s.ingredients.length > 0 ? s.ingredients.join(", ") : s.recipe;
                                   const base = skillIconBase(s.name);
                                   const firstSrc = base ? `${base}.png` : "";
 
                                   return (
-                                    <div key={cardKey} className="rounded-md border border-slate-800 bg-slate-950/60 p-3 shadow-sm">
+                                    <div
+                                      key={cardKey}
+                                      className="rounded-md border border-slate-800 bg-slate-950/60 p-3 shadow-sm"
+                                    >
                                       <div className="flex items-start justify-between">
-                                        <h4 className="font-medium text-slate-100 flex items-center gap-2" title={s.name || "Skill"}>
+                                        <h4
+                                          className="font-medium text-slate-100 flex items-center gap-2"
+                                          title={s.name || "Skill"}
+                                        >
                                           {firstSrc && (
                                             <img
                                               src={firstSrc}
@@ -633,10 +709,12 @@ export default function ShipsPage() {
                                           )}
                                           {s.name || "Skill"}
                                         </h4>
-                                        {s.starred ? (<span title="Starred" className="text-amber-300">★</span>) : null}
+                                        {s.starred ? <span title="Starred" className="text-amber-300">★</span> : null}
                                       </div>
                                       {ingredientsText ? (
-                                        <p className="mt-1 text-xs text-slate-300/90"><span className="font-semibold">Ingredients:</span> {ingredientsText}</p>
+                                        <p className="mt-1 text-xs text-slate-300/90">
+                                          <span className="font-semibold">Ingredients:</span> {ingredientsText}
+                                        </p>
                                       ) : null}
                                     </div>
                                   );
