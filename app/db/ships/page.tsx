@@ -97,6 +97,82 @@ const columnLabels: Record<keyof Ship, ColumnMeta> = {
 type SortKey = keyof Ship | "Total Sails";
 
 // ---------- Helpers ----------
+// ---- Ship image helpers (only used in Compare block) ----
+const SHIP_IMG_BASE = "/images/ship_images";
+const SHIP_IMG_EXTS = [".png", ".webp", ".jpg", ".jpeg"];
+const SHIP_PLACEHOLDER = "/images/placeholder_ship.png";
+
+// Build many filename candidates, favoring longest/most-specific first.
+// Tries: full name (raw / accentless / lower), full-token variants,
+// then contiguous sub-phrases (length n..2) in original case **and** lower,
+// with separators: " " | "-" | "_" | "".
+function makeShipImageCandidates(name: string): string[] {
+  const raw = name.trim();
+  const lower = raw
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, ""); // remove accents
+
+  const tokens = lower.replace(/[^a-z0-9]+/g, " ").trim().split(/\s+/).filter(Boolean);
+  const candidates: string[] = [];
+
+  // 1. Try exact variants first
+  candidates.push(raw, lower, tokens.join("-"), tokens.join("_"), tokens.join(""));
+
+  // 2. Try removing leading or trailing words (prefix/suffix variations)
+  // → "Admiral Dauphin Royal" → also try "Dauphin Royal"
+  // → "Heavy Carrack (Portugal)" → also try "Heavy Carrack"
+  for (let i = 1; i < tokens.length; i++) {
+    const suffix = tokens.slice(i).join(" ");
+    const prefix = tokens.slice(0, tokens.length - i).join(" ");
+    if (suffix) {
+      candidates.push(suffix, suffix.replace(/\s+/g, "-"), suffix.replace(/\s+/g, "_"), suffix.replace(/\s+/g, ""));
+    }
+    if (prefix) {
+      candidates.push(prefix, prefix.replace(/\s+/g, "-"), prefix.replace(/\s+/g, "_"), prefix.replace(/\s+/g, ""));
+    }
+  }
+
+  // 3. Try removing parentheses and anything inside
+  const noParens = lower.replace(/\([^)]*\)/g, "").trim();
+  if (noParens !== lower) {
+    candidates.push(noParens, noParens.replace(/\s+/g, "-"), noParens.replace(/\s+/g, "_"));
+  }
+
+  // Deduplicate while preserving order
+  return Array.from(new Set(candidates));
+}
+
+function useShipImage(name: string) {
+  const candidates = React.useMemo(() => makeShipImageCandidates(name), [name]);
+  const [attempt, setAttempt] = React.useState(0);
+  const [src, setSrc] = React.useState(
+    `${SHIP_IMG_BASE}/${encodeURIComponent(candidates[0])}${SHIP_IMG_EXTS[0]}`
+  );
+
+  React.useEffect(() => {
+    setAttempt(0);
+    setSrc(`${SHIP_IMG_BASE}/${encodeURIComponent(candidates[0])}${SHIP_IMG_EXTS[0]}`);
+  }, [candidates]);
+
+  const onError = () => {
+    const next = attempt + 1;
+    const variantIdx = Math.floor(next / SHIP_IMG_EXTS.length);
+    const extIdx = next % SHIP_IMG_EXTS.length;
+
+    if (variantIdx < candidates.length) {
+      setAttempt(next);
+      setSrc(
+        `${SHIP_IMG_BASE}/${encodeURIComponent(candidates[variantIdx])}${SHIP_IMG_EXTS[extIdx]}`
+      );
+    } else {
+      setSrc(SHIP_PLACEHOLDER); // or set to "" and hide if you prefer no placeholder
+    }
+  };
+
+  return { src, onError };
+}
+
 function cls(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ");
 }
@@ -118,6 +194,53 @@ const DATA_SHIPS = "/data/ships.json";
 const DATA_SKILLS = "/data/ship_optional_skills.json";
 
 const totalSails = (s: Ship) => (s["V. Sail"] || 0) + (s["H. Sail"] || 0);
+
+function rankClass(rank: number) {
+  return rank === 1
+    ? "text-amber-300 font-semibold"
+    : rank === 2
+    ? "text-slate-300 font-medium"
+    : "text-slate-200";
+}
+
+function CompareShipHeaderCell({
+  name,
+  wins,
+  rank,
+}: {
+  name: string;
+  wins: number;
+  rank: number;
+}) {
+  const { src, onError } = useShipImage(name);
+
+  return (
+    <>
+      <div
+        className={`mx-auto truncate max-w-[22ch] text-center ${rankClass(rank)}`}
+        title={name}
+      >
+        {name}
+      </div>
+
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={src}
+        onError={onError}
+        alt={name}
+        width={112}
+        height={72}
+        className="mx-auto mt-2 rounded-lg border border-slate-800 bg-slate-950 object-contain"
+        loading="lazy"
+        decoding="async"
+      />
+
+      <div className="mt-1 text-center text-[11px] text-slate-400">
+        Best stats: <span className="text-slate-300">{wins}</span>
+      </div>
+    </>
+  );
+}
 
 // ---------- Page ----------
 export default function ShipsPage() {
@@ -471,17 +594,11 @@ export default function ShipsPage() {
                         <th className="px-3 py-2 text-left text-slate-300">Stat</th>
                         {compare.map((s, i) => (
                           <th key={s["Ship Name"]} className="px-3 py-2">
-                            <div
-                              className={`mx-auto truncate max-w-[22ch] text-center ${rankClass(
-                                ranks[i]
-                              )}`}
-                              title={s["Ship Name"]}
-                            >
-                              {s["Ship Name"]}
-                            </div>
-                            <div className="mt-0.5 text-center text-[11px] text-slate-400">
-                              Best stats: <span className="text-slate-300">{wins[i]}</span>
-                            </div>
+                            <CompareShipHeaderCell
+                              name={s["Ship Name"]}
+                              wins={wins[i]}
+                              rank={ranks[i]}
+                            />
                           </th>
                         ))}
                       </tr>
