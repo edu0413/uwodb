@@ -203,23 +203,12 @@ function rankClass(rank: number) {
     : "text-slate-200";
 }
 
-function CompareShipHeaderCell({
-  name,
-  wins,
-  rank,
-}: {
-  name: string;
-  wins: number;
-  rank: number;
-}) {
+function CompareShipHeaderCell({ name, wins, rank }: { name: string; wins: number; rank: number; }) {
   const { src, onError } = useShipImage(name);
 
   return (
     <>
-      <div
-        className={`mx-auto truncate max-w-[22ch] text-center ${rankClass(rank)}`}
-        title={name}
-      >
+      <div className={`mx-auto truncate max-w-[22ch] text-center ${rankClass(rank)}`} title={name}>
         {name}
       </div>
 
@@ -228,19 +217,21 @@ function CompareShipHeaderCell({
         src={src}
         onError={onError}
         alt={name}
-        width={112}
-        height={72}
-        className="mx-auto mt-2 rounded-lg border border-slate-800 bg-slate-950 object-contain"
+        width={150}
+        height={100}
+        className="mx-auto mt-2 rounded-lg object-contain -translate-x-[5px]"
         loading="lazy"
         decoding="async"
       />
 
-      <div className="mt-1 text-center text-[11px] text-slate-400">
-        Best stats: <span className="text-slate-300">{wins}</span>
+      {/* was text-[11px] */}
+      <div className="mt-1 text-center text-xs sm:text-sm text-slate-300">
+        Best stats: <span className="font-semibold">{wins}</span>
       </div>
     </>
   );
 }
+
 
 // ---------- Page ----------
 export default function ShipsPage() {
@@ -578,78 +569,114 @@ export default function ShipsPage() {
                   ? "text-slate-300 font-medium"
                   : "text-slate-200";
 
+              const VS_ICON = "/images/ship_images/VS.png";
+
               return (
                 <div className="mt-3 overflow-x-auto">
                   <table className="w-full table-fixed text-sm">
                     <colgroup>
                       <col className="w-[18rem]" />
-                      {/* equal width for ship columns */}
-                      {compare.map((_, i) => (
-                        <col key={i} />
-                      ))}
+                      {/* Build [ship, vs, ship, vs, ship] column structure */}
+                      {(() => {
+                        const cols: React.ReactElement[] = [];
+                        for (let i = 0; i < compare.length; i++) {
+                          cols.push(<col key={`col-ship-${i}`} />);
+                          if (i < compare.length - 1) {
+                            cols.push(<col key={`col-vs-${i}`} className="w-[4.5rem]" />);
+                          }
+                        }
+                        return cols;
+                      })()}
                     </colgroup>
 
                     <thead className="bg-slate-900/60">
                       <tr>
                         <th className="px-3 py-2 text-left text-slate-300">Stat</th>
-                        {compare.map((s, i) => (
-                          <th key={s["Ship Name"]} className="px-3 py-2">
-                            <CompareShipHeaderCell
-                              name={s["Ship Name"]}
-                              wins={wins[i]}
-                              rank={ranks[i]}
-                            />
-                          </th>
-                        ))}
+
+                        {(() => {
+                          const headers: React.ReactElement[] = [];
+                          for (let i = 0; i < compare.length; i++) {
+                            const s = compare[i];
+                            headers.push(
+                              <th key={`ship-${s["Ship Name"]}`} className="px-3 py-2">
+                                <CompareShipHeaderCell
+                                  name={s["Ship Name"]}
+                                  wins={wins[i]}
+                                  rank={ranks[i]}
+                                />
+                              </th>
+                            );
+                            if (i < compare.length - 1) {
+                              headers.push(
+                                <th key={`vs-${i}`} className="px-1 py-2 align-middle">
+                                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                                  <img
+                                    src={VS_ICON}
+                                    alt="VS"
+                                    width={100}
+                                    height={100}
+                                    className="mx-auto opacity-90"
+                                    loading="lazy"
+                                    decoding="async"
+                                  />
+                                </th>
+                              );
+                            }
+                          }
+                          return headers;
+                        })()}
                       </tr>
                     </thead>
 
-                    <tbody className="border-t border-slate-800">
+                    <tbody className="border-top border-slate-800">
                       {statRows.map((row, ridx) => {
                         const values = compare.map((s) => row.get(s));
                         const isNumber = row.kind === "number";
                         const nums = isNumber
-                          ? values.map((v) =>
-                              typeof v === "number" && Number.isFinite(v) ? v : -Infinity
-                            )
+                          ? values.map((v) => (typeof v === "number" && Number.isFinite(v) ? v : -Infinity))
                           : [];
                         const best = isNumber ? Math.max(...(nums as number[])) : undefined;
 
                         return (
-                          <tr
-                            key={row.label}
-                            className={ridx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10"}
-                          >
-                            <td className="px-3 py-2 text-slate-300 whitespace-nowrap">
-                              {row.label}
-                            </td>
+                          <tr key={row.label} className={ridx % 2 === 0 ? "bg-slate-900/20" : "bg-slate-900/10"}>
+                            <td className="px-3 py-2 text-slate-300 whitespace-nowrap">{row.label}</td>
 
-                            {compare.map((s, cidx) => {
-                              const v = values[cidx];
-                              const num = typeof v === "number" && Number.isFinite(v) ? (v as number) : null;
-                              const isBest = isNumber && num != null && num === best;
+                            {(() => {
+                              const cells: React.ReactElement[] = [];
+                              for (let cidx = 0; cidx < compare.length; cidx++) {
+                                const s = compare[cidx];
+                                const v = values[cidx];
+                                const num = typeof v === "number" && Number.isFinite(v) ? (v as number) : null;
+                                const isBest = isNumber && num != null && num === best;
 
-                              return (
-                                <td key={`${row.label}-${s["Ship Name"]}`} className="px-3 py-2 text-center">
-                                  {row.kind === "text" ? (
-                                    <span className="text-slate-200">{String(v ?? "—")}</span>
-                                  ) : num != null ? (
-                                    <span
-                                      className={
-                                        isBest
-                                          ? "inline-flex items-center rounded-md px-2 py-0.5 bg-emerald-500/10 text-emerald-300 ring-1 ring-emerald-500/30 font-semibold"
-                                          : "text-slate-200"
-                                      }
-                                      title={isBest ? "Best" : undefined}
-                                    >
-                                      {num.toLocaleString("en-US")}
-                                    </span>
-                                  ) : (
-                                    <span className="text-slate-400">—</span>
-                                  )}
-                                </td>
-                              );
-                            })}
+                                cells.push(
+                                  <td key={`${row.label}-${s["Ship Name"]}`} className="px-3 py-2 text-center">
+                                    {row.kind === "text" ? (
+                                      <span className="text-slate-200">{String(v ?? "—")}</span>
+                                    ) : num != null ? (
+                                      <span
+                                        className={
+                                          isBest
+                                            ? "inline-flex items-center rounded-md px-2 py-0.5 bg-emerald-500/10 text-emerald-300 ring-1 ring-emerald-500/30 font-semibold"
+                                            : "text-slate-200"
+                                        }
+                                        title={isBest ? "Best" : undefined}
+                                      >
+                                        {num.toLocaleString("en-US")}
+                                      </span>
+                                    ) : (
+                                      <span className="text-slate-400">—</span>
+                                    )}
+                                  </td>
+                                );
+
+                                // VS separator cell to keep alignment
+                                if (cidx < compare.length - 1) {
+                                  cells.push(<td key={`sep-${row.label}-${cidx}`} className="px-1 py-2" />);
+                                }
+                              }
+                              return cells;
+                            })()}
                           </tr>
                         );
                       })}
