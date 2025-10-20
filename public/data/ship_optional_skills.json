@@ -5974,6 +5974,163 @@
     ]
   },
   {
+    "Ship Name": "Admiral Swallow",
+    "Optional Skills": [
+      "Reaction Rudder",
+      "Bullet-proof Armouring",
+      "Fireproof Wall",
+      "Enhance Ship Handling",
+      "Command Post",
+      "Direct Hit Prevention",
+      "Emergency Acceleration",
+      "Pre-emptive Attack",
+      "Wind-Resistant Mast",
+      "Intensive Charge",
+      "Roaring Sea Mine",
+      "Diversion Cannon Fire",
+      "Improved Gun Port",
+      "Evade Collision Attack",
+      "Improved Grapeshots"
+    ],
+    "Optional Skill Details": [
+      {
+        "name": "Reaction Rudder",
+        "recipe": "Metal Work + Special Rudder",
+        "ingredients": [
+          "Metal Work",
+          "Special Rudder"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Bullet-proof Armouring",
+        "recipe": "Set of Repair Tools + Metal Work",
+        "ingredients": [
+          "Set of Repair Tools",
+          "Metal Work"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Fireproof Wall",
+        "recipe": "Set of Dismantling Tools + Metal Work",
+        "ingredients": [
+          "Set of Dismantling Tools",
+          "Metal Work"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Enhance Ship Handling",
+        "recipe": "High Quality Rigging + Processed Lumber",
+        "ingredients": [
+          "High Quality Rigging",
+          "Processed Lumber"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Command Post",
+        "recipe": "Control Tower + Admiral's Cabin",
+        "ingredients": [
+          "Control Tower",
+          "Admiral's Cabin"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Direct Hit Prevention",
+        "recipe": "Control Tower + Mast Top",
+        "ingredients": [
+          "Control Tower",
+          "Mast Top"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Emergency Acceleration",
+        "recipe": "Large Gaff Sail + Antifouling Paint",
+        "ingredients": [
+          "Large Gaff Sail",
+          "Antifouling Paint"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Pre-emptive Attack",
+        "recipe": "Traverse Rope + Mast Top",
+        "ingredients": [
+          "Traverse Rope",
+          "Mast Top"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Wind-Resistant Mast",
+        "recipe": "Large Mast + Set of Repair Tools",
+        "ingredients": [
+          "Large Mast",
+          "Set of Repair Tools"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Intensive Charge",
+        "recipe": "Admiral's Cabin + Munitions Chambers",
+        "ingredients": [
+          "Admiral's Cabin",
+          "Munitions Chambers"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Roaring Sea Mine",
+        "recipe": "Loud Floating Mine + Munitions Chambers",
+        "ingredients": [
+          "Loud Floating Mine",
+          "Munitions Chambers"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Diversion Cannon Fire",
+        "recipe": "Control Tower + Special Gunpowder",
+        "ingredients": [
+          "Control Tower",
+          "Special Gunpowder"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Improved Gun Port",
+        "recipe": "Admiral's Cabin + Munitions Chambers",
+        "ingredients": [
+          "Admiral's Cabin",
+          "Munitions Chambers"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Evade Collision Attack",
+        "recipe": "Control Tower + Special Rudder",
+        "ingredients": [
+          "Control Tower",
+          "Special Rudder"
+        ],
+        "starred": false
+      },
+      {
+        "name": "Improved Grapeshots",
+        "recipe": "Control Tower + Design Blueprint of the Order",
+        "ingredients": [
+          "Control Tower",
+          "Design Blueprint of the Order"
+        ],
+        "starred": false
+      }
+    ]
+  },
+  {
     "Ship Name": "Admiral Shadow Turtle Ship",
     "Optional Skills": [
       "Emergency Acceleration",
@@ -49880,7 +50037,8 @@
       "Demolition Work",
       "Pre-emptive Attack",
       "Improved Rudder",
-      "Enhance Ship Handling"
+      "Enhance Ship Handling",
+      "Destructive Melee"
     ],
     "Optional Skill Details": [
       {
@@ -50008,6 +50166,15 @@
           "Processed Lumber"
         ],
         "starred": false
+      },
+      {
+        "name": "Destructive Melee",
+        "recipe": "Munitions Chambers + Design Blueprint of the Order",
+        "ingredients": [
+          "Munitions Chambers",
+          "Design Blueprint of the Order"
+        ],
+        "starred": true
       }
     ]
   },
