@@ -36,7 +36,7 @@ export default function Footer() {
               Sources & Credits
             </h2>
             <p className="text-gray-400/90">
-              This website’s information wouldn’t be possible without the incredible work of these communities and resources.
+              This website’s information would not be possible without the incredible work of these communities and resources.
               They’re 100% worth checking out:
             </p>
 
